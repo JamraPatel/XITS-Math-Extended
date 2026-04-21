@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketright.nko" format="2">
+  <advance width="389"/>
+  <outline>
+    <contour>
+      <point x="382" y="-153" type="line"/>
+      <point x="193" y="-153" type="line"/>
+      <point x="186" y="-126" type="line"/>
+      <point x="243" y="-126" type="line" smooth="yes"/>
+      <point x="276" y="-126"/>
+      <point x="292" y="-118"/>
+      <point x="292" y="-100" type="curve" smooth="yes"/>
+      <point x="292" y="-96"/>
+      <point x="291.831" y="-91.0414"/>
+      <point x="288" y="-75" type="curve" smooth="yes"/>
+      <point x="128" y="595" type="line" smooth="yes"/>
+      <point x="121.071" y="624.017"/>
+      <point x="111" y="636"/>
+      <point x="81" y="636" type="curve" smooth="yes"/>
+      <point x="19" y="636" type="line"/>
+      <point x="12" y="663" type="line"/>
+      <point x="185" y="663" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>00a03a06a04771b5261d5f0760342faaa60348918298d7d474e6bd76fb5686982fdb4c2005805b462f7826405d22484e034567ae473d224b5bffd3d67762de7d</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -153 27</string>
+          <string>hstem 636 27</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

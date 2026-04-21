@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni22AE.rtlm" format="2">
+  <advance width="968"/>
+  <outline>
+    <contour>
+      <point x="881" y="662" type="line"/>
+      <point x="959" y="662" type="line"/>
+      <point x="803" y="538" type="line"/>
+      <point x="803" y="0" type="line"/>
+      <point x="737" y="0" type="line"/>
+      <point x="737" y="486" type="line"/>
+      <point x="603" y="380" type="line"/>
+      <point x="603" y="0" type="line"/>
+      <point x="537" y="0" type="line"/>
+      <point x="537" y="298" type="line"/>
+      <point x="500" y="298" type="line"/>
+      <point x="124" y="0" type="line"/>
+      <point x="46" y="0" type="line"/>
+      <point x="422" y="298" type="line"/>
+      <point x="46" y="298" type="line"/>
+      <point x="46" y="364" type="line"/>
+      <point x="505" y="364" type="line"/>
+      <point x="537" y="389" type="line"/>
+      <point x="537" y="662" type="line"/>
+      <point x="603" y="662" type="line"/>
+      <point x="603" y="442" type="line"/>
+      <point x="737" y="548" type="line"/>
+      <point x="737" y="662" type="line"/>
+      <point x="803" y="662" type="line"/>
+      <point x="803" y="600" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>dc5e8d258c86ed10cba2b9a35239d0d0433d0e9e1b917e8634d82e493cbcfb769f8efef3f909a146c00f2943dfb1808ece9fcb6d9a018bf7a19ea3860091554d</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 21 -21</string>
+          <string>hstem 298 66</string>
+          <string>hstem 642 20</string>
+          <string>vstem 537 66</string>
+          <string>vstem 737 66</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

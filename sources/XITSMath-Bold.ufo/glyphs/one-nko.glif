@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one-nko" format="2">
+  <advance width="490"/>
+  <unicode hex="07C1"/>
+  <outline>
+    <contour>
+      <point x="29" y="0" type="line"/>
+      <point x="377" y="0" type="line"/>
+      <point x="407" y="60" type="line"/>
+      <point x="403" y="70" type="line"/>
+      <point x="276" y="70" type="line"/>
+      <point x="276" y="482.09" type="line"/>
+      <point x="327.94" y="438.26"/>
+      <point x="383.34" y="392.42"/>
+      <point x="426.16" y="357.2" type="curve"/>
+      <point x="454.16" y="393.2" type="line"/>
+      <point x="361.75" y="468.38"/>
+      <point x="211" y="601"/>
+      <point x="146" y="662" type="curve"/>
+      <point x="136" y="662" type="line"/>
+      <point x="136" y="70" type="line"/>
+      <point x="55" y="70" type="line"/>
+      <point x="25" y="10" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

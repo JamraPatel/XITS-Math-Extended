@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oo-nko.init" format="2">
+  <advance width="585"/>
+  <anchor x="323" y="0" name="bottom"/>
+  <anchor x="194" y="660" name="top"/>
+  <outline>
+    <component base="oo-nko"/>
+    <contour>
+      <point x="47" y="0" type="line"/>
+      <point x="243" y="0" type="line"/>
+      <point x="230.07" y="65" type="line"/>
+      <point x="34.0701" y="65" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="101.277" x="46.5952" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

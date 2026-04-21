@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni23DC.lt" format="2">
+  <advance width="1820"/>
+  <outline>
+    <contour>
+      <point x="1830" y="1128" type="line"/>
+      <point x="1580" y="1128" type="line" smooth="yes"/>
+      <point x="852" y="1128"/>
+      <point x="261" y="889"/>
+      <point x="31" y="650" type="curve"/>
+      <point x="-25" y="650" type="line"/>
+      <point x="257" y="1017"/>
+      <point x="833" y="1263"/>
+      <point x="1580" y="1263" type="curve" smooth="yes"/>
+      <point x="1830" y="1263" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1820m1830,1128l1580,1128c852,1128 261,889 31,650l-25,650c257,1017 833,1263 1580,1263l1830,1263</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 1128 135</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

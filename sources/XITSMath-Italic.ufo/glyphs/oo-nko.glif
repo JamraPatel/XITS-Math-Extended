@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oo-nko" format="2">
+  <advance width="585"/>
+  <unicode hex="07CF"/>
+  <anchor x="323" y="0" name="bottom"/>
+  <anchor x="194" y="660" name="top"/>
+  <outline>
+    <contour>
+      <point x="143.07" y="65" type="line"/>
+      <point x="124" y="10" type="line"/>
+      <point x="130" y="0" type="line"/>
+      <point x="322" y="0" type="line" smooth="yes"/>
+      <point x="493.302" y="0"/>
+      <point x="547.442" y="10.6879"/>
+      <point x="526.476" y="114.12" type="curve" smooth="yes"/>
+      <point x="474" y="373" type="line" smooth="yes"/>
+      <point x="459.623" y="443.925"/>
+      <point x="427" y="450"/>
+      <point x="242" y="450" type="curve" smooth="yes"/>
+      <point x="63" y="450" type="line"/>
+      <point x="43" y="416" type="line"/>
+      <point x="49" y="406" type="line"/>
+      <point x="249" y="406" type="line" smooth="yes"/>
+      <point x="377" y="406"/>
+      <point x="395.507" y="396.903"/>
+      <point x="406" y="345" type="curve" smooth="yes"/>
+      <point x="450.07" y="127" type="line" smooth="yes"/>
+      <point x="451.704" y="118.917"/>
+      <point x="453.07" y="112"/>
+      <point x="453.07" y="106" type="curve" smooth="yes"/>
+      <point x="453.07" y="72"/>
+      <point x="425.07" y="65"/>
+      <point x="317.07" y="65" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <guideline angle="101.277" x="474" y="373"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gba-nko.fina" format="2">
+  <advance width="568"/>
+  <outline>
+    <contour>
+      <point x="259.048" y="185.564" type="curve" smooth="yes"/>
+      <point x="246.503" y="159"/>
+      <point x="234.069" y="145.002"/>
+      <point x="234.814" y="104.997" type="curve" smooth="yes"/>
+      <point x="236.118" y="34.9771"/>
+      <point x="284" y="0"/>
+      <point x="403" y="0" type="curve" smooth="yes"/>
+      <point x="558" y="0" type="line"/>
+      <point x="588" y="60" type="line"/>
+      <point x="588" y="107" type="line"/>
+      <point x="482" y="107" type="line" smooth="yes"/>
+      <point x="419" y="107"/>
+      <point x="398" y="113"/>
+      <point x="398" y="139" type="curve" smooth="yes"/>
+      <point x="398" y="151"/>
+      <point x="401.234" y="161.459"/>
+      <point x="413" y="190" type="curve" smooth="yes"/>
+      <point x="436.371" y="246.692"/>
+      <point x="509" y="399"/>
+      <point x="543" y="566" type="curve" smooth="yes"/>
+      <point x="558" y="640"/>
+      <point x="532" y="661"/>
+      <point x="451" y="661" type="curve" smooth="yes"/>
+      <point x="27" y="661" type="line"/>
+      <point x="15" y="648" type="line"/>
+      <point x="80" y="412"/>
+      <point x="141" y="193"/>
+      <point x="226" y="0" type="curve"/>
+      <point x="285" y="0" type="line"/>
+      <point x="285" y="8.06766" type="line"/>
+      <point x="167.68" y="279.36"/>
+      <point x="131.886" y="442.437"/>
+      <point x="101" y="554" type="curve"/>
+      <point x="357.36" y="554" type="line" smooth="yes"/>
+      <point x="390.96" y="554"/>
+      <point x="390.673" y="535.424"/>
+      <point x="386.76" y="514.52" type="curve" smooth="yes"/>
+      <point x="372.967" y="440.831"/>
+      <point x="291.466" y="254.214"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

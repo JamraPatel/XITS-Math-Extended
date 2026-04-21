@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gemination-adlam" format="2">
+  <anchor x="53" y="450" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-56.82" y="573" type="line"/>
+      <point x="229.17" y="573" type="line"/>
+      <point x="234.17" y="583" type="line"/>
+      <point x="222.17" y="623" type="line"/>
+      <point x="-63.82" y="623" type="line"/>
+      <point x="-68.81" y="613" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eight-adlam" format="2">
+  <advance width="597"/>
+  <unicode hex="1E958"/>
+  <outline>
+    <component base="seven-adlam" xScale="-1" yScale="-1" xOffset="597" yOffset="666.981"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,1</string>
+  </dict>
+  </lib>
+</glyph>

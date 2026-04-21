@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Miim-adlam" format="2">
+  <advance width="658"/>
+  <unicode hex="1E903"/>
+  <outline>
+    <contour>
+      <point x="437" y="0" type="line" smooth="yes"/>
+      <point x="537" y="0"/>
+      <point x="581" y="35"/>
+      <point x="581" y="140.836" type="curve" smooth="yes"/>
+      <point x="581" y="257.642"/>
+      <point x="527.407" y="291.349"/>
+      <point x="414.177" y="322.183" type="curve" smooth="yes"/>
+      <point x="249.264" y="367.091"/>
+      <point x="209" y="412.414"/>
+      <point x="209" y="502.048" type="curve" smooth="yes"/>
+      <point x="209" y="587.063"/>
+      <point x="244.874" y="616"/>
+      <point x="304" y="616" type="curve" smooth="yes"/>
+      <point x="336" y="616" type="line" smooth="yes"/>
+      <point x="394.583" y="616"/>
+      <point x="427" y="581.562"/>
+      <point x="427" y="509" type="curve" smooth="yes"/>
+      <point x="427" y="343" type="line"/>
+      <point x="437" y="343" type="line"/>
+      <point x="581" y="367" type="line"/>
+      <point x="581" y="499" type="line" smooth="yes"/>
+      <point x="581" y="616.606"/>
+      <point x="516.175" y="662"/>
+      <point x="356" y="662" type="curve" smooth="yes"/>
+      <point x="299" y="662" type="line" smooth="yes"/>
+      <point x="133.476" y="662"/>
+      <point x="47" y="617.722"/>
+      <point x="47" y="488.468" type="curve" smooth="yes"/>
+      <point x="47" y="396.055"/>
+      <point x="77.2888" y="362.829"/>
+      <point x="222.022" y="324.598" type="curve" smooth="yes"/>
+      <point x="387.499" y="280.887"/>
+      <point x="419" y="239.592"/>
+      <point x="419" y="151.255" type="curve" smooth="yes"/>
+      <point x="419" y="71"/>
+      <point x="393" y="46"/>
+      <point x="313" y="46" type="curve" smooth="yes"/>
+      <point x="81" y="46" type="line"/>
+      <point x="61" y="10" type="line"/>
+      <point x="65" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,1</string>
+  </dict>
+  </lib>
+</glyph>

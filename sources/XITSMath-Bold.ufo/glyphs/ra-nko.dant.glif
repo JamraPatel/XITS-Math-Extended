@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ra-nko.dant" format="2">
+  <advance width="375"/>
+  <anchor x="189" y="661" name="top"/>
+  <outline>
+    <component base="dantayalanleft-nko" xOffset="-7"/>
+    <component base="dantayalanright-nko" xOffset="269"/>
+    <contour>
+      <point x="118" y="637" type="line"/>
+      <point x="118" y="406" type="line"/>
+      <point x="47" y="406" type="line"/>
+      <point x="17" y="373" type="line"/>
+      <point x="21" y="363" type="line"/>
+      <point x="118" y="363" type="line"/>
+      <point x="118" y="107" type="line"/>
+      <point x="15" y="107" type="line"/>
+      <point x="15" y="0" type="line"/>
+      <point x="360" y="0" type="line"/>
+      <point x="360" y="107" type="line"/>
+      <point x="258" y="107" type="line"/>
+      <point x="258" y="363" type="line"/>
+      <point x="329" y="363" type="line"/>
+      <point x="359" y="397" type="line"/>
+      <point x="355" y="406" type="line"/>
+      <point x="258" y="406" type="line"/>
+      <point x="258" y="662" type="line"/>
+      <point x="248" y="662" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>ra-nko</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

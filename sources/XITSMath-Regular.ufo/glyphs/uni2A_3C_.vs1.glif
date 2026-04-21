@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2A3C.vs1" format="2">
+  <advance width="463"/>
+  <outline>
+    <contour>
+      <point x="411" y="-129" type="line"/>
+      <point x="51" y="-129" type="line"/>
+      <point x="51" y="-63" type="line"/>
+      <point x="345" y="-63" type="line"/>
+      <point x="345" y="633" type="line"/>
+      <point x="411" y="633" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w463m411,-129l51,-129l51,-63l345,-63l345,633l411,633</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -129 66</string>
+          <string>vstem 345 66</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

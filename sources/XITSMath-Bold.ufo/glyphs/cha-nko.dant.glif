@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cha-nko.dant" format="2">
+  <advance width="410"/>
+  <outline>
+    <component base="dantayalanleft-nko" xOffset="1"/>
+    <component base="dantayalanright-nko" xOffset="330.5"/>
+    <contour>
+      <point x="43" y="394" type="line"/>
+      <point x="80.88" y="421.38"/>
+      <point x="131.44" y="458.96"/>
+      <point x="180" y="496.2" type="curve"/>
+      <point x="180" y="107" type="line"/>
+      <point x="23" y="107" type="line"/>
+      <point x="23" y="0" type="line"/>
+      <point x="422" y="0" type="line"/>
+      <point x="421.73" y="107" type="line"/>
+      <point x="320" y="107" type="line"/>
+      <point x="320" y="662" type="line"/>
+      <point x="310" y="662" type="line"/>
+      <point x="245" y="603"/>
+      <point x="100" y="490"/>
+      <point x="15" y="430" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>cha-nko</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

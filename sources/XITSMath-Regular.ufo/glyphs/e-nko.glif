@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="e-nko" format="2">
+  <advance width="694"/>
+  <unicode hex="07CD"/>
+  <anchor x="344" y="0" name="bottom"/>
+  <anchor x="348" y="661" name="top"/>
+  <outline>
+    <contour>
+      <point x="307" y="421" type="line"/>
+      <point x="256" y="301"/>
+      <point x="140" y="131"/>
+      <point x="25" y="8" type="curve"/>
+      <point x="25" y="0" type="line"/>
+      <point x="122" y="0" type="line"/>
+      <point x="214" y="92"/>
+      <point x="301" y="230"/>
+      <point x="346" y="338" type="curve"/>
+      <point x="350" y="338" type="line"/>
+      <point x="393" y="230"/>
+      <point x="486" y="87"/>
+      <point x="572" y="0" type="curve"/>
+      <point x="668" y="0" type="line"/>
+      <point x="668" y="8" type="line"/>
+      <point x="559" y="127"/>
+      <point x="444" y="303"/>
+      <point x="387" y="421" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

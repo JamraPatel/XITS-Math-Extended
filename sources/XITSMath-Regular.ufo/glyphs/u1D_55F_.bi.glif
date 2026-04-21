@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D55F.bi" format="2">
+  <advance width="661"/>
+  <outline>
+    <contour>
+      <point x="336" y="418" type="line"/>
+      <point x="338" y="418" type="line"/>
+      <point x="382" y="454"/>
+      <point x="422" y="462"/>
+      <point x="478" y="462" type="curve" smooth="yes"/>
+      <point x="552" y="462"/>
+      <point x="616" y="416"/>
+      <point x="616" y="338" type="curve" smooth="yes"/>
+      <point x="616" y="318"/>
+      <point x="611" y="298"/>
+      <point x="606" y="279" type="curve" smooth="yes"/>
+      <point x="532" y="0" type="line"/>
+      <point x="342" y="0" type="line"/>
+      <point x="449" y="401" type="line"/>
+      <point x="437" y="401"/>
+      <point x="424" y="399"/>
+      <point x="413" y="396" type="curve" smooth="yes"/>
+      <point x="357" y="382"/>
+      <point x="303" y="294"/>
+      <point x="289" y="241" type="curve" smooth="yes"/>
+      <point x="227" y="0" type="line"/>
+      <point x="34" y="0" type="line"/>
+      <point x="154" y="449" type="line"/>
+      <point x="344" y="449" type="line"/>
+    </contour>
+    <contour>
+      <point x="484" y="63" type="line"/>
+      <point x="550" y="307" type="line"/>
+      <point x="553" y="317"/>
+      <point x="553" y="328"/>
+      <point x="553" y="338" type="curve" smooth="yes"/>
+      <point x="553" y="368"/>
+      <point x="539" y="385"/>
+      <point x="512" y="396" type="curve"/>
+      <point x="422" y="63" type="line"/>
+    </contour>
+    <contour>
+      <point x="265" y="386" type="line"/>
+      <point x="201" y="386" type="line"/>
+      <point x="115" y="63" type="line"/>
+      <point x="179" y="63" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>14e2e426f11d89faa5f43efc33f3d374ded0540559c7e46915a4a5f201568f3a87eef41ba91c0e8189de8d0bedb35d7bfbf8f36599367e70f0f2bbdf0a4ca6fd</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 63</string>
+          <string>hstem 386 63</string>
+          <string>hstem 442 20</string>
+          <string>vstem 553 63</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aliflengthencomb-adlam" format="2">
+  <unicode hex="1E944"/>
+  <outline>
+    <contour>
+      <point x="289.524" y="498" type="line"/>
+      <point x="289.524" y="516.817" type="line" smooth="yes"/>
+      <point x="289.524" y="573"/>
+      <point x="263.524" y="607"/>
+      <point x="131.041" y="607" type="curve" smooth="yes"/>
+      <point x="-108.218" y="607" type="line"/>
+      <point x="-128.218" y="563" type="line"/>
+      <point x="-125.218" y="553" type="line"/>
+      <point x="66.0241" y="553" type="line" smooth="yes"/>
+      <point x="144.593" y="553"/>
+      <point x="154.524" y="545.868"/>
+      <point x="154.524" y="497.817" type="curve" smooth="yes"/>
+      <point x="154.524" y="478" type="line"/>
+      <point x="160.524" y="478" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,1</string>
+  </dict>
+  </lib>
+</glyph>

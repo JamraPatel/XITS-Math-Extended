@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ta-nko.dant" format="2">
+  <advance width="550"/>
+  <outline>
+    <component base="dantayalanleft-nko" xOffset="54"/>
+    <component base="dantayalanright-nko" xOffset="519"/>
+    <component base="ta-nko" xOffset="-2"/>
+    <contour>
+      <point x="71" y="0" type="line"/>
+      <point x="241" y="0" type="line"/>
+      <point x="227" y="65" type="line"/>
+      <point x="57" y="65" type="line"/>
+    </contour>
+    <contour>
+      <point x="419" y="0" type="line"/>
+      <point x="605" y="0" type="line"/>
+      <point x="591" y="65" type="line"/>
+      <point x="405" y="65" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="101.31" x="71" y="0"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>ta-nko</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

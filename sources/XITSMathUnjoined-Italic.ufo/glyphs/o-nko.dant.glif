@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="o-nko.dant" format="2">
+  <advance width="557"/>
+  <anchor x="335" y="0" name="bottom"/>
+  <anchor x="208" y="661" name="top"/>
+  <outline>
+    <component base="dantayalanleft-nko" xOffset="113"/>
+    <component base="dantayalanright-nko" xOffset="451"/>
+    <contour>
+      <point x="292" y="0" type="line"/>
+      <point x="376" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="130" y="0" type="line"/>
+      <point x="536" y="0" type="line"/>
+      <point x="523.07" y="65" type="line"/>
+      <point x="117.07" y="65" type="line"/>
+    </contour>
+    <contour>
+      <point x="226" y="362" type="line"/>
+      <point x="298" y="0" type="line"/>
+      <point x="372" y="0" type="line"/>
+      <point x="300" y="362" type="line"/>
+    </contour>
+    <contour>
+      <point x="201" y="676" type="curve" smooth="yes"/>
+      <point x="86" y="676"/>
+      <point x="26.828" y="627"/>
+      <point x="26.828" y="548" type="curve" smooth="yes"/>
+      <point x="26.828" y="431.167"/>
+      <point x="121.768" y="355"/>
+      <point x="254.615" y="355" type="curve" smooth="yes"/>
+      <point x="362.444" y="355"/>
+      <point x="429.923" y="405.18"/>
+      <point x="430" y="485" type="curve" smooth="yes"/>
+      <point x="430.121" y="610"/>
+      <point x="331" y="676"/>
+    </contour>
+    <contour>
+      <point x="358" y="506" type="curve" smooth="yes"/>
+      <point x="358.065" y="447.283"/>
+      <point x="318.219" y="415"/>
+      <point x="245.652" y="415" type="curve" smooth="yes"/>
+      <point x="150.734" y="415"/>
+      <point x="76.828" y="470.232"/>
+      <point x="76.828" y="550" type="curve" smooth="yes"/>
+      <point x="76.828" y="602"/>
+      <point x="122" y="636"/>
+      <point x="198.751" y="636" type="curve" smooth="yes"/>
+      <point x="282" y="636"/>
+      <point x="357.9" y="596"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-217" y="0"/>
+  <guideline angle="101.277" x="129.816" y="0"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>o-nko</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

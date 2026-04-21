@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ha-nko.dant" format="2">
+  <advance width="482"/>
+  <outline>
+    <component base="dantayalanleft-nko" xOffset="93"/>
+    <component base="dantayalanright-nko" xOffset="451"/>
+    <component base="ha-nko" xOffset="-4"/>
+    <contour>
+      <point x="110" y="0" type="line"/>
+      <point x="537" y="0" type="line"/>
+      <point x="524" y="65" type="line"/>
+      <point x="97" y="65" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="55" y="0"/>
+  <guideline angle="101.31" x="537" y="0"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>ha-nko</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Yhe-adlam" format="2">
+  <advance width="564"/>
+  <unicode hex="1E90E"/>
+  <anchor x="326" y="662" name="top"/>
+  <outline>
+    <contour>
+      <point x="140" y="335" type="curve" smooth="yes"/>
+      <point x="180.268" y="536.342"/>
+      <point x="265.851" y="618"/>
+      <point x="431.6" y="618" type="curve"/>
+      <point x="440.4" y="662" type="line"/>
+      <point x="211.4" y="662"/>
+      <point x="86.2" y="576"/>
+      <point x="38" y="335" type="curve" smooth="yes"/>
+      <point x="-10.2" y="94"/>
+      <point x="47" y="0"/>
+      <point x="268" y="0" type="curve" smooth="yes"/>
+      <point x="305" y="0" type="line"/>
+      <point x="313.8" y="44" type="line"/>
+      <point x="275.8" y="44" type="line" smooth="yes"/>
+      <point x="145.912" y="44"/>
+      <point x="100.55" y="137.751"/>
+    </contour>
+    <contour>
+      <point x="305" y="0" type="line"/>
+      <point x="440" y="0" type="line"/>
+      <point x="466.8" y="34" type="line"/>
+      <point x="464.8" y="44" type="line"/>
+      <point x="313.8" y="44" type="line"/>
+    </contour>
+    <contour>
+      <point x="431.6" y="618" type="line"/>
+      <point x="499.019" y="618" type="line" smooth="yes"/>
+      <point x="544.978" y="618"/>
+      <point x="561.818" y="625.907"/>
+      <point x="602.8" y="664" type="curve"/>
+      <point x="574.4" y="692" type="line"/>
+      <point x="550.006" y="668.672"/>
+      <point x="537.739" y="662"/>
+      <point x="507.267" y="662" type="curve" smooth="yes"/>
+      <point x="440.4" y="662" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,1</string>
+  </dict>
+  </lib>
+</glyph>

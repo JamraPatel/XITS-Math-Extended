@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="a-nko.dant.fina" format="2">
+  <advance width="264"/>
+  <anchor x="193" y="0" name="bottom"/>
+  <anchor x="343" y="0" name="right"/>
+  <anchor x="343" y="0" name="right.1"/>
+  <anchor x="62" y="661" name="top"/>
+  <outline>
+    <component base="dantayalanleft-nko" xOffset="9"/>
+    <component base="dantayalanright-nko" xOffset="257"/>
+    <contour>
+      <point x="26" y="647" type="line"/>
+      <point x="109.017" y="231" type="line"/>
+      <point x="183.017" y="231" type="line"/>
+      <point x="97" y="662" type="line"/>
+      <point x="87" y="662" type="line"/>
+    </contour>
+    <contour>
+      <point x="343" y="0" type="line"/>
+      <point x="329.535" y="65" type="line"/>
+      <point x="284.535" y="65" type="line" smooth="yes"/>
+      <point x="235.535" y="65"/>
+      <point x="213.25" y="73.9441"/>
+      <point x="205.535" y="114" type="curve" smooth="yes"/>
+      <point x="183" y="231" type="line"/>
+      <point x="109" y="231" type="line"/>
+      <point x="132.535" y="110" type="line" smooth="yes"/>
+      <point x="139.725" y="73.0364"/>
+      <point x="119.535" y="65"/>
+      <point x="72.5351" y="65" type="curve" smooth="yes"/>
+      <point x="12.5351" y="65" type="line"/>
+      <point x="26" y="0" type="line"/>
+      <point x="98" y="0" type="line" smooth="yes"/>
+      <point x="131" y="0"/>
+      <point x="167" y="4"/>
+      <point x="181" y="23" type="curve"/>
+      <point x="186" y="23" type="line"/>
+      <point x="214" y="6"/>
+      <point x="238" y="0"/>
+      <point x="298" y="0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <guideline angle="101.277" x="174" y="0"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>a-nko</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

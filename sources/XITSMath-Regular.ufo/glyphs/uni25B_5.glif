@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni25B5" format="2">
+  <advance width="660"/>
+  <unicode hex="25B5"/>
+  <outline>
+    <contour>
+      <point x="632" y="28" type="line"/>
+      <point x="27" y="28" type="line"/>
+      <point x="330" y="553" type="line"/>
+    </contour>
+    <contour>
+      <point x="522" y="94" type="line"/>
+      <point x="330" y="420" type="line"/>
+      <point x="139" y="94" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w660m632,28l27,28l330,553m522,94l330,420l139,94</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 28 66</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

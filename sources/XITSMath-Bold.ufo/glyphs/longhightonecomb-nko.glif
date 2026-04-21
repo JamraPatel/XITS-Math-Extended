@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="longhightonecomb-nko" format="2">
+  <unicode hex="07EF"/>
+  <outline>
+    <contour>
+      <point x="-131" y="765" type="line"/>
+      <point x="188" y="765" type="line"/>
+      <point x="198" y="813" type="line"/>
+      <point x="67.93" y="957.98" type="line"/>
+      <point x="2" y="918" type="line"/>
+      <point x="67.08" y="847" type="line"/>
+      <point x="-115" y="847" type="line"/>
+      <point x="-135" y="775" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

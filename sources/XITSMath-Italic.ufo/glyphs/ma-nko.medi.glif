@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ma-nko.medi" format="2">
+  <advance width="612"/>
+  <anchor x="239" y="661" name="top"/>
+  <outline>
+    <component base="ma-nko.fina"/>
+    <contour>
+      <point x="47" y="0" type="line"/>
+      <point x="243" y="0" type="line"/>
+      <point x="230" y="65" type="line"/>
+      <point x="34" y="65" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

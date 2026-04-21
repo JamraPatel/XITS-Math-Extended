@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="e-nko.fina" format="2">
+  <advance width="710"/>
+  <outline>
+    <contour>
+      <point x="470" y="66" type="curve" smooth="yes"/>
+      <point x="515.795" y="9.1507"/>
+      <point x="566" y="0"/>
+      <point x="649" y="0" type="curve" smooth="yes"/>
+      <point x="700" y="0" type="line"/>
+      <point x="730" y="60" type="line"/>
+      <point x="730" y="107" type="line"/>
+      <point x="690" y="107" type="line" smooth="yes"/>
+      <point x="627" y="107"/>
+      <point x="608.176" y="119.159"/>
+      <point x="572" y="159" type="curve" smooth="yes"/>
+      <point x="540.077" y="194.158"/>
+      <point x="459" y="303"/>
+      <point x="394" y="421" type="curve"/>
+      <point x="314" y="421" type="line"/>
+      <point x="243" y="303"/>
+      <point x="114" y="127"/>
+      <point x="15" y="8" type="curve"/>
+      <point x="15" y="0" type="line"/>
+      <point x="187" y="0" type="line"/>
+      <point x="306.228" y="154.492"/>
+      <point x="326" y="210"/>
+      <point x="351" y="281" type="curve"/>
+      <point x="355" y="281" type="line"/>
+      <point x="380" y="210"/>
+      <point x="435.168" y="109.241"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

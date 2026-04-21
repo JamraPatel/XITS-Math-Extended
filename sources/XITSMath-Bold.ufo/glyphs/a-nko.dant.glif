@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="a-nko.dant" format="2">
+  <advance width="320"/>
+  <anchor x="164" y="661" name="top"/>
+  <anchor x="163" y="0" name="bottom"/>
+  <outline>
+    <component base="dantayalanleft-nko" xOffset="-42"/>
+    <component base="dantayalanright-nko" xOffset="249"/>
+    <contour>
+      <point x="90" y="637" type="line"/>
+      <point x="90" y="107" type="line"/>
+      <point x="-20" y="107" type="line"/>
+      <point x="-20" y="0" type="line"/>
+      <point x="340" y="0" type="line"/>
+      <point x="339.73" y="107" type="line"/>
+      <point x="230" y="107" type="line"/>
+      <point x="230" y="662" type="line"/>
+      <point x="220" y="662" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>a-nko</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

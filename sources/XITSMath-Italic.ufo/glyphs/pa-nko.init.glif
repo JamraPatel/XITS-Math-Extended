@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pa-nko.init" format="2">
+  <advance width="451"/>
+  <anchor x="127" y="661" name="top"/>
+  <outline>
+    <contour>
+      <point x="66" y="343" type="line"/>
+      <point x="268.7" y="343" type="line"/>
+      <point x="311.07" y="126" type="line" smooth="yes"/>
+      <point x="312.89" y="115.96"/>
+      <point x="314.07" y="108"/>
+      <point x="314.07" y="101" type="curve" smooth="yes"/>
+      <point x="314.07" y="72"/>
+      <point x="297.07" y="65"/>
+      <point x="254.07" y="65" type="curve" smooth="yes"/>
+      <point x="26.07" y="65" type="line"/>
+      <point x="39" y="0" type="line"/>
+      <point x="257" y="0" type="line" smooth="yes"/>
+      <point x="354" y="0"/>
+      <point x="393" y="15"/>
+      <point x="393" y="71" type="curve" smooth="yes"/>
+      <point x="393" y="81"/>
+      <point x="391.66" y="92.93"/>
+      <point x="389" y="107" type="curve" smooth="yes"/>
+      <point x="294" y="585" type="line" smooth="yes"/>
+      <point x="281.29" y="648.05"/>
+      <point x="253" y="662"/>
+      <point x="156" y="662" type="curve" smooth="yes"/>
+      <point x="8" y="662" type="line"/>
+      <point x="-12.07" y="612" type="line"/>
+      <point x="-6.07" y="602" type="line"/>
+      <point x="157.91" y="602" type="line" smooth="yes"/>
+      <point x="201.92" y="602"/>
+      <point x="219.26" y="588.07"/>
+      <point x="224.92" y="560" type="curve" smooth="yes"/>
+      <point x="259.83" y="387" type="line"/>
+      <point x="80" y="387" type="line"/>
+      <point x="60" y="353" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="281.25" x="227" y="550"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

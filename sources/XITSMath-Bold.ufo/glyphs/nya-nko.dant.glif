@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nya-nko.dant" format="2">
+  <advance width="516"/>
+  <anchor x="260" y="661" name="top"/>
+  <outline>
+    <component base="dantayalanleft-nko" xOffset="23.5"/>
+    <component base="dantayalanright-nko" xOffset="383.5"/>
+    <component base="nya-nko"/>
+    <contour>
+      <point x="45" y="0" type="line"/>
+      <point x="475.083" y="0" type="line"/>
+      <point x="475.083" y="107" type="line"/>
+      <point x="45" y="107" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>nya-nko</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

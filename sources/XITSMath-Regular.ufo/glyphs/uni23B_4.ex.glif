@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni23B4.ex" format="2">
+  <advance width="633"/>
+  <outline>
+    <contour>
+      <point x="634" y="916" type="line"/>
+      <point x="-1" y="916" type="line"/>
+      <point x="-1" y="1051" type="line"/>
+      <point x="634" y="1051" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w633m634,916l-1,916l-1,1051l634,1051</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 916 135</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

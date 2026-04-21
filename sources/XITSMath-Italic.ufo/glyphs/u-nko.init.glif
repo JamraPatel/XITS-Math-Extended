@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u-nko.init" format="2">
+  <advance width="601"/>
+  <anchor x="369" y="0" name="bottom"/>
+  <anchor x="238" y="661" name="top"/>
+  <outline>
+    <contour>
+      <point x="133.696" y="125.869" type="line" smooth="yes"/>
+      <point x="135.718" y="115.787"/>
+      <point x="136.582" y="107.59"/>
+      <point x="136.582" y="100.374" type="curve" smooth="yes"/>
+      <point x="136.582" y="71.9928"/>
+      <point x="119.745" y="64.7771"/>
+      <point x="77.4137" y="64.7771" type="curve" smooth="yes"/>
+      <point x="35.082" y="64.7771" type="line"/>
+      <point x="47.9621" y="0.0260448" type="line"/>
+      <point x="90.2938" y="0.0260448" type="line" smooth="yes"/>
+      <point x="140.322" y="0.0260448"/>
+      <point x="179.768" y="11.09"/>
+      <point x="190.351" y="46.2061" type="curve"/>
+      <point x="194.68" y="46.2061" type="line"/>
+      <point x="219.694" y="11.09"/>
+      <point x="293.294" y="-13.9242"/>
+      <point x="369.298" y="-13.9242" type="curve" smooth="yes"/>
+      <point x="484.85" y="-13.9242"/>
+      <point x="535.841" y="21.6729"/>
+      <point x="535.841" y="107.298" type="curve" smooth="yes"/>
+      <point x="535.841" y="126.54"/>
+      <point x="533.419" y="148.184"/>
+      <point x="528.625" y="172.239" type="curve" smooth="yes"/>
+      <point x="473.305" y="449.8" type="line"/>
+      <point x="463.203" y="449.8" type="line"/>
+      <point x="402.009" y="434.888" type="line"/>
+      <point x="458.399" y="153.77" type="line" smooth="yes"/>
+      <point x="460.514" y="143.224"/>
+      <point x="461.766" y="133.566"/>
+      <point x="461.766" y="124.426" type="curve" smooth="yes"/>
+      <point x="461.766" y="75.8411"/>
+      <point x="429.536" y="50.8269"/>
+      <point x="355.456" y="50.8269" type="curve" smooth="yes"/>
+      <point x="278.489" y="50.8269"/>
+      <point x="211.143" y="84.9809"/>
+      <point x="183.724" y="136.933" type="curve"/>
+      <point x="121.081" y="449.8" type="line"/>
+      <point x="110.979" y="449.8" type="line"/>
+      <point x="71.5332" y="435.85" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="101.379" x="132.906" y="132"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

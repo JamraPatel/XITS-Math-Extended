@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven.sups" format="2">
+  <advance width="300"/>
+  <outline>
+    <contour>
+      <point x="363" y="662" type="line"/>
+      <point x="132" y="266" type="line"/>
+      <point x="76" y="266" type="line"/>
+      <point x="294" y="615" type="line"/>
+      <point x="173" y="615" type="line"/>
+      <point x="138" y="614"/>
+      <point x="124" y="608"/>
+      <point x="95" y="578" type="curve"/>
+      <point x="82" y="587" type="line"/>
+      <point x="132" y="671" type="line"/>
+      <point x="357" y="671" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w300m363,662l132,266l76,266l294,615l173,615c138,614 124,608 95,578l82,587l132,671l357,671</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 615 56</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D543.it" format="2">
+  <advance width="608"/>
+  <outline>
+    <contour>
+      <point x="524" y="37" type="line"/>
+      <point x="515" y="0" type="line"/>
+      <point x="18" y="0" type="line"/>
+      <point x="192" y="653" type="line"/>
+      <point x="346" y="653" type="line"/>
+      <point x="180" y="37" type="line"/>
+    </contour>
+    <contour>
+      <point x="298" y="616" type="line"/>
+      <point x="220" y="616" type="line"/>
+      <point x="64" y="37" type="line"/>
+      <point x="143" y="37" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w608m524,37l515,0l18,0l192,653l346,653l180,37m298,616l220,616l64,37l143,37</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 37</string>
+          <string>hstem 616 37</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

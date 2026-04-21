@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2057" format="2">
+  <advance width="955"/>
+  <unicode hex="2057"/>
+  <outline>
+    <component base="uni2057.ssty1" xScale="0.75" yScale="0.75" xOffset="-3.59375e-05" yOffset="381"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w955</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>vstem 146.59 123.68</string>
+          <string>vstem 349.95 123.68</string>
+          <string>vstem 553.31 123.68</string>
+          <string>vstem 756.67 123.68</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

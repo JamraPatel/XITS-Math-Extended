@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dantayalanleft-nko" format="2">
+  <advance width="112"/>
+  <outline>
+    <contour>
+      <point x="47" y="-146" type="line"/>
+      <point x="79" y="-146" type="line"/>
+      <point x="79" y="10" type="line"/>
+      <point x="15" y="10" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

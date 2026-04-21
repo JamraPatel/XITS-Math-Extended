@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni20E4" format="2">
+  <unicode hex="20E4"/>
+  <outline>
+    <contour>
+      <point x="490" y="-155" type="line"/>
+      <point x="-970" y="-155" type="line"/>
+      <point x="-249" y="1023" type="line"/>
+    </contour>
+    <contour>
+      <point x="-839" y="-89" type="line"/>
+      <point x="359" y="-89" type="line"/>
+      <point x="-249" y="875" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w0m490,-155l-970,-155l-249,1023m-839,-89l359,-89l-249,875</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -155 66</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

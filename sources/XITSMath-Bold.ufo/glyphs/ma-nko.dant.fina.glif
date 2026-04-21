@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ma-nko.dant.fina" format="2">
+  <advance width="610"/>
+  <anchor x="305" y="661" name="top"/>
+  <outline>
+    <component base="dantayalanleft-nko" xOffset="-42"/>
+    <component base="dantayalanright-nko" xOffset="558"/>
+    <contour>
+      <point x="-20" y="0" type="line"/>
+      <point x="455" y="0" type="line" smooth="yes"/>
+      <point x="510.83" y="0"/>
+      <point x="533.47" y="12.1"/>
+      <point x="541" y="23" type="curve"/>
+      <point x="543" y="23" type="line"/>
+      <point x="563" y="3"/>
+      <point x="576" y="0"/>
+      <point x="597" y="0" type="curve" smooth="yes"/>
+      <point x="630" y="0" type="line"/>
+      <point x="630" y="107" type="line"/>
+      <point x="606" y="107" type="line" smooth="yes"/>
+      <point x="579" y="107"/>
+      <point x="563.41" y="119.87"/>
+      <point x="556" y="155" type="curve" smooth="yes"/>
+      <point x="533.45" y="261.88"/>
+      <point x="423" y="502"/>
+      <point x="345" y="661" type="curve"/>
+      <point x="276" y="661" type="line"/>
+      <point x="193.61" y="493.62"/>
+      <point x="121.75" y="307.43"/>
+      <point x="61.72" y="107" type="curve"/>
+      <point x="-20" y="107" type="line"/>
+    </contour>
+    <contour>
+      <point x="268.92" y="492.67" type="line"/>
+      <point x="307.56" y="416.23"/>
+      <point x="392.99" y="235.8"/>
+      <point x="408.73" y="147.63" type="curve" smooth="yes"/>
+      <point x="412.46" y="126.71"/>
+      <point x="412.93" y="108"/>
+      <point x="379.33" y="108" type="curve" smooth="yes"/>
+      <point x="122" y="108" type="line"/>
+      <point x="158.24" y="221.61"/>
+      <point x="217.68" y="382.64"/>
+      <point x="266.39" y="492.68" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>ma-nko</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

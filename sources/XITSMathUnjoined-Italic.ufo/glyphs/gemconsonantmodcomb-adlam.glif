@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gemconsonantmodcomb-adlam" format="2">
+  <unicode hex="1E949"/>
+  <anchor x="-91.5" y="449" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-44.6547" y="536.381" type="line"/>
+      <point x="81.7065" y="676.063" type="line"/>
+      <point x="111.75" y="664" type="line"/>
+      <point x="-4.97987" y="536.381" type="line"/>
+    </contour>
+    <contour>
+      <point x="31.7499" y="664" type="line"/>
+      <point x="-85.621" y="535.95" type="line"/>
+      <point x="-98.7841" y="536.381" type="line"/>
+      <point x="-215.01" y="664" type="line"/>
+      <point x="-147.425" y="676.063" type="line"/>
+      <point x="-74.9664" y="596.37" type="line"/>
+      <point x="-0.873953" y="676" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,1</string>
+  </dict>
+  </lib>
+</glyph>

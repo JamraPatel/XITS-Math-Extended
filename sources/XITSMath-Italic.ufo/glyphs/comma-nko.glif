@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comma-nko" format="2">
+  <advance width="498"/>
+  <unicode hex="07F8"/>
+  <outline>
+    <contour>
+      <point x="55" y="0" type="line"/>
+      <point x="447" y="0" type="line"/>
+      <point x="447" y="60" type="line"/>
+      <point x="443" y="70" type="line"/>
+      <point x="51" y="70" type="line"/>
+      <point x="51" y="10" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

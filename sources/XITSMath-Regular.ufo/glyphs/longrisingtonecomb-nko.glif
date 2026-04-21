@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="longrisingtonecomb-nko" format="2">
+  <unicode hex="07F1"/>
+  <anchor x="29" y="662" name="_top"/>
+  <outline>
+    <contour>
+      <point x="164" y="765" type="line"/>
+      <point x="188" y="810" type="line"/>
+      <point x="184" y="820" type="line"/>
+      <point x="-44.08" y="820" type="line"/>
+      <point x="21" y="891" type="line"/>
+      <point x="-28" y="915" type="line"/>
+      <point x="-135" y="800" type="line"/>
+      <point x="-125" y="765" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

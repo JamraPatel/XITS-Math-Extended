@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nya-nko.dant.fina" format="2">
+  <advance width="527"/>
+  <anchor x="199" y="661" name="top"/>
+  <outline>
+    <component base="dantayalanleft-nko" xOffset="110"/>
+    <component base="dantayalanright-nko" xOffset="450"/>
+    <contour>
+      <point x="273" y="480" type="line"/>
+      <point x="252" y="585" type="line" smooth="yes"/>
+      <point x="239" y="648"/>
+      <point x="211" y="662"/>
+      <point x="114" y="662" type="curve" smooth="yes"/>
+      <point x="42" y="662" type="line"/>
+      <point x="22" y="607" type="line"/>
+      <point x="28" y="597" type="line"/>
+      <point x="117" y="597" type="line" smooth="yes"/>
+      <point x="160" y="597"/>
+      <point x="178.384" y="583.08"/>
+      <point x="184" y="555" type="curve" smooth="yes"/>
+      <point x="199" y="480" type="line"/>
+    </contour>
+    <contour>
+      <point x="234" y="502" type="curve" smooth="yes"/>
+      <point x="119" y="502"/>
+      <point x="60" y="453"/>
+      <point x="60" y="374" type="curve" smooth="yes"/>
+      <point x="60" y="257"/>
+      <point x="154" y="181"/>
+      <point x="287.068" y="181" type="curve" smooth="yes"/>
+      <point x="395" y="181"/>
+      <point x="463" y="231"/>
+      <point x="463" y="311" type="curve" smooth="yes"/>
+      <point x="463" y="436"/>
+      <point x="364" y="502"/>
+    </contour>
+    <contour>
+      <point x="391" y="332" type="curve" smooth="yes"/>
+      <point x="391" y="273"/>
+      <point x="351" y="241"/>
+      <point x="278.305" y="241" type="curve" smooth="yes"/>
+      <point x="183" y="241"/>
+      <point x="110" y="296"/>
+      <point x="110" y="376" type="curve" smooth="yes"/>
+      <point x="110" y="428"/>
+      <point x="154" y="462"/>
+      <point x="230.751" y="462" type="curve" smooth="yes"/>
+      <point x="314" y="462"/>
+      <point x="391" y="422"/>
+    </contour>
+    <contour>
+      <point x="596" y="0" type="line"/>
+      <point x="583" y="65" type="line"/>
+      <point x="424" y="65" type="line" smooth="yes"/>
+      <point x="375" y="65"/>
+      <point x="354" y="74"/>
+      <point x="346" y="114" type="curve" smooth="yes"/>
+      <point x="331" y="192" type="line"/>
+      <point x="257" y="192" type="line"/>
+      <point x="273" y="110" type="line" smooth="yes"/>
+      <point x="280" y="73"/>
+      <point x="260" y="65"/>
+      <point x="213" y="65" type="curve" smooth="yes"/>
+      <point x="112" y="65" type="line"/>
+      <point x="127" y="0" type="line"/>
+      <point x="237" y="0" type="line" smooth="yes"/>
+      <point x="270" y="0"/>
+      <point x="306" y="4"/>
+      <point x="320" y="23" type="curve"/>
+      <point x="325" y="23" type="line"/>
+      <point x="353" y="6"/>
+      <point x="377" y="0"/>
+      <point x="437" y="0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>nya-nko</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

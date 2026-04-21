@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni230A.size4" format="2">
+  <advance width="682"/>
+  <outline>
+    <contour>
+      <point x="655" y="-509" type="line"/>
+      <point x="295" y="-509" type="line"/>
+      <point x="295" y="2566" type="line"/>
+      <point x="390" y="2566" type="line"/>
+      <point x="390" y="-453" type="line"/>
+      <point x="655" y="-453" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w682m655,-509l295,-509l295,2566l390,2566l390,-453l655,-453</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -509 56</string>
+          <string>vstem 295 95</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

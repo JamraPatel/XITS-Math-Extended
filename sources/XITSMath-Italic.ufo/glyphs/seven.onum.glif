@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven.onum" format="2">
+  <advance width="570"/>
+  <outline>
+    <contour>
+      <point x="543" y="434" type="line"/>
+      <point x="135" y="-217" type="line"/>
+      <point x="56" y="-217" type="line"/>
+      <point x="440" y="370" type="line"/>
+      <point x="216" y="370" type="line" smooth="yes"/>
+      <point x="137" y="370"/>
+      <point x="100" y="355"/>
+      <point x="59" y="288" type="curve"/>
+      <point x="40" y="294" type="line"/>
+      <point x="131" y="450" type="line"/>
+      <point x="533" y="450" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w570m543,434l135,-217l56,-217l440,370l216,370c137,370 100,355 59,288l40,294l131,450l533,450</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 370 80</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

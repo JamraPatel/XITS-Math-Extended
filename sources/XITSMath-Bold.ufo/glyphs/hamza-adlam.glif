@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hamza-adlam" format="2">
+  <unicode hex="1E947"/>
+  <outline>
+    <contour>
+      <point x="-13.8503" y="679.885" type="curve"/>
+      <point x="17.7841" y="759.67" type="line"/>
+      <point x="4.4678" y="777.233"/>
+      <point x="-9.07497" y="791.396"/>
+      <point x="-37.6138" y="791.396" type="curve" smooth="yes"/>
+      <point x="-105.64" y="791.396"/>
+      <point x="-159.053" y="710.927"/>
+      <point x="-159.053" y="634.364" type="curve" smooth="yes"/>
+      <point x="-159.053" y="582.731"/>
+      <point x="-134.761" y="552.379"/>
+      <point x="-87.8265" y="552.379" type="curve" smooth="yes"/>
+      <point x="11.3982" y="552.379"/>
+      <point x="152.682" y="688.037"/>
+      <point x="143.317" y="810.259" type="curve"/>
+      <point x="48.2275" y="825" type="line"/>
+      <point x="65.0644" y="688.122"/>
+      <point x="37.0997" y="629.769"/>
+      <point x="-45.3339" y="629.769" type="curve" smooth="yes"/>
+      <point x="-91.8701" y="629.769"/>
+      <point x="-114.754" y="648.366"/>
+      <point x="-114.754" y="675.278" type="curve" smooth="yes"/>
+      <point x="-114.754" y="699.329"/>
+      <point x="-96.4773" y="719.005"/>
+      <point x="-70.3455" y="719.005" type="curve" smooth="yes"/>
+      <point x="-46.0691" y="719.005"/>
+      <point x="-28.6609" y="702.024"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,1</string>
+  </dict>
+  </lib>
+</glyph>

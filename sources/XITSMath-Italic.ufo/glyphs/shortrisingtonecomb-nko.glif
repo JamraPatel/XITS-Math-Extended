@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shortrisingtonecomb-nko" format="2">
+  <unicode hex="07ED"/>
+  <anchor x="-26" y="662" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-26" y="765" type="curve" smooth="yes"/>
+      <point x="-57" y="765"/>
+      <point x="-81" y="789"/>
+      <point x="-81" y="820" type="curve" smooth="yes"/>
+      <point x="-81" y="851"/>
+      <point x="-56" y="876"/>
+      <point x="-25" y="876" type="curve" smooth="yes"/>
+      <point x="4" y="876"/>
+      <point x="30" y="849"/>
+      <point x="30" y="819" type="curve" smooth="yes"/>
+      <point x="30" y="790"/>
+      <point x="4" y="765"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

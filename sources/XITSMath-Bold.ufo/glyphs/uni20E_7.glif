@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni20E7" format="2">
+  <unicode hex="20E7"/>
+  <outline>
+    <contour>
+      <point x="200" y="-172" type="line"/>
+      <point x="112" y="-172" type="line"/>
+      <point x="112" y="672" type="line"/>
+      <point x="-643" y="672" type="line"/>
+      <point x="-643" y="760" type="line"/>
+      <point x="200" y="760" type="line"/>
+    </contour>
+  </outline>
+</glyph>

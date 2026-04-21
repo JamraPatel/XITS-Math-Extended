@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nawoloso-nko" format="2">
+  <advance width="466"/>
+  <unicode hex="07E0"/>
+  <anchor x="173.93" y="671" name="top"/>
+  <outline>
+    <contour>
+      <point x="-16.06" y="597" type="line"/>
+      <point x="138.95" y="597" type="line"/>
+      <point x="258" y="0" type="line"/>
+      <point x="332" y="0" type="line"/>
+      <point x="212.96" y="597" type="line"/>
+      <point x="340.92" y="597" type="line"/>
+      <point x="361" y="652" type="line"/>
+      <point x="355" y="662" type="line"/>
+      <point x="-2" y="662" type="line"/>
+      <point x="-22.07" y="607" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

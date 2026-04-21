@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ma-nko.dant.fina" format="2">
+  <advance width="612"/>
+  <anchor x="239" y="661" name="top"/>
+  <outline>
+    <component base="dantayalanleft-nko" xOffset="18"/>
+    <component base="dantayalanright-nko" xOffset="605"/>
+    <contour>
+      <point x="92" y="14" type="curve"/>
+      <point x="107" y="0" type="line"/>
+      <point x="531" y="0" type="line" smooth="yes"/>
+      <point x="564" y="0"/>
+      <point x="585" y="4"/>
+      <point x="598" y="23" type="curve"/>
+      <point x="600" y="23" type="line"/>
+      <point x="624" y="3"/>
+      <point x="648" y="0"/>
+      <point x="688" y="0" type="curve" smooth="yes"/>
+      <point x="691" y="0" type="line"/>
+      <point x="677" y="70" type="line"/>
+      <point x="674" y="70" type="line" smooth="yes"/>
+      <point x="637" y="70"/>
+      <point x="609" y="83"/>
+      <point x="594" y="118" type="curve" smooth="yes"/>
+      <point x="523" y="283"/>
+      <point x="377" y="510"/>
+      <point x="273" y="661" type="curve"/>
+      <point x="204" y="661" type="line"/>
+      <point x="148" y="468"/>
+      <point x="110" y="250"/>
+    </contour>
+    <contour>
+      <point x="245" y="573" type="line"/>
+      <point x="295" y="501"/>
+      <point x="518" y="160"/>
+      <point x="518" y="92" type="curve" smooth="yes"/>
+      <point x="518" y="79"/>
+      <point x="511" y="71"/>
+      <point x="486" y="71" type="curve" smooth="yes"/>
+      <point x="157" y="71" type="line"/>
+      <point x="171" y="231"/>
+      <point x="210" y="442"/>
+      <point x="242" y="573" type="curve"/>
+    </contour>
+    <contour>
+      <point x="35" y="0" type="line"/>
+      <point x="243" y="0" type="line"/>
+      <point x="229" y="70" type="line"/>
+      <point x="21" y="70" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>ma-nko</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

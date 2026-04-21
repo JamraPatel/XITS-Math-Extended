@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2AFF.display" format="2">
+  <advance width="636"/>
+  <outline>
+    <contour>
+      <point x="503" y="-289" type="line"/>
+      <point x="133" y="-289" type="line"/>
+      <point x="133" y="1586" type="line"/>
+      <point x="503" y="1586" type="line"/>
+    </contour>
+    <contour>
+      <point x="403" y="-189" type="line"/>
+      <point x="403" y="1486" type="line"/>
+      <point x="233" y="1486" type="line"/>
+      <point x="233" y="-189" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w636m503,-289l133,-289l133,1586l503,1586m403,-189l403,1486l233,1486l233,-189</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -289 100</string>
+          <string>hstem 1486 100</string>
+          <string>vstem 133 100</string>
+          <string>vstem 403 100</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

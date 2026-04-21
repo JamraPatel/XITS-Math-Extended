@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fa-nko.init" format="2">
+  <advance width="689"/>
+  <anchor x="453" y="661" name="top"/>
+  <outline>
+    <component base="fa-nko"/>
+    <contour>
+      <point x="-20" y="0" type="line"/>
+      <point x="196" y="0" type="line"/>
+      <point x="196" y="107" type="line"/>
+      <point x="-20" y="107" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>fa-nko</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

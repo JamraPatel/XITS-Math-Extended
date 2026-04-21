@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ma-nko" format="2">
+  <advance width="611"/>
+  <unicode hex="07E1"/>
+  <outline>
+    <contour>
+      <point x="268.92" y="492.68" type="line"/>
+      <point x="307.56" y="416.24"/>
+      <point x="392.992" y="235.809"/>
+      <point x="408.73" y="147.65" type="curve" smooth="yes"/>
+      <point x="412.468" y="126.714"/>
+      <point x="412.931" y="108"/>
+      <point x="379.33" y="108" type="curve" smooth="yes"/>
+      <point x="122" y="108" type="line"/>
+      <point x="158.247" y="221.618"/>
+      <point x="217.68" y="382.64"/>
+      <point x="266.4" y="492.68" type="curve"/>
+    </contour>
+    <contour>
+      <point x="571" y="95" type="curve" smooth="yes"/>
+      <point x="537.044" y="262.009"/>
+      <point x="423" y="502"/>
+      <point x="345" y="661" type="curve"/>
+      <point x="276" y="661" type="line"/>
+      <point x="181" y="468"/>
+      <point x="100" y="250"/>
+      <point x="35" y="14" type="curve"/>
+      <point x="47" y="0" type="line"/>
+      <point x="479" y="0" type="line" smooth="yes"/>
+      <point x="560" y="0"/>
+      <point x="586.044" y="21.0089"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

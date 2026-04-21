@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ta-nko" format="2">
+  <advance width="550"/>
+  <unicode hex="07D5"/>
+  <anchor x="50" y="661" name="top"/>
+  <outline>
+    <contour>
+      <point x="23" y="647" type="line"/>
+      <point x="123" y="144" type="line" smooth="yes"/>
+      <point x="145.411" y="31.2728"/>
+      <point x="207.876" y="-14"/>
+      <point x="315.169" y="-14" type="curve" smooth="yes"/>
+      <point x="441.838" y="-14"/>
+      <point x="512.26" y="49.0998"/>
+      <point x="511.933" y="161.907" type="curve" smooth="yes"/>
+      <point x="511.535" y="299"/>
+      <point x="407" y="387"/>
+      <point x="250.916" y="387" type="curve" smooth="yes"/>
+      <point x="201" y="387"/>
+      <point x="170" y="378"/>
+      <point x="152" y="371" type="curve"/>
+      <point x="94" y="662" type="line"/>
+      <point x="84" y="662" type="line"/>
+    </contour>
+    <contour>
+      <point x="197" y="147" type="curve" smooth="yes"/>
+      <point x="162" y="323" type="line"/>
+      <point x="178" y="331"/>
+      <point x="202" y="343"/>
+      <point x="249.395" y="343" type="curve" smooth="yes"/>
+      <point x="371" y="343"/>
+      <point x="436.906" y="264"/>
+      <point x="436.989" y="168.315" type="curve" smooth="yes"/>
+      <point x="437.058" y="89.6857"/>
+      <point x="392.632" y="51"/>
+      <point x="316.93" y="51" type="curve" smooth="yes"/>
+      <point x="256.1" y="51"/>
+      <point x="211.124" y="75.9786"/>
+    </contour>
+  </outline>
+  <guideline angle="101.249" x="198" y="142"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

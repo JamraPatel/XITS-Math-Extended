@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2017" format="2">
+  <advance width="500"/>
+  <unicode hex="2017"/>
+  <outline>
+    <contour>
+      <point x="500" y="-191" type="line"/>
+      <point x="0" y="-191" type="line"/>
+      <point x="0" y="-141" type="line"/>
+      <point x="500" y="-141" type="line"/>
+    </contour>
+    <contour>
+      <point x="500" y="-300" type="line"/>
+      <point x="0" y="-300" type="line"/>
+      <point x="0" y="-250" type="line"/>
+      <point x="500" y="-250" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w500m500,-191l0,-191l0,-141l500,-141m500,-300l0,-300l0,-250l500,-250</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -300 50</string>
+          <string>hstem -191 50</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

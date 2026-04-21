@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2204.rtlm" format="2">
+  <advance width="599"/>
+  <outline>
+    <contour>
+      <point x="76" y="0" type="line"/>
+      <point x="76" y="676" type="line"/>
+      <point x="213" y="676" type="line"/>
+      <point x="176" y="803" type="line"/>
+      <point x="249" y="803" type="line"/>
+      <point x="286" y="676" type="line"/>
+      <point x="523" y="676" type="line"/>
+      <point x="523" y="576" type="line"/>
+      <point x="316" y="576" type="line"/>
+      <point x="372" y="387" type="line"/>
+      <point x="511" y="387" type="line"/>
+      <point x="511" y="287" type="line"/>
+      <point x="401" y="287" type="line"/>
+      <point x="456" y="100" type="line"/>
+      <point x="523" y="100" type="line"/>
+      <point x="523" y="0" type="line"/>
+      <point x="486" y="0" type="line"/>
+      <point x="523" y="-127" type="line"/>
+      <point x="450" y="-127" type="line"/>
+      <point x="413" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="175" y="387" type="line"/>
+      <point x="299" y="387" type="line"/>
+      <point x="243" y="576" type="line"/>
+      <point x="175" y="576" type="line"/>
+    </contour>
+    <contour>
+      <point x="175" y="100" type="line"/>
+      <point x="383" y="100" type="line"/>
+      <point x="328" y="287" type="line"/>
+      <point x="175" y="287" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni2204</string>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D54E.bi" format="2">
+  <advance width="891"/>
+  <outline>
+    <contour>
+      <point x="991" y="669" type="line"/>
+      <point x="707" y="0" type="line"/>
+      <point x="489" y="0" type="line"/>
+      <point x="489" y="448" type="line"/>
+      <point x="488" y="448" type="line"/>
+      <point x="299" y="0" type="line"/>
+      <point x="81" y="0" type="line"/>
+      <point x="81" y="669" type="line"/>
+      <point x="285" y="669" type="line"/>
+      <point x="284" y="130" type="line"/>
+      <point x="286" y="130" type="line"/>
+      <point x="514" y="669" type="line"/>
+      <point x="692" y="669" type="line"/>
+      <point x="692" y="129" type="line"/>
+      <point x="694" y="129" type="line"/>
+      <point x="924" y="669" type="line"/>
+    </contour>
+    <contour>
+      <point x="629" y="63" type="line"/>
+      <point x="629" y="606" type="line"/>
+      <point x="552" y="606" type="line"/>
+      <point x="552" y="63" type="line"/>
+    </contour>
+    <contour>
+      <point x="221" y="63" type="line"/>
+      <point x="221" y="606" type="line"/>
+      <point x="144" y="606" type="line"/>
+      <point x="144" y="63" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>a68b5b8f7ea5d4053ee9da45ed149e5317658ce1134eeae27a117ec2c2f24e9ee6755d22100e62a0c5797bec1f0b1213238a6cfcdc00a1847ced873d143c39c1</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 63</string>
+          <string>hstem 606 63</string>
+          <string>vstem 81 63</string>
+          <string>vstem 489 63</string>
+          <string>vstem 629 63</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

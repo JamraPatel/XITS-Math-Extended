@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jiim-adlam" format="2">
+  <advance width="692"/>
+  <unicode hex="1E936"/>
+  <anchor x="346" y="450" name="top"/>
+  <outline>
+    <contour>
+      <point x="222" y="460" type="curve" smooth="yes"/>
+      <point x="109" y="460"/>
+      <point x="60" y="428"/>
+      <point x="60" y="342" type="curve" smooth="yes"/>
+      <point x="60" y="-86" type="line"/>
+      <point x="70" y="-86" type="line"/>
+      <point x="146" y="-72" type="line"/>
+      <point x="146" y="342" type="line" smooth="yes"/>
+      <point x="146" y="406"/>
+      <point x="166" y="429"/>
+      <point x="228" y="429" type="curve" smooth="yes"/>
+      <point x="276" y="429"/>
+      <point x="303" y="403"/>
+      <point x="303" y="351" type="curve" smooth="yes"/>
+      <point x="303" y="0" type="line"/>
+      <point x="389" y="0" type="line"/>
+      <point x="389" y="349" type="line" smooth="yes"/>
+      <point x="389" y="401"/>
+      <point x="418" y="429"/>
+      <point x="466" y="429" type="curve" smooth="yes"/>
+      <point x="527" y="429"/>
+      <point x="546" y="404"/>
+      <point x="546" y="338" type="curve" smooth="yes"/>
+      <point x="546" y="0" type="line"/>
+      <point x="632" y="0" type="line"/>
+      <point x="632" y="338" type="line" smooth="yes"/>
+      <point x="632" y="428"/>
+      <point x="577" y="460"/>
+      <point x="472" y="460" type="curve" smooth="yes"/>
+      <point x="388" y="460"/>
+      <point x="362" y="426"/>
+      <point x="349" y="401" type="curve"/>
+      <point x="345" y="401" type="line"/>
+      <point x="330" y="426"/>
+      <point x="301" y="460"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,1</string>
+  </dict>
+  </lib>
+</glyph>

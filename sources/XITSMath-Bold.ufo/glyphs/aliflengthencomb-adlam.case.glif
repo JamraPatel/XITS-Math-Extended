@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aliflengthencomb-adlam.case" format="2">
+  <outline>
+    <contour>
+      <point x="134.528" y="773.753" type="curve"/>
+      <point x="145.801" y="815.488" type="line"/>
+      <point x="54.5755" y="830.299"/>
+      <point x="15.7105" y="898.982"/>
+      <point x="-14.4348" y="958.883" type="curve"/>
+      <point x="-118.089" y="879.331" type="line"/>
+      <point x="-60.7839" y="814.313"/>
+      <point x="25.5514" y="778.853"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>aliflengthencomb-adlam</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,1</string>
+  </dict>
+  </lib>
+</glyph>

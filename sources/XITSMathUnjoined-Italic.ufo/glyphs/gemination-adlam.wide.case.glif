@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gemination-adlam.wide.case" format="2">
+  <advance width="74"/>
+  <anchor x="58.4" y="662" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-181.63" y="783.98" type="line"/>
+      <point x="364.36" y="783.98" type="line"/>
+      <point x="369.36" y="793.98" type="line"/>
+      <point x="357.36" y="833.98" type="line"/>
+      <point x="-188.63" y="833.98" type="line"/>
+      <point x="-193.63" y="823.98" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>gemination-adlam</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,1</string>
+  </dict>
+  </lib>
+</glyph>

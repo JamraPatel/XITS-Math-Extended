@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lajanyalan-nko" format="2">
+  <advance width="417"/>
+  <unicode hex="07FA"/>
+  <outline>
+    <contour>
+      <point x="21" y="0" type="line"/>
+      <point x="413" y="0" type="line"/>
+      <point x="413" y="97" type="line"/>
+      <point x="409" y="107" type="line"/>
+      <point x="17" y="107" type="line"/>
+      <point x="17" y="10" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

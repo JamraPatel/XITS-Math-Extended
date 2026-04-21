@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ba-nko.dant" format="2">
+  <advance width="452"/>
+  <outline>
+    <component base="dantayalanleft-nko" xOffset="58.8671"/>
+    <component base="dantayalanright-nko" xOffset="407"/>
+    <component base="ba-nko" xOffset="6"/>
+    <contour>
+      <point x="76" y="0" type="line"/>
+      <point x="493" y="0" type="line"/>
+      <point x="480" y="65" type="line"/>
+      <point x="63" y="65" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="101.31" x="493" y="0"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>ba-nko</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

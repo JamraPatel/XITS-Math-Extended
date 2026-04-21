@@ -1,0 +1,3509 @@
+#> classes
+#/> otclasses
+@nkoNumbers = [zero-nko one-nko two-nko three-nko four-nko five-nko six-nko seven-nko eight-nko nine-nko];
+@Uppercase = [Alif-adlam Daali-adlam Laam-adlam Miim-adlam Ba-adlam Sinnyiiyhe-adlam Pe-adlam Bhe-adlam Ra-adlam E-adlam Fa-adlam I-adlam O-adlam Dha-adlam Yhe-adlam Waw-adlam Nun-adlam Kaf-adlam Ya-adlam U-adlam Jiim-adlam Chi-adlam Ha-adlam Qaaf-adlam Ga-adlam Nya-adlam Tu-adlam Nha-adlam Va-adlam Kha-adlam Gbe-adlam Zal-adlam Kpo-adlam Sha-adlam];
+@adlamNumbers = [zero-adlam one-adlam two-adlam three-adlam four-adlam five-adlam six-adlam seven-adlam eight-adlam nine-adlam];
+#/< otclasses
+#< classes
+
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem adlm dflt;
+languagesystem nko  dflt;
+languagesystem math dflt;
+
+lookup kernHorizontalKerninginLatinlookup0 {
+  lookupflag 0;
+    pos \comma \quotedblright -37;
+    pos \comma \quoteright -37;
+    pos \comma \one -30;
+    pos \hyphen \AE -9;
+    pos \hyphen \Aring 14;
+    pos \hyphen \Adieresis 14;
+    pos \hyphen \Aacute 14;
+    pos \hyphen \Y -40;
+    pos \hyphen \W -22;
+    pos \hyphen \V -28;
+    pos \hyphen \T -34;
+    pos \hyphen \A 14;
+    pos \period \quotedblright -35;
+    pos \period \quoteright -35;
+    pos \A \udieresis -9;
+    pos \A \ucircumflex -9;
+    pos \A \uacute -9;
+    pos \A \ugrave -9;
+    pos \A \odieresis -16;
+    pos \A \ccedilla -19;
+    pos \A \Udieresis -46;
+    pos \A \Ucircumflex -46;
+    pos \A \Uacute -46;
+    pos \A \Ugrave -46;
+    pos \A \Odieresis -37;
+    pos \A \Ccedilla -36;
+    pos \A \guillemotleft -29;
+    pos \A \quotedblright -77;
+    pos \A \quoteright -77;
+    pos \A \guilsinglleft -28;
+    pos \A \y -54;
+    pos \A \w -32;
+    pos \A \v -35;
+    pos \A \u -9;
+    pos \A \t -7;
+    pos \A \q -11;
+    pos \A \o -16;
+    pos \A \g -31;
+    pos \A \e -18;
+    pos \A \d -4;
+    pos \A \c -17;
+    pos \A \a -5;
+    pos \A \Y -20;
+    pos \A \W -59;
+    pos \A \V -65;
+    pos \A \U -46;
+    pos \A \T -14;
+    pos \A \Q -36;
+    pos \A \O -37;
+    pos \A \G -29;
+    pos \A \C -36;
+    pos \A \period 19;
+    pos \A \comma 19;
+    pos \B \AE -32;
+    pos \B \Aring -20;
+    pos \B \Adieresis -20;
+    pos \B \Atilde -20;
+    pos \B \Acircumflex -20;
+    pos \B \Aacute -20;
+    pos \B \OE 8;
+    pos \B \Y -34;
+    pos \B \W -19;
+    pos \B \V -25;
+    pos \B \A -20;
+    pos \C \Odieresis -7;
+    pos \C \Oacute -7;
+    pos \C \Ograve -7;
+    pos \C \AE -31;
+    pos \C \Aring -19;
+    pos \C \Adieresis -19;
+    pos \C \Aacute -19;
+    pos \C \Agrave -19;
+    pos \C \O -7;
+    pos \C \K -17;
+    pos \C \H -5;
+    pos \C \A -19;
+    pos \D \Aring -20;
+    pos \D \Adieresis -20;
+    pos \D \Atilde -20;
+    pos \D \Acircumflex -20;
+    pos \D \Aacute -20;
+    pos \D \Agrave -20;
+    pos \D \Y -37;
+    pos \D \X -26;
+    pos \D \W -22;
+    pos \D \V -28;
+    pos \D \T -9;
+    pos \D \J -27;
+    pos \D \A -20;
+    pos \F \oslash -66;
+    pos \F \odieresis -44;
+    pos \F \oacute -65;
+    pos \F \eacute -67;
+    pos \F \ae -69;
+    pos \F \aring -60;
+    pos \F \adieresis -58;
+    pos \F \atilde -57;
+    pos \F \acircumflex -60;
+    pos \F \aacute -60;
+    pos \F \Odieresis -32;
+    pos \F \Oacute -32;
+    pos \F \Ograve -32;
+    pos \F \Aring -54;
+    pos \F \Adieresis -54;
+    pos \F \Atilde -54;
+    pos \F \Acircumflex -54;
+    pos \F \Aacute -54;
+    pos \F \Agrave -54;
+    pos \F \oe -62;
+    pos \F \u -43;
+    pos \F \r -45;
+    pos \F \o -65;
+    pos \F \j -38;
+    pos \F \i -35;
+    pos \F \e -67;
+    pos \F \a -60;
+    pos \F \O -32;
+    pos \F \J -59;
+    pos \F \A -54;
+    pos \F \period -80;
+    pos \F \hyphen -32;
+    pos \F \comma -77;
+    pos \G \AE -29;
+    pos \G \Aring -15;
+    pos \G \Adieresis -15;
+    pos \G \Atilde -15;
+    pos \G \Acircumflex -15;
+    pos \G \Aacute -15;
+    pos \G \Agrave -15;
+    pos \G \Y -13;
+    pos \G \W -3;
+    pos \G \V -5;
+    pos \G \T -14;
+    pos \G \A -15;
+    pos \J \AE -54;
+    pos \J \Aring -20;
+    pos \J \Adieresis -20;
+    pos \J \A -20;
+    pos \K \udieresis -9;
+    pos \K \odieresis -16;
+    pos \K \oacute -16;
+    pos \K \ae -5;
+    pos \K \aring -5;
+    pos \K \adieresis -5;
+    pos \K \Odieresis -44;
+    pos \K \Oacute -44;
+    pos \K \OE -42;
+    pos \K \y -63;
+    pos \K \u -9;
+    pos \K \o -16;
+    pos \K \e -18;
+    pos \K \a -5;
+    pos \K \T 19;
+    pos \K \S 6;
+    pos \K \O -44;
+    pos \K \G -38;
+    pos \K \C -45;
+    pos \K \hyphen -42;
+    pos \L \udieresis 20;
+    pos \L \Udieresis -9;
+    pos \L \Odieresis 10;
+    pos \L \Otilde 10;
+    pos \L \Ocircumflex 10;
+    pos \L \Oacute 10;
+    pos \L \Ograve 10;
+    pos \L \Ccedilla 5;
+    pos \L \AE 29;
+    pos \L \Aring 41;
+    pos \L \Adieresis 41;
+    pos \L \Aacute 41;
+    pos \L \quotedblright -78;
+    pos \L \quoteright -78;
+    pos \L \y -15;
+    pos \L \u 22;
+    pos \L \Y -21;
+    pos \L \W -34;
+    pos \L \V -41;
+    pos \L \U -9;
+    pos \L \T -15;
+    pos \L \S 18;
+    pos \L \O 10;
+    pos \L \G 11;
+    pos \L \C 5;
+    pos \L \A 41;
+    pos \L \hyphen 56;
+    pos \N \udieresis -11;
+    pos \N \oslash -13;
+    pos \N \odieresis -12;
+    pos \N \oacute -12;
+    pos \N \eacute -14;
+    pos \N \ae -11;
+    pos \N \aring -12;
+    pos \N \adieresis -12;
+    pos \N \aacute -12;
+    pos \N \Odieresis -2;
+    pos \N \Oacute -2;
+    pos \N \Ccedilla -5;
+    pos \N \AE -31;
+    pos \N \Aring -19;
+    pos \N \Adieresis -19;
+    pos \N \Aacute -19;
+    pos \N \u -11;
+    pos \N \o -12;
+    pos \N \e -14;
+    pos \N \a -8;
+    pos \N \O -2;
+    pos \N \G 1;
+    pos \N \C -5;
+    pos \N \A -19;
+    pos \N \period -4;
+    pos \N \comma 1;
+    pos \O \AE -53;
+    pos \O \Aring -16;
+    pos \O \Adieresis -16;
+    pos \O \Aacute -16;
+    pos \O \Y -34;
+    pos \O \X -26;
+    pos \O \W -23;
+    pos \O \V -29;
+    pos \O \T -5;
+    pos \O \A -16;
+    pos \P \oslash -44;
+    pos \P \odieresis -45;
+    pos \P \oacute -54;
+    pos \P \eacute -66;
+    pos \P \ae -67;
+    pos \P \aring -54;
+    pos \P \adieresis -54;
+    pos \P \aacute -54;
+    pos \P \agrave -54;
+    pos \P \AE -98;
+    pos \P \Aring -62;
+    pos \P \Adieresis -62;
+    pos \P \Aacute -62;
+    pos \P \oe -60;
+    pos \P \o -54;
+    pos \P \e -61;
+    pos \P \a -54;
+    pos \P \J -72;
+    pos \P \A -62;
+    pos \P \period -99;
+    pos \P \hyphen -46;
+    pos \P \comma -96;
+    pos \R \udieresis -7;
+    pos \R \uacute -7;
+    pos \R \odieresis -14;
+    pos \R \oacute -14;
+    pos \R \eacute -16;
+    pos \R \ae -3;
+    pos \R \aring -4;
+    pos \R \adieresis -4;
+    pos \R \aacute -4;
+    pos \R \Udieresis -23;
+    pos \R \Odieresis -14;
+    pos \R \Oacute -14;
+    pos \R \Ccedilla -13;
+    pos \R \oe -15;
+    pos \R \OE -5;
+    pos \R \y -1;
+    pos \R \u -7;
+    pos \R \o -14;
+    pos \R \e -16;
+    pos \R \a -4;
+    pos \R \Y -19;
+    pos \R \W -30;
+    pos \R \V -36;
+    pos \R \U -23;
+    pos \R \T -1;
+    pos \R \O -14;
+    pos \R \G -6;
+    pos \R \C -13;
+    pos \R \hyphen -16;
+    pos \S \AE -15;
+    pos \S \Aring -3;
+    pos \S \Adieresis -3;
+    pos \S \Aacute -3;
+    pos \S \t -1;
+    pos \S \Y -2;
+    pos \S \W 7;
+    pos \S \V 4;
+    pos \S \A -3;
+    pos \T \oslash -73;
+    pos \T \odieresis -25;
+    pos \T \ocircumflex -34;
+    pos \T \oacute -57;
+    pos \T \ograve -40;
+    pos \T \ae -71;
+    pos \T \adieresis -39;
+    pos \T \atilde -40;
+    pos \T \acircumflex -48;
+    pos \T \aacute -70;
+    pos \T \agrave -54;
+    pos \T \Oslash -23;
+    pos \T \Odieresis -20;
+    pos \T \Otilde -20;
+    pos \T \Ocircumflex -20;
+    pos \T \Oacute -20;
+    pos \T \Ograve -20;
+    pos \T \AE -45;
+    pos \T \Aring -33;
+    pos \T \Adieresis -33;
+    pos \T \Atilde -33;
+    pos \T \Acircumflex -33;
+    pos \T \Aacute -33;
+    pos \T \Agrave -33;
+    pos \T \guillemotleft -84;
+    pos \T \OE -6;
+    pos \T \guilsinglleft -83;
+    pos \T \y -68;
+    pos \T \w -67;
+    pos \T \v -69;
+    pos \T \u -68;
+    pos \T \s -73;
+    pos \T \r -81;
+    pos \T \o -73;
+    pos \T \j -17;
+    pos \T \i -15;
+    pos \T \g -80;
+    pos \T \e -75;
+    pos \T \c -68;
+    pos \T \a -68;
+    pos \T \Y 31;
+    pos \T \W 41;
+    pos \T \V 39;
+    pos \T \S -1;
+    pos \T \O -20;
+    pos \T \J -38;
+    pos \T \G -4;
+    pos \T \C -13;
+    pos \T \A -33;
+    pos \T \semicolon -41;
+    pos \T \colon -53;
+    pos \T \period -59;
+    pos \T \hyphen -53;
+    pos \T \comma -56;
+    pos \U \AE -68;
+    pos \U \Aring -38;
+    pos \U \Adieresis -38;
+    pos \U \Atilde -38;
+    pos \U \Acircumflex -38;
+    pos \U \Aacute -38;
+    pos \U \r -34;
+    pos \U \p -23;
+    pos \U \n -19;
+    pos \U \m -18;
+    pos \U \A -38;
+    pos \U \period -22;
+    pos \U \comma -16;
+    pos \V \oslash -56;
+    pos \V \odieresis -48;
+    pos \V \otilde -53;
+    pos \V \ocircumflex -55;
+    pos \V \oacute -55;
+    pos \V \ograve -40;
+    pos \V \eacute -57;
+    pos \V \egrave -38;
+    pos \V \ae -53;
+    pos \V \aring -51;
+    pos \V \adieresis -51;
+    pos \V \atilde -51;
+    pos \V \acircumflex -51;
+    pos \V \aacute -51;
+    pos \V \agrave -51;
+    pos \V \Oslash -31;
+    pos \V \Odieresis -31;
+    pos \V \Otilde -31;
+    pos \V \Ocircumflex -31;
+    pos \V \Oacute -31;
+    pos \V \Ograve -31;
+    pos \V \AE -83;
+    pos \V \Aring -52;
+    pos \V \Adieresis -52;
+    pos \V \Atilde -52;
+    pos \V \Acircumflex -52;
+    pos \V \Aacute -52;
+    pos \V \Agrave -52;
+    pos \V \guillemotleft -66;
+    pos \V \guilsinglleft -65;
+    pos \V \y -16;
+    pos \V \u -37;
+    pos \V \r -41;
+    pos \V \o -55;
+    pos \V \i -18;
+    pos \V \g -75;
+    pos \V \e -57;
+    pos \V \a -51;
+    pos \V \T 30;
+    pos \V \S -17;
+    pos \V \O -31;
+    pos \V \G -22;
+    pos \V \C -29;
+    pos \V \A -52;
+    pos \V \semicolon -22;
+    pos \V \colon -34;
+    pos \V \period -65;
+    pos \V \hyphen -31;
+    pos \V \comma -56;
+    pos \W \oslash -41;
+    pos \W \odieresis -41;
+    pos \W \otilde -41;
+    pos \W \ocircumflex -41;
+    pos \W \oacute -41;
+    pos \W \ograve -41;
+    pos \W \eacute -43;
+    pos \W \egrave -40;
+    pos \W \ae -44;
+    pos \W \aring -42;
+    pos \W \adieresis -42;
+    pos \W \atilde -42;
+    pos \W \acircumflex -42;
+    pos \W \aacute -42;
+    pos \W \agrave -42;
+    pos \W \Oslash -23;
+    pos \W \Odieresis -23;
+    pos \W \Otilde -23;
+    pos \W \Ocircumflex -23;
+    pos \W \Oacute -23;
+    pos \W \Ograve -23;
+    pos \W \AE -79;
+    pos \W \Aring -42;
+    pos \W \Adieresis -42;
+    pos \W \Atilde -42;
+    pos \W \Acircumflex -42;
+    pos \W \Aacute -42;
+    pos \W \Agrave -42;
+    pos \W \guillemotleft -51;
+    pos \W \guilsinglleft -50;
+    pos \W \y -12;
+    pos \W \u -32;
+    pos \W \r -37;
+    pos \W \o -41;
+    pos \W \i -19;
+    pos \W \g -60;
+    pos \W \e -43;
+    pos \W \a -42;
+    pos \W \T 28;
+    pos \W \S -17;
+    pos \W \O -23;
+    pos \W \G -14;
+    pos \W \C -21;
+    pos \W \A -42;
+    pos \W \semicolon -12;
+    pos \W \colon -24;
+    pos \W \period -44;
+    pos \W \hyphen -18;
+    pos \W \comma -40;
+    pos \X \Odieresis -32;
+    pos \X \y -65;
+    pos \X \u -7;
+    pos \X \o -14;
+    pos \X \e -16;
+    pos \X \a -3;
+    pos \X \Q -37;
+    pos \X \O -32;
+    pos \X \C -35;
+    pos \X \hyphen -27;
+    pos \Y \oslash -62;
+    pos \Y \ae -59;
+    pos \Y \Oslash -36;
+    pos \Y \Odieresis -36;
+    pos \Y \Otilde -36;
+    pos \Y \Ocircumflex -36;
+    pos \Y \Oacute -36;
+    pos \Y \Ograve -36;
+    pos \Y \AE -38;
+    pos \Y \Aring -27;
+    pos \Y \Adieresis -27;
+    pos \Y \Atilde -27;
+    pos \Y \Acircumflex -27;
+    pos \Y \Aacute -27;
+    pos \Y \Agrave -27;
+    pos \Y \guillemotleft -78;
+    pos \Y \guilsinglleft -77;
+    pos \Y \v -31;
+    pos \Y \u -53;
+    pos \Y \p -53;
+    pos \Y \o -61;
+    pos \Y \i -16;
+    pos \Y \g -82;
+    pos \Y \e -63;
+    pos \Y \a -56;
+    pos \Y \T 30;
+    pos \Y \S -15;
+    pos \Y \O -36;
+    pos \Y \G -27;
+    pos \Y \C -34;
+    pos \Y \A -27;
+    pos \Y \semicolon -29;
+    pos \Y \colon -40;
+    pos \Y \period -53;
+    pos \Y \hyphen -47;
+    pos \Y \comma -50;
+    pos \Z \y -7;
+    pos \Z \w 5;
+    pos \a \quoteright -22;
+    pos \a \y 2;
+    pos \a \w 3;
+    pos \a \j -3;
+    pos \b \y -2;
+    pos \b \w -5;
+    pos \b \v -7;
+    pos \c \k -28;
+    pos \c \h -26;
+    pos \e \quoteright -16;
+    pos \e \y 3;
+    pos \e \x -12;
+    pos \e \w 2;
+    pos \e \t -15;
+    pos \f \oslash -20;
+    pos \f \odieresis 3;
+    pos \f \ocircumflex -19;
+    pos \f \oacute -19;
+    pos \f \ograve -11;
+    pos \f \ecircumflex -21;
+    pos \f \eacute -21;
+    pos \f \egrave -9;
+    pos \f \ae -17;
+    pos \f \aring -14;
+    pos \f \adieresis -10;
+    pos \f \aacute -14;
+    pos \f \oe -10;
+    pos \f \quoteright 17;
+    pos \f \t 18;
+    pos \f \s -17;
+    pos \f \o -14;
+    pos \f \l 41;
+    pos \f \j 14;
+    pos \f \i 16;
+    pos \f \f 29;
+    pos \f \e -21;
+    pos \f \a -14;
+    pos \g \odieresis -31;
+    pos \g \oacute -31;
+    pos \g \edieresis -33;
+    pos \g \ecircumflex -33;
+    pos \g \eacute -33;
+    pos \g \egrave -33;
+    pos \g \ae -33;
+    pos \g \aring -30;
+    pos \g \adieresis -30;
+    pos \g \r -21;
+    pos \g \l -34;
+    pos \g \e -33;
+    pos \g \a -30;
+    pos \h \quoteright -26;
+    pos \h \y -4;
+    pos \i \j -23;
+    pos \i \T -11;
+    pos \k \udieresis 8;
+    pos \k \odieresis 6;
+    pos \k \oacute 6;
+    pos \k \eacute 4;
+    pos \k \egrave 4;
+    pos \k \ae 9;
+    pos \k \aring 12;
+    pos \k \adieresis 12;
+    pos \k \aacute 12;
+    pos \k \u 8;
+    pos \k \s 6;
+    pos \k \o 6;
+    pos \k \g -27;
+    pos \k \e 4;
+    pos \k \a 12;
+    pos \k \period 26;
+    pos \k \hyphen -34;
+    pos \k \comma 29;
+    pos \l \y -10;
+    pos \l \v -11;
+    pos \m \y -3;
+    pos \m \w -4;
+    pos \m \v -6;
+    pos \m \p 3;
+    pos \n \quoteright -28;
+    pos \n \y -7;
+    pos \n \w -7;
+    pos \n \v -10;
+    pos \n \T -41;
+    pos \o \quoteright -19;
+    pos \o \y -8;
+    pos \o \x -27;
+    pos \o \w -12;
+    pos \o \v -14;
+    pos \o \t -5;
+    pos \o \T -50;
+    pos \p \y -4;
+    pos \p \t -5;
+    pos \q \u -2;
+    pos \q \c -2;
+    pos \r \oslash -29;
+    pos \r \odieresis -28;
+    pos \r \ocircumflex -28;
+    pos \r \oacute -28;
+    pos \r \ograve -28;
+    pos \r \ecircumflex -31;
+    pos \r \eacute -31;
+    pos \r \egrave -31;
+    pos \r \ccedilla -20;
+    pos \r \ae -34;
+    pos \r \aring -28;
+    pos \r \adieresis -28;
+    pos \r \acircumflex -28;
+    pos \r \aacute -28;
+    pos \r \agrave -28;
+    pos \r \oe -23;
+    pos \r \z -1;
+    pos \r \y 31;
+    pos \r \x 7;
+    pos \r \w 31;
+    pos \r \v 29;
+    pos \r \u 11;
+    pos \r \t 12;
+    pos \r \s -17;
+    pos \r \r 3;
+    pos \r \q -29;
+    pos \r \p 11;
+    pos \r \o -28;
+    pos \r \n 16;
+    pos \r \m 17;
+    pos \r \l -21;
+    pos \r \k -16;
+    pos \r \j 3;
+    pos \r \i 8;
+    pos \r \h -17;
+    pos \r \g -24;
+    pos \r \f 22;
+    pos \r \e -31;
+    pos \r \d -29;
+    pos \r \c -25;
+    pos \r \a -28;
+    pos \r \semicolon -19;
+    pos \r \colon -25;
+    pos \r \period -62;
+    pos \r \hyphen -44;
+    pos \r \comma -57;
+    pos \s \quoteright -13;
+    pos \s \t -6;
+    pos \t \odieresis -8;
+    pos \t \oacute -8;
+    pos \t \eacute -10;
+    pos \t \ae -9;
+    pos \t \aring -6;
+    pos \t \adieresis -6;
+    pos \t \aacute -6;
+    pos \t \quoteright -10;
+    pos \t \o -8;
+    pos \t \h -4;
+    pos \t \e -10;
+    pos \t \a -3;
+    pos \t \S -2;
+    pos \t \semicolon 17;
+    pos \t \colon 5;
+    pos \u \quoteright -21;
+    pos \v \oslash -19;
+    pos \v \odieresis -18;
+    pos \v \oacute -18;
+    pos \v \ograve -18;
+    pos \v \ecircumflex -20;
+    pos \v \eacute -20;
+    pos \v \egrave -20;
+    pos \v \ae -20;
+    pos \v \aring -17;
+    pos \v \adieresis -17;
+    pos \v \atilde -17;
+    pos \v \acircumflex -17;
+    pos \v \aacute -17;
+    pos \v \agrave -17;
+    pos \v \s -24;
+    pos \v \o -15;
+    pos \v \l -22;
+    pos \v \g -37;
+    pos \v \e -20;
+    pos \v \c -16;
+    pos \v \a -14;
+    pos \v \semicolon 4;
+    pos \v \colon -7;
+    pos \v \period -40;
+    pos \v \hyphen 4;
+    pos \v \comma -38;
+    pos \w \oslash -19;
+    pos \w \odieresis -19;
+    pos \w \oacute -19;
+    pos \w \ograve -19;
+    pos \w \ecircumflex -21;
+    pos \w \eacute -21;
+    pos \w \egrave -21;
+    pos \w \ae -21;
+    pos \w \aring -18;
+    pos \w \adieresis -18;
+    pos \w \atilde -18;
+    pos \w \acircumflex -18;
+    pos \w \aacute -18;
+    pos \w \agrave -18;
+    pos \w \s -25;
+    pos \w \o -19;
+    pos \w \l -22;
+    pos \w \g -37;
+    pos \w \e -21;
+    pos \w \c -17;
+    pos \w \a -18;
+    pos \w \colon -8;
+    pos \w \period -41;
+    pos \w \hyphen 1;
+    pos \w \comma -38;
+    pos \x \eacute -3;
+    pos \x \o -1;
+    pos \x \e -3;
+    pos \x \c -3;
+    pos \x \a 4;
+    pos \y \oslash -5;
+    pos \y \odieresis -5;
+    pos \y \oacute -5;
+    pos \y \ograve -5;
+    pos \y \ecircumflex -7;
+    pos \y \eacute -7;
+    pos \y \egrave -7;
+    pos \y \ae -6;
+    pos \y \aring -3;
+    pos \y \adieresis -3;
+    pos \y \atilde -3;
+    pos \y \acircumflex -3;
+    pos \y \aacute -3;
+    pos \y \agrave -3;
+    pos \y \s -13;
+    pos \y \o -5;
+    pos \y \l -9;
+    pos \y \g -24;
+    pos \y \e -7;
+    pos \y \c -3;
+    pos \y \a -3;
+    pos \y \semicolon 12;
+    pos \y \colon 5;
+    pos \y \period -16;
+    pos \y \hyphen 14;
+    pos \y \comma -12;
+    pos \guillemotright \AE -37;
+    pos \guillemotright \Aring -11;
+    pos \guillemotright \Adieresis -11;
+    pos \guillemotright \Aacute -11;
+    pos \guillemotright \Y -65;
+    pos \guillemotright \W -53;
+    pos \guillemotright \V -60;
+    pos \guillemotright \T -60;
+    pos \guillemotright \A -11;
+    pos \Agrave \Y -20;
+    pos \Agrave \W -59;
+    pos \Agrave \V -65;
+    pos \Agrave \U -46;
+    pos \Agrave \T -14;
+    pos \Agrave \Q -36;
+    pos \Agrave \O -37;
+    pos \Agrave \G -29;
+    pos \Agrave \C -36;
+    pos \Agrave \period 19;
+    pos \Agrave \comma 19;
+    pos \Aacute \guillemotleft -29;
+    pos \Aacute \quotedblright -77;
+    pos \Aacute \quoteright -77;
+    pos \Aacute \guilsinglleft -28;
+    pos \Aacute \y -54;
+    pos \Aacute \w -32;
+    pos \Aacute \v -35;
+    pos \Aacute \u -9;
+    pos \Aacute \t -7;
+    pos \Aacute \q -11;
+    pos \Aacute \o -16;
+    pos \Aacute \g -31;
+    pos \Aacute \e -18;
+    pos \Aacute \d -4;
+    pos \Aacute \c -17;
+    pos \Aacute \a -5;
+    pos \Aacute \Y -20;
+    pos \Aacute \W -59;
+    pos \Aacute \V -65;
+    pos \Aacute \U -46;
+    pos \Aacute \T -14;
+    pos \Aacute \Q -36;
+    pos \Aacute \O -37;
+    pos \Aacute \G -29;
+    pos \Aacute \C -36;
+    pos \Aacute \period 19;
+    pos \Aacute \comma 19;
+    pos \Acircumflex \Y -20;
+    pos \Acircumflex \W -59;
+    pos \Acircumflex \V -65;
+    pos \Acircumflex \U -46;
+    pos \Acircumflex \T -14;
+    pos \Acircumflex \Q -36;
+    pos \Acircumflex \O -37;
+    pos \Acircumflex \G -29;
+    pos \Acircumflex \C -36;
+    pos \Acircumflex \period 19;
+    pos \Acircumflex \comma 19;
+    pos \Atilde \Y -20;
+    pos \Atilde \W -59;
+    pos \Atilde \V -66;
+    pos \Atilde \U -45;
+    pos \Atilde \T -14;
+    pos \Atilde \Q -36;
+    pos \Atilde \O -37;
+    pos \Atilde \G -29;
+    pos \Atilde \C -36;
+    pos \Atilde \period 17;
+    pos \Atilde \comma 20;
+    pos \Adieresis \guillemotleft -29;
+    pos \Adieresis \quotedblright -77;
+    pos \Adieresis \quoteright -77;
+    pos \Adieresis \guilsinglleft -28;
+    pos \Adieresis \y -54;
+    pos \Adieresis \w -32;
+    pos \Adieresis \v -35;
+    pos \Adieresis \u -9;
+    pos \Adieresis \t -7;
+    pos \Adieresis \q -11;
+    pos \Adieresis \o -16;
+    pos \Adieresis \g -31;
+    pos \Adieresis \d -4;
+    pos \Adieresis \c -17;
+    pos \Adieresis \a -5;
+    pos \Adieresis \Y -20;
+    pos \Adieresis \W -59;
+    pos \Adieresis \V -65;
+    pos \Adieresis \U -46;
+    pos \Adieresis \T -14;
+    pos \Adieresis \Q -36;
+    pos \Adieresis \O -37;
+    pos \Adieresis \G -29;
+    pos \Adieresis \C -36;
+    pos \Adieresis \period 19;
+    pos \Adieresis \comma 19;
+    pos \Aring \guillemotleft -29;
+    pos \Aring \quotedblright -77;
+    pos \Aring \quoteright -77;
+    pos \Aring \guilsinglleft -28;
+    pos \Aring \y -54;
+    pos \Aring \w -32;
+    pos \Aring \v -35;
+    pos \Aring \u -9;
+    pos \Aring \t -7;
+    pos \Aring \q -11;
+    pos \Aring \o -16;
+    pos \Aring \g -31;
+    pos \Aring \e -18;
+    pos \Aring \d -4;
+    pos \Aring \c -17;
+    pos \Aring \a -5;
+    pos \Aring \Y -20;
+    pos \Aring \W -59;
+    pos \Aring \V -65;
+    pos \Aring \U -46;
+    pos \Aring \T -14;
+    pos \Aring \Q -36;
+    pos \Aring \O -37;
+    pos \Aring \G -29;
+    pos \Aring \C -36;
+    pos \Aring \period 19;
+    pos \Aring \comma 19;
+    pos \Ccedilla \A -19;
+    pos \Ograve \Y -34;
+    pos \Ograve \V -29;
+    pos \Ograve \T -5;
+    pos \Oacute \Y -34;
+    pos \Oacute \W -23;
+    pos \Oacute \V -29;
+    pos \Oacute \T -5;
+    pos \Oacute \A -16;
+    pos \Ocircumflex \Y -34;
+    pos \Ocircumflex \V -29;
+    pos \Ocircumflex \T -5;
+    pos \Otilde \Y -34;
+    pos \Otilde \V -29;
+    pos \Otilde \T -5;
+    pos \Odieresis \Y -34;
+    pos \Odieresis \X -26;
+    pos \Odieresis \W -23;
+    pos \Odieresis \V -29;
+    pos \Odieresis \T -5;
+    pos \Odieresis \A -16;
+    pos \Oslash \A -16;
+    pos \Ugrave \r -34;
+    pos \Ugrave \p -23;
+    pos \Ugrave \n -19;
+    pos \Ugrave \m -18;
+    pos \Ugrave \A -38;
+    pos \Ugrave \period -22;
+    pos \Ugrave \comma -16;
+    pos \Uacute \r -34;
+    pos \Uacute \p -23;
+    pos \Uacute \n -19;
+    pos \Uacute \m -18;
+    pos \Uacute \A -38;
+    pos \Uacute \period -22;
+    pos \Uacute \comma -16;
+    pos \Ucircumflex \A -38;
+    pos \Udieresis \r -34;
+    pos \Udieresis \p -23;
+    pos \Udieresis \n -19;
+    pos \Udieresis \m -18;
+    pos \Udieresis \b 1;
+    pos \Udieresis \A -38;
+    pos \Udieresis \period -22;
+    pos \Udieresis \comma -16;
+    pos \agrave \y 2;
+    pos \agrave \w 3;
+    pos \aacute \y 2;
+    pos \aacute \w 3;
+    pos \adieresis \y 2;
+    pos \adieresis \w 3;
+    pos \aring \y 2;
+    pos \aring \w 3;
+    pos \ae \y 5;
+    pos \ae \w 3;
+    pos \eacute \y 3;
+    pos \eacute \w 2;
+    pos \ecircumflex \y 3;
+    pos \ecircumflex \w 2;
+    pos \ograve \y -8;
+    pos \ograve \w -12;
+    pos \ograve \v -14;
+    pos \oacute \y -8;
+    pos \oacute \w -12;
+    pos \oacute \v -14;
+    pos \ocircumflex \t -5;
+    pos \odieresis \y -8;
+    pos \odieresis \x -28;
+    pos \odieresis \w -12;
+    pos \odieresis \v -14;
+    pos \odieresis \t -5;
+    pos \quoteleft \AE -112;
+    pos \quoteleft \Aring -64;
+    pos \quoteleft \Adieresis -64;
+    pos \quoteleft \Acircumflex -64;
+    pos \quoteleft \Aacute -64;
+    pos \quoteleft \Agrave -64;
+    pos \quoteleft \Y -12;
+    pos \quoteleft \W 3;
+    pos \quoteleft \V 1;
+    pos \quoteleft \T 3;
+    pos \quoteleft \A -64;
+    pos \quoteright \AE -122;
+    pos \quoteright \Aring -68;
+    pos \quoteright \Adieresis -68;
+    pos \quoteright \Acircumflex -68;
+    pos \quoteright \Aacute -68;
+    pos \quoteright \Agrave -68;
+    pos \quoteright \y -23;
+    pos \quoteright \w -19;
+    pos \quoteright \v -25;
+    pos \quoteright \t -34;
+    pos \quoteright \s -51;
+    pos \quoteright \r -45;
+    pos \quoteright \o -65;
+    pos \quoteright \d -64;
+    pos \quoteright \A -68;
+    pos \quoteright \period -69;
+    pos \quoteright \comma -63;
+    pos \quotedblleft \AE -121;
+    pos \quotedblleft \Aring -73;
+    pos \quotedblleft \Adieresis -73;
+    pos \quotedblleft \Aacute -73;
+    pos \quotedblleft \Y -21;
+    pos \quotedblleft \W -5;
+    pos \quotedblleft \V -7;
+    pos \quotedblleft \T -5;
+    pos \quotedblleft \A -73;
+    pos \quotedblright \AE -129;
+    pos \quotedblright \Aring -75;
+    pos \quotedblright \Adieresis -75;
+    pos \quotedblright \Aacute -75;
+    pos \quotedblright \Y -25;
+    pos \quotedblright \W -9;
+    pos \quotedblright \V -12;
+    pos \quotedblright \T -9;
+    pos \quotedblright \A -75;
+    pos \quotedblbase \AE -2;
+    pos \quotedblbase \Aring 9;
+    pos \quotedblbase \Adieresis 9;
+    pos \quotedblbase \Acircumflex 9;
+    pos \quotedblbase \Aacute 9;
+    pos \quotedblbase \Agrave 9;
+    pos \quotedblbase \Y -55;
+    pos \quotedblbase \W -67;
+    pos \quotedblbase \V -80;
+    pos \quotedblbase \T -52;
+    pos \quotedblbase \A 9;
+    pos \guilsinglright \AE -36;
+    pos \guilsinglright \Aring -10;
+    pos \guilsinglright \Adieresis -10;
+    pos \guilsinglright \Aacute -10;
+    pos \guilsinglright \Y -64;
+    pos \guilsinglright \W -52;
+    pos \guilsinglright \V -59;
+    pos \guilsinglright \T -59;
+    pos \guilsinglright \A -10;
+} kernHorizontalKerninginLatinlookup0;
+feature locl {
+# Localized Forms
+
+#> feature
+  script latn; # Latin
+  language MOL; # Moldavian
+  sub uni015E by uni0218;
+  sub uni015F by scommaaccent;
+  sub uni0162 by uni021A;
+  sub uni0163 by uni021B;
+
+  language ROM; # Romanian
+  sub uni015E by uni0218;
+  sub uni015F by scommaaccent;
+  sub uni0162 by uni021A;
+  sub uni0163 by uni021B;
+
+	script nko ; #N'ko
+	language dflt;
+	sub space by space.nko;
+	sub percent by percent.nko;
+	sub perthousand by perthousand.nko;
+	sub parenleft by parenleft.nko;
+	sub parenright by parenright.nko;
+	sub bracketright by bracketright.nko;
+	sub bracketleft by bracketleft.nko;
+
+	script adlm; #Adlam
+  language dflt;
+	sub percent by percent.adlam;
+	sub perthousand by perthousand.adlam;
+
+#< feature
+} locl;
+feature kern {
+#> feature
+
+  lookup KERN_LTR  {
+  lookupflag IgnoreMarks;
+    pos comma one -30;
+    pos comma quoteright -37;
+    pos comma quotedblright -37;
+    pos hyphen A 14;
+    pos hyphen T -34;
+    pos hyphen V -28;
+    pos hyphen W -22;
+    pos hyphen Y -40;
+    pos hyphen Aacute 14;
+    pos hyphen Adieresis 14;
+    pos hyphen Aring 14;
+    pos hyphen AE -9;
+    pos period quoteright -35;
+    pos period quotedblright -35;
+    pos A comma 19;
+    pos A period 19;
+    pos A C -36;
+    pos A G -29;
+    pos A O -37;
+    pos A Q -36;
+    pos A T -14;
+    pos A U -46;
+    pos A V -65;
+    pos A W -59;
+    pos A Y -20;
+    pos A a -5;
+    pos A c -17;
+    pos A d -4;
+    pos A e -18;
+    pos A g -31;
+    pos A o -16;
+    pos A q -11;
+    pos A t -7;
+    pos A u -9;
+    pos A v -35;
+    pos A w -32;
+    pos A y -54;
+    pos A guillemotleft -29;
+    pos A Ccedilla -36;
+    pos A Odieresis -37;
+    pos A Ugrave -46;
+    pos A Uacute -46;
+    pos A Ucircumflex -46;
+    pos A Udieresis -46;
+    pos A ccedilla -19;
+    pos A odieresis -16;
+    pos A ugrave -9;
+    pos A uacute -9;
+    pos A ucircumflex -9;
+    pos A udieresis -9;
+    pos A quoteright -77;
+    pos A quotedblright -77;
+    pos A guilsinglleft -28;
+    pos B A -20;
+    pos B V -25;
+    pos B W -19;
+    pos B Y -34;
+    pos B Aacute -20;
+    pos B Acircumflex -20;
+    pos B Atilde -20;
+    pos B Adieresis -20;
+    pos B Aring -20;
+    pos B AE -32;
+    pos B OE 8;
+    pos C A -19;
+    pos C H -5;
+    pos C K -17;
+    pos C O -7;
+    pos C Agrave -19;
+    pos C Aacute -19;
+    pos C Adieresis -19;
+    pos C Aring -19;
+    pos C AE -31;
+    pos C Ograve -7;
+    pos C Oacute -7;
+    pos C Odieresis -7;
+    pos D A -20;
+    pos D J -27;
+    pos D T -9;
+    pos D V -28;
+    pos D W -22;
+    pos D X -26;
+    pos D Y -37;
+    pos D Agrave -20;
+    pos D Aacute -20;
+    pos D Acircumflex -20;
+    pos D Atilde -20;
+    pos D Adieresis -20;
+    pos D Aring -20;
+    pos F comma -77;
+    pos F hyphen -32;
+    pos F period -80;
+    pos F A -54;
+    pos F J -59;
+    pos F O -32;
+    pos F a -60;
+    pos F e -67;
+    pos F i -35;
+    pos F j -38;
+    pos F o -65;
+    pos F r -45;
+    pos F u -43;
+    pos F Agrave -54;
+    pos F Aacute -54;
+    pos F Acircumflex -54;
+    pos F Atilde -54;
+    pos F Adieresis -54;
+    pos F Aring -54;
+    pos F Ograve -32;
+    pos F Oacute -32;
+    pos F Odieresis -32;
+    pos F aacute -60;
+    pos F acircumflex -60;
+    pos F atilde -57;
+    pos F adieresis -58;
+    pos F aring -60;
+    pos F ae -69;
+    pos F eacute -67;
+    pos F oacute -65;
+    pos F odieresis -44;
+    pos F oslash -66;
+    pos F oe -62;
+    pos G A -15;
+    pos G T -14;
+    pos G V -5;
+    pos G W -3;
+    pos G Y -13;
+    pos G Agrave -15;
+    pos G Aacute -15;
+    pos G Acircumflex -15;
+    pos G Atilde -15;
+    pos G Adieresis -15;
+    pos G Aring -15;
+    pos G AE -29;
+    pos J A -20;
+    pos J Adieresis -20;
+    pos J Aring -20;
+    pos J AE -54;
+    pos K hyphen -42;
+    pos K C -45;
+    pos K G -38;
+    pos K O -44;
+    pos K S 6;
+    pos K T 19;
+    pos K a -5;
+    pos K e -18;
+    pos K o -16;
+    pos K u -9;
+    pos K y -63;
+    pos K Oacute -44;
+    pos K Odieresis -44;
+    pos K adieresis -5;
+    pos K aring -5;
+    pos K ae -5;
+    pos K oacute -16;
+    pos K odieresis -16;
+    pos K udieresis -9;
+    pos K OE -42;
+    pos L hyphen 56;
+    pos L A 41;
+    pos L C 5;
+    pos L G 11;
+    pos L O 10;
+    pos L S 18;
+    pos L T -15;
+    pos L U -9;
+    pos L V -41;
+    pos L W -34;
+    pos L Y -21;
+    pos L u 22;
+    pos L y -15;
+    pos L Aacute 41;
+    pos L Adieresis 41;
+    pos L Aring 41;
+    pos L AE 29;
+    pos L Ccedilla 5;
+    pos L Ograve 10;
+    pos L Oacute 10;
+    pos L Ocircumflex 10;
+    pos L Otilde 10;
+    pos L Odieresis 10;
+    pos L Udieresis -9;
+    pos L udieresis 20;
+    pos L quoteright -78;
+    pos L quotedblright -78;
+    pos N comma 1;
+    pos N period -4;
+    pos N A -19;
+    pos N C -5;
+    pos N G 1;
+    pos N O -2;
+    pos N a -8;
+    pos N e -14;
+    pos N o -12;
+    pos N u -11;
+    pos N Aacute -19;
+    pos N Adieresis -19;
+    pos N Aring -19;
+    pos N AE -31;
+    pos N Ccedilla -5;
+    pos N Oacute -2;
+    pos N Odieresis -2;
+    pos N aacute -12;
+    pos N adieresis -12;
+    pos N aring -12;
+    pos N ae -11;
+    pos N eacute -14;
+    pos N oacute -12;
+    pos N odieresis -12;
+    pos N oslash -13;
+    pos N udieresis -11;
+    pos O A -16;
+    pos O T -5;
+    pos O V -29;
+    pos O W -23;
+    pos O X -26;
+    pos O Y -34;
+    pos O Aacute -16;
+    pos O Adieresis -16;
+    pos O Aring -16;
+    pos O AE -53;
+    pos P comma -96;
+    pos P hyphen -46;
+    pos P period -99;
+    pos P A -62;
+    pos P J -72;
+    pos P a -54;
+    pos P e -61;
+    pos P o -54;
+    pos P Aacute -62;
+    pos P Adieresis -62;
+    pos P Aring -62;
+    pos P AE -98;
+    pos P agrave -54;
+    pos P aacute -54;
+    pos P adieresis -54;
+    pos P aring -54;
+    pos P ae -67;
+    pos P eacute -66;
+    pos P oacute -54;
+    pos P odieresis -45;
+    pos P oslash -44;
+    pos P oe -60;
+    pos R hyphen -16;
+    pos R C -13;
+    pos R G -6;
+    pos R O -14;
+    pos R T -1;
+    pos R U -23;
+    pos R V -36;
+    pos R W -30;
+    pos R Y -19;
+    pos R a -4;
+    pos R e -16;
+    pos R o -14;
+    pos R u -7;
+    pos R y -1;
+    pos R Ccedilla -13;
+    pos R Oacute -14;
+    pos R Odieresis -14;
+    pos R Udieresis -23;
+    pos R aacute -4;
+    pos R adieresis -4;
+    pos R aring -4;
+    pos R ae -3;
+    pos R eacute -16;
+    pos R oacute -14;
+    pos R odieresis -14;
+    pos R uacute -7;
+    pos R udieresis -7;
+    pos R OE -5;
+    pos R oe -15;
+    pos S A -3;
+    pos S V 4;
+    pos S W 7;
+    pos S Y -2;
+    pos S t -1;
+    pos S Aacute -3;
+    pos S Adieresis -3;
+    pos S Aring -3;
+    pos S AE -15;
+    pos T comma -56;
+    pos T hyphen -53;
+    pos T period -59;
+    pos T colon -53;
+    pos T semicolon -41;
+    pos T A -33;
+    pos T C -13;
+    pos T G -4;
+    pos T J -38;
+    pos T O -20;
+    pos T S -1;
+    pos T V 39;
+    pos T W 41;
+    pos T Y 31;
+    pos T a -68;
+    pos T c -68;
+    pos T e -75;
+    pos T g -80;
+    pos T i -15;
+    pos T j -17;
+    pos T o -73;
+    pos T r -81;
+    pos T s -73;
+    pos T u -68;
+    pos T v -69;
+    pos T w -67;
+    pos T y -68;
+    pos T guillemotleft -84;
+    pos T Agrave -33;
+    pos T Aacute -33;
+    pos T Acircumflex -33;
+    pos T Atilde -33;
+    pos T Adieresis -33;
+    pos T Aring -33;
+    pos T AE -45;
+    pos T Ograve -20;
+    pos T Oacute -20;
+    pos T Ocircumflex -20;
+    pos T Otilde -20;
+    pos T Odieresis -20;
+    pos T Oslash -23;
+    pos T agrave -54;
+    pos T aacute -70;
+    pos T acircumflex -48;
+    pos T atilde -40;
+    pos T adieresis -39;
+    pos T ae -71;
+    pos T ograve -40;
+    pos T oacute -57;
+    pos T ocircumflex -34;
+    pos T odieresis -25;
+    pos T oslash -73;
+    pos T OE -6;
+    pos T guilsinglleft -83;
+    pos U comma -16;
+    pos U period -22;
+    pos U A -38;
+    pos U m -18;
+    pos U n -19;
+    pos U p -23;
+    pos U r -34;
+    pos U Aacute -38;
+    pos U Acircumflex -38;
+    pos U Atilde -38;
+    pos U Adieresis -38;
+    pos U Aring -38;
+    pos U AE -68;
+    pos V comma -56;
+    pos V hyphen -31;
+    pos V period -65;
+    pos V colon -34;
+    pos V semicolon -22;
+    pos V A -52;
+    pos V C -29;
+    pos V G -22;
+    pos V O -31;
+    pos V S -17;
+    pos V T 30;
+    pos V a -51;
+    pos V e -57;
+    pos V g -75;
+    pos V i -18;
+    pos V o -55;
+    pos V r -41;
+    pos V u -37;
+    pos V y -16;
+    pos V guillemotleft -66;
+    pos V Agrave -52;
+    pos V Aacute -52;
+    pos V Acircumflex -52;
+    pos V Atilde -52;
+    pos V Adieresis -52;
+    pos V Aring -52;
+    pos V AE -83;
+    pos V Ograve -31;
+    pos V Oacute -31;
+    pos V Ocircumflex -31;
+    pos V Otilde -31;
+    pos V Odieresis -31;
+    pos V Oslash -31;
+    pos V agrave -51;
+    pos V aacute -51;
+    pos V acircumflex -51;
+    pos V atilde -51;
+    pos V adieresis -51;
+    pos V aring -51;
+    pos V ae -53;
+    pos V egrave -38;
+    pos V eacute -57;
+    pos V ograve -40;
+    pos V oacute -55;
+    pos V ocircumflex -55;
+    pos V otilde -53;
+    pos V odieresis -48;
+    pos V oslash -56;
+    pos V guilsinglleft -65;
+    pos W comma -40;
+    pos W hyphen -18;
+    pos W period -44;
+    pos W colon -24;
+    pos W semicolon -12;
+    pos W A -42;
+    pos W C -21;
+    pos W G -14;
+    pos W O -23;
+    pos W S -17;
+    pos W T 28;
+    pos W a -42;
+    pos W e -43;
+    pos W g -60;
+    pos W i -19;
+    pos W o -41;
+    pos W r -37;
+    pos W u -32;
+    pos W y -12;
+    pos W guillemotleft -51;
+    pos W Agrave -42;
+    pos W Aacute -42;
+    pos W Acircumflex -42;
+    pos W Atilde -42;
+    pos W Adieresis -42;
+    pos W Aring -42;
+    pos W AE -79;
+    pos W Ograve -23;
+    pos W Oacute -23;
+    pos W Ocircumflex -23;
+    pos W Otilde -23;
+    pos W Odieresis -23;
+    pos W Oslash -23;
+    pos W agrave -42;
+    pos W aacute -42;
+    pos W acircumflex -42;
+    pos W atilde -42;
+    pos W adieresis -42;
+    pos W aring -42;
+    pos W ae -44;
+    pos W egrave -40;
+    pos W eacute -43;
+    pos W ograve -41;
+    pos W oacute -41;
+    pos W ocircumflex -41;
+    pos W otilde -41;
+    pos W odieresis -41;
+    pos W oslash -41;
+    pos W guilsinglleft -50;
+    pos X hyphen -27;
+    pos X C -35;
+    pos X O -32;
+    pos X Q -37;
+    pos X a -3;
+    pos X e -16;
+    pos X o -14;
+    pos X u -7;
+    pos X y -65;
+    pos X Odieresis -32;
+    pos Y comma -50;
+    pos Y hyphen -47;
+    pos Y period -53;
+    pos Y colon -40;
+    pos Y semicolon -29;
+    pos Y A -27;
+    pos Y C -34;
+    pos Y G -27;
+    pos Y O -36;
+    pos Y S -15;
+    pos Y T 30;
+    pos Y a -56;
+    pos Y e -63;
+    pos Y g -82;
+    pos Y i -16;
+    pos Y o -61;
+    pos Y p -53;
+    pos Y u -53;
+    pos Y v -31;
+    pos Y guillemotleft -78;
+    pos Y Agrave -27;
+    pos Y Aacute -27;
+    pos Y Acircumflex -27;
+    pos Y Atilde -27;
+    pos Y Adieresis -27;
+    pos Y Aring -27;
+    pos Y AE -38;
+    pos Y Ograve -36;
+    pos Y Oacute -36;
+    pos Y Ocircumflex -36;
+    pos Y Otilde -36;
+    pos Y Odieresis -36;
+    pos Y Oslash -36;
+    pos Y ae -59;
+    pos Y oslash -62;
+    pos Y guilsinglleft -77;
+    pos Z w 5;
+    pos Z y -7;
+    pos a j -3;
+    pos a w 3;
+    pos a y 2;
+    pos a quoteright -22;
+    pos b v -7;
+    pos b w -5;
+    pos b y -2;
+    pos c h -26;
+    pos c k -28;
+    pos e t -15;
+    pos e w 2;
+    pos e x -12;
+    pos e y 3;
+    pos e quoteright -16;
+    pos f a -14;
+    pos f e -21;
+    pos f f 29;
+    pos f i 16;
+    pos f j 14;
+    pos f l 41;
+    pos f o -14;
+    pos f s -17;
+    pos f t 18;
+    pos f aacute -14;
+    pos f adieresis -10;
+    pos f aring -14;
+    pos f ae -17;
+    pos f egrave -9;
+    pos f eacute -21;
+    pos f ecircumflex -21;
+    pos f ograve -11;
+    pos f oacute -19;
+    pos f ocircumflex -19;
+    pos f odieresis 3;
+    pos f oslash -20;
+    pos f oe -10;
+    pos f quoteright 17;
+    pos g a -30;
+    pos g e -33;
+    pos g l -34;
+    pos g r -21;
+    pos g adieresis -30;
+    pos g aring -30;
+    pos g ae -33;
+    pos g egrave -33;
+    pos g eacute -33;
+    pos g ecircumflex -33;
+    pos g edieresis -33;
+    pos g oacute -31;
+    pos g odieresis -31;
+    pos h y -4;
+    pos h quoteright -26;
+    pos i T -11;
+    pos i j -23;
+    pos k comma 29;
+    pos k hyphen -34;
+    pos k period 26;
+    pos k a 12;
+    pos k e 4;
+    pos k g -27;
+    pos k o 6;
+    pos k s 6;
+    pos k u 8;
+    pos k aacute 12;
+    pos k adieresis 12;
+    pos k aring 12;
+    pos k ae 9;
+    pos k egrave 4;
+    pos k eacute 4;
+    pos k oacute 6;
+    pos k odieresis 6;
+    pos k udieresis 8;
+    pos l v -11;
+    pos l y -10;
+    pos m p 3;
+    pos m v -6;
+    pos m w -4;
+    pos m y -3;
+    pos n T -41;
+    pos n v -10;
+    pos n w -7;
+    pos n y -7;
+    pos n quoteright -28;
+    pos o T -50;
+    pos o t -5;
+    pos o v -14;
+    pos o w -12;
+    pos o x -27;
+    pos o y -8;
+    pos o quoteright -19;
+    pos p t -5;
+    pos p y -4;
+    pos q c -2;
+    pos q u -2;
+    pos r comma -57;
+    pos r hyphen -44;
+    pos r period -62;
+    pos r colon -25;
+    pos r semicolon -19;
+    pos r a -28;
+    pos r c -25;
+    pos r d -29;
+    pos r e -31;
+    pos r f 22;
+    pos r g -24;
+    pos r h -17;
+    pos r i 8;
+    pos r j 3;
+    pos r k -16;
+    pos r l -21;
+    pos r m 17;
+    pos r n 16;
+    pos r o -28;
+    pos r p 11;
+    pos r q -29;
+    pos r r 3;
+    pos r s -17;
+    pos r t 12;
+    pos r u 11;
+    pos r v 29;
+    pos r w 31;
+    pos r x 7;
+    pos r y 31;
+    pos r z -1;
+    pos r agrave -28;
+    pos r aacute -28;
+    pos r acircumflex -28;
+    pos r adieresis -28;
+    pos r aring -28;
+    pos r ae -34;
+    pos r ccedilla -20;
+    pos r egrave -31;
+    pos r eacute -31;
+    pos r ecircumflex -31;
+    pos r ograve -28;
+    pos r oacute -28;
+    pos r ocircumflex -28;
+    pos r odieresis -28;
+    pos r oslash -29;
+    pos r oe -23;
+    pos s t -6;
+    pos s quoteright -13;
+    pos t colon 5;
+    pos t semicolon 17;
+    pos t S -2;
+    pos t a -3;
+    pos t e -10;
+    pos t h -4;
+    pos t o -8;
+    pos t aacute -6;
+    pos t adieresis -6;
+    pos t aring -6;
+    pos t ae -9;
+    pos t eacute -10;
+    pos t oacute -8;
+    pos t odieresis -8;
+    pos t quoteright -10;
+    pos u quoteright -21;
+    pos v comma -38;
+    pos v hyphen 4;
+    pos v period -40;
+    pos v colon -7;
+    pos v semicolon 4;
+    pos v a -14;
+    pos v c -16;
+    pos v e -20;
+    pos v g -37;
+    pos v l -22;
+    pos v o -15;
+    pos v s -24;
+    pos v agrave -17;
+    pos v aacute -17;
+    pos v acircumflex -17;
+    pos v atilde -17;
+    pos v adieresis -17;
+    pos v aring -17;
+    pos v ae -20;
+    pos v egrave -20;
+    pos v eacute -20;
+    pos v ecircumflex -20;
+    pos v ograve -18;
+    pos v oacute -18;
+    pos v odieresis -18;
+    pos v oslash -19;
+    pos w comma -38;
+    pos w hyphen 1;
+    pos w period -41;
+    pos w colon -8;
+    pos w a -18;
+    pos w c -17;
+    pos w e -21;
+    pos w g -37;
+    pos w l -22;
+    pos w o -19;
+    pos w s -25;
+    pos w agrave -18;
+    pos w aacute -18;
+    pos w acircumflex -18;
+    pos w atilde -18;
+    pos w adieresis -18;
+    pos w aring -18;
+    pos w ae -21;
+    pos w egrave -21;
+    pos w eacute -21;
+    pos w ecircumflex -21;
+    pos w ograve -19;
+    pos w oacute -19;
+    pos w odieresis -19;
+    pos w oslash -19;
+    pos x a 4;
+    pos x c -3;
+    pos x e -3;
+    pos x o -1;
+    pos x eacute -3;
+    pos y comma -12;
+    pos y hyphen 14;
+    pos y period -16;
+    pos y colon 5;
+    pos y semicolon 12;
+    pos y a -3;
+    pos y c -3;
+    pos y e -7;
+    pos y g -24;
+    pos y l -9;
+    pos y o -5;
+    pos y s -13;
+    pos y agrave -3;
+    pos y aacute -3;
+    pos y acircumflex -3;
+    pos y atilde -3;
+    pos y adieresis -3;
+    pos y aring -3;
+    pos y ae -6;
+    pos y egrave -7;
+    pos y eacute -7;
+    pos y ecircumflex -7;
+    pos y ograve -5;
+    pos y oacute -5;
+    pos y odieresis -5;
+    pos y oslash -5;
+    pos guillemotright A -11;
+    pos guillemotright T -60;
+    pos guillemotright V -60;
+    pos guillemotright W -53;
+    pos guillemotright Y -65;
+    pos guillemotright Aacute -11;
+    pos guillemotright Adieresis -11;
+    pos guillemotright Aring -11;
+    pos guillemotright AE -37;
+    pos Agrave comma 19;
+    pos Agrave period 19;
+    pos Agrave C -36;
+    pos Agrave G -29;
+    pos Agrave O -37;
+    pos Agrave Q -36;
+    pos Agrave T -14;
+    pos Agrave U -46;
+    pos Agrave V -65;
+    pos Agrave W -59;
+    pos Agrave Y -20;
+    pos Aacute comma 19;
+    pos Aacute period 19;
+    pos Aacute C -36;
+    pos Aacute G -29;
+    pos Aacute O -37;
+    pos Aacute Q -36;
+    pos Aacute T -14;
+    pos Aacute U -46;
+    pos Aacute V -65;
+    pos Aacute W -59;
+    pos Aacute Y -20;
+    pos Aacute a -5;
+    pos Aacute c -17;
+    pos Aacute d -4;
+    pos Aacute e -18;
+    pos Aacute g -31;
+    pos Aacute o -16;
+    pos Aacute q -11;
+    pos Aacute t -7;
+    pos Aacute u -9;
+    pos Aacute v -35;
+    pos Aacute w -32;
+    pos Aacute y -54;
+    pos Aacute guillemotleft -29;
+    pos Aacute quoteright -77;
+    pos Aacute quotedblright -77;
+    pos Aacute guilsinglleft -28;
+    pos Acircumflex comma 19;
+    pos Acircumflex period 19;
+    pos Acircumflex C -36;
+    pos Acircumflex G -29;
+    pos Acircumflex O -37;
+    pos Acircumflex Q -36;
+    pos Acircumflex T -14;
+    pos Acircumflex U -46;
+    pos Acircumflex V -65;
+    pos Acircumflex W -59;
+    pos Acircumflex Y -20;
+    pos Atilde comma 20;
+    pos Atilde period 17;
+    pos Atilde C -36;
+    pos Atilde G -29;
+    pos Atilde O -37;
+    pos Atilde Q -36;
+    pos Atilde T -14;
+    pos Atilde U -45;
+    pos Atilde V -66;
+    pos Atilde W -59;
+    pos Atilde Y -20;
+    pos Adieresis comma 19;
+    pos Adieresis period 19;
+    pos Adieresis C -36;
+    pos Adieresis G -29;
+    pos Adieresis O -37;
+    pos Adieresis Q -36;
+    pos Adieresis T -14;
+    pos Adieresis U -46;
+    pos Adieresis V -65;
+    pos Adieresis W -59;
+    pos Adieresis Y -20;
+    pos Adieresis a -5;
+    pos Adieresis c -17;
+    pos Adieresis d -4;
+    pos Adieresis g -31;
+    pos Adieresis o -16;
+    pos Adieresis q -11;
+    pos Adieresis t -7;
+    pos Adieresis u -9;
+    pos Adieresis v -35;
+    pos Adieresis w -32;
+    pos Adieresis y -54;
+    pos Adieresis guillemotleft -29;
+    pos Adieresis quoteright -77;
+    pos Adieresis quotedblright -77;
+    pos Adieresis guilsinglleft -28;
+    pos Aring comma 19;
+    pos Aring period 19;
+    pos Aring C -36;
+    pos Aring G -29;
+    pos Aring O -37;
+    pos Aring Q -36;
+    pos Aring T -14;
+    pos Aring U -46;
+    pos Aring V -65;
+    pos Aring W -59;
+    pos Aring Y -20;
+    pos Aring a -5;
+    pos Aring c -17;
+    pos Aring d -4;
+    pos Aring e -18;
+    pos Aring g -31;
+    pos Aring o -16;
+    pos Aring q -11;
+    pos Aring t -7;
+    pos Aring u -9;
+    pos Aring v -35;
+    pos Aring w -32;
+    pos Aring y -54;
+    pos Aring guillemotleft -29;
+    pos Aring quoteright -77;
+    pos Aring quotedblright -77;
+    pos Aring guilsinglleft -28;
+    pos Ccedilla A -19;
+    pos Ograve T -5;
+    pos Ograve V -29;
+    pos Ograve Y -34;
+    pos Oacute A -16;
+    pos Oacute T -5;
+    pos Oacute V -29;
+    pos Oacute W -23;
+    pos Oacute Y -34;
+    pos Ocircumflex T -5;
+    pos Ocircumflex V -29;
+    pos Ocircumflex Y -34;
+    pos Otilde T -5;
+    pos Otilde V -29;
+    pos Otilde Y -34;
+    pos Odieresis A -16;
+    pos Odieresis T -5;
+    pos Odieresis V -29;
+    pos Odieresis W -23;
+    pos Odieresis X -26;
+    pos Odieresis Y -34;
+    pos Oslash A -16;
+    pos Ugrave comma -16;
+    pos Ugrave period -22;
+    pos Ugrave A -38;
+    pos Ugrave m -18;
+    pos Ugrave n -19;
+    pos Ugrave p -23;
+    pos Ugrave r -34;
+    pos Uacute comma -16;
+    pos Uacute period -22;
+    pos Uacute A -38;
+    pos Uacute m -18;
+    pos Uacute n -19;
+    pos Uacute p -23;
+    pos Uacute r -34;
+    pos Ucircumflex A -38;
+    pos Udieresis comma -16;
+    pos Udieresis period -22;
+    pos Udieresis A -38;
+    pos Udieresis b 1;
+    pos Udieresis m -18;
+    pos Udieresis n -19;
+    pos Udieresis p -23;
+    pos Udieresis r -34;
+    pos agrave w 3;
+    pos agrave y 2;
+    pos aacute w 3;
+    pos aacute y 2;
+    pos adieresis w 3;
+    pos adieresis y 2;
+    pos aring w 3;
+    pos aring y 2;
+    pos ae w 3;
+    pos ae y 5;
+    pos eacute w 2;
+    pos eacute y 3;
+    pos ecircumflex w 2;
+    pos ecircumflex y 3;
+    pos ograve v -14;
+    pos ograve w -12;
+    pos ograve y -8;
+    pos oacute v -14;
+    pos oacute w -12;
+    pos oacute y -8;
+    pos ocircumflex t -5;
+    pos odieresis t -5;
+    pos odieresis v -14;
+    pos odieresis w -12;
+    pos odieresis x -28;
+    pos odieresis y -8;
+    pos quoteleft A -64;
+    pos quoteleft T 3;
+    pos quoteleft V 1;
+    pos quoteleft W 3;
+    pos quoteleft Y -12;
+    pos quoteleft Agrave -64;
+    pos quoteleft Aacute -64;
+    pos quoteleft Acircumflex -64;
+    pos quoteleft Adieresis -64;
+    pos quoteleft Aring -64;
+    pos quoteleft AE -112;
+    pos quoteright comma -63;
+    pos quoteright period -69;
+    pos quoteright A -68;
+    pos quoteright d -64;
+    pos quoteright o -65;
+    pos quoteright r -45;
+    pos quoteright s -51;
+    pos quoteright t -34;
+    pos quoteright v -25;
+    pos quoteright w -19;
+    pos quoteright y -23;
+    pos quoteright Agrave -68;
+    pos quoteright Aacute -68;
+    pos quoteright Acircumflex -68;
+    pos quoteright Adieresis -68;
+    pos quoteright Aring -68;
+    pos quoteright AE -122;
+    pos quotedblleft A -73;
+    pos quotedblleft T -5;
+    pos quotedblleft V -7;
+    pos quotedblleft W -5;
+    pos quotedblleft Y -21;
+    pos quotedblleft Aacute -73;
+    pos quotedblleft Adieresis -73;
+    pos quotedblleft Aring -73;
+    pos quotedblleft AE -121;
+    pos quotedblright A -75;
+    pos quotedblright T -9;
+    pos quotedblright V -12;
+    pos quotedblright W -9;
+    pos quotedblright Y -25;
+    pos quotedblright Aacute -75;
+    pos quotedblright Adieresis -75;
+    pos quotedblright Aring -75;
+    pos quotedblright AE -129;
+    pos quotedblbase A 9;
+    pos quotedblbase T -52;
+    pos quotedblbase V -80;
+    pos quotedblbase W -67;
+    pos quotedblbase Y -55;
+    pos quotedblbase Agrave 9;
+    pos quotedblbase Aacute 9;
+    pos quotedblbase Acircumflex 9;
+    pos quotedblbase Adieresis 9;
+    pos quotedblbase Aring 9;
+    pos quotedblbase AE -2;
+    pos guilsinglright A -10;
+    pos guilsinglright T -59;
+    pos guilsinglright V -59;
+    pos guilsinglright W -52;
+    pos guilsinglright Y -64;
+    pos guilsinglright Aacute -10;
+    pos guilsinglright Adieresis -10;
+    pos guilsinglright Aring -10;
+    pos guilsinglright AE -36;
+  } KERN_LTR;
+
+
+
+  @_curveTL-adlam = [e-adlam jiim-adlam laam-adlam miim-adlam waw-adlam zal-adlam];
+  @_dblhumpL-adlam = [nya-adlam qaaf-adlam];
+  @_ee-nko = [ee-nko ee-nko.dant.fina ee-nko.fina ee-nko.init ee-nko.medi];
+  @_i-nko = [i-nko i-nko.dant.fina i-nko.fina i-nko.init i-nko.medi];
+  @_e-nko = [e-nko e-nko.dant.fina e-nko.fina e-nko.init e-nko.medi];
+  @_o-nko = [o-nko o-nko.dant.fina o-nko.fina o-nko.init o-nko.medi];
+  @_n-nko = [n-nko n-nko.dant.fina n-nko.fina n-nko.init n-nko.medi];
+  @_pa-nko = [pa-nko pa-nko.dant.fina pa-nko.fina pa-nko.init pa-nko.medi];
+  @_ja-nko = [ja-nko ja-nko.dant.fina ja-nko.fina ja-nko.init ja-nko.medi];
+  @_cha-nko = [cha-nko cha-nko.dant.fina cha-nko.fina cha-nko.init cha-nko.medi];
+  @_ra-nko = [ra-nko ra-nko.dant.fina ra-nko.fina ra-nko.init ra-nko.medi];
+  @_rra-nko = [rra-nko rra-nko.dant.fina rra-nko.fina rra-nko.init rra-nko.medi];
+  @_gba-nko = [gba-nko gba-nko.dant.fina gba-nko.fina gba-nko.init gba-nko.medi];
+  @_ka-nko = [ka-nko ka-nko.dant.fina ka-nko.fina ka-nko.init ka-nko.medi];
+  @_la-nko = [la-nko la-nko.dant.fina la-nko.fina la-nko.init la-nko.medi];
+  @_nawoloso-nko = [nawoloso-nko nawoloso-nko.dant.fina nawoloso-nko.fina nawoloso-nko.init nawoloso-nko.medi];
+  @_nya-nko = [nya-nko nya-nko.dant.fina nya-nko.fina nya-nko.init nya-nko.medi];
+  @_na-nko = [na-nko na-nko.dant.fina na-nko.fina na-nko.init na-nko.medi];
+  @_ha-nko = [ha-nko ha-nko.dant.fina ha-nko.fina ha-nko.init ha-nko.medi];
+  @_ya-nko = [ya-nko ya-nko.dant.fina ya-nko.fina ya-nko.init ya-nko.medi];
+  @_nyawoloso-nko = [nyawoloso-nko nyawoloso-nko.dant.fina nyawoloso-nko.fina nyawoloso-nko.init nyawoloso-nko.medi];
+  @_u-nko = [u-nko u-nko.dant.fina u-nko.fina u-nko.init u-nko.medi];
+  @_oo-nko = [oo-nko oo-nko.dant.fina oo-nko.fina oo-nko.init oo-nko.medi];
+  @_da-nko = [da-nko da-nko.dant.fina da-nko.fina da-nko.init da-nko.medi];
+  @_sa-nko = [sa-nko sa-nko.dant.fina sa-nko.fina sa-nko.init sa-nko.medi];
+  @_fa-nko = [fa-nko fa-nko.dant.fina fa-nko.fina fa-nko.init fa-nko.medi];
+  @_ma-nko = [ma-nko ma-nko.dant.fina ma-nko.fina ma-nko.init ma-nko.medi];
+  @_ta-nko = [ta-nko ta-nko.dant.fina ta-nko.fina ta-nko.init ta-nko.medi];
+  @_wa-nko = [wa-nko wa-nko.dant.fina wa-nko.fina wa-nko.init wa-nko.medi];
+  @_curveTR-adlam = [ba-adlam jiim-adlam miim-adlam o-adlam va-adlam zal-adlam];
+  @_dblhumpR-adlam = [ga-adlam ya-adlam];
+  @_ba-nko = [ba-nko ba-nko.dant.fina ba-nko.fina ba-nko.init ba-nko.medi];
+
+  lookup KERN_RTL  {
+  lookupflag RightToLeft IgnoreMarks;
+    pos one-nko zero-nko <-10 0 -10 0>;
+    pos one-nko five-nko <-20 0 -20 0>;
+    pos one-nko seven-nko <-10 0 -10 0>;
+    pos three-nko two-nko <-20 0 -20 0>;
+    pos three-nko five-nko <-20 0 -20 0>;
+    pos three-nko six-nko <-20 0 -20 0>;
+    pos three-nko seven-nko <-20 0 -20 0>;
+    pos three-nko eight-nko <-20 0 -20 0>;
+    pos four-nko two-nko <-20 0 -20 0>;
+    pos six-nko seven-nko <-10 0 -10 0>;
+    pos daali-adlam miim-adlam <-5 0 -5 0>;
+    pos daali-adlam ba-adlam <-5 0 -5 0>;
+    pos daali-adlam bhe-adlam <-5 0 -5 0>;
+    pos daali-adlam o-adlam <-5 0 -5 0>;
+    pos daali-adlam ya-adlam <-5 0 -5 0>;
+    pos daali-adlam u-adlam <-5 0 -5 0>;
+    pos daali-adlam jiim-adlam <-5 0 -5 0>;
+    pos daali-adlam chi-adlam <-10 0 -10 0>;
+    pos daali-adlam ga-adlam <-5 0 -5 0>;
+    pos daali-adlam va-adlam <-5 0 -5 0>;
+    pos daali-adlam zal-adlam <-5 0 -5 0>;
+    pos laam-adlam laam-adlam <-15 0 -15 0>;
+    pos laam-adlam bhe-adlam <-5 0 -5 0>;
+    pos laam-adlam ra-adlam <5 0 5 0>;
+    pos laam-adlam e-adlam <-5 0 -5 0>;
+    pos laam-adlam fa-adlam <-10 0 -10 0>;
+    pos laam-adlam yhe-adlam <-10 0 -10 0>;
+    pos laam-adlam waw-adlam <-5 0 -5 0>;
+    pos laam-adlam u-adlam <-5 0 -5 0>;
+    pos laam-adlam qaaf-adlam <-10 0 -10 0>;
+    pos laam-adlam tu-adlam <-10 0 -10 0>;
+    pos laam-adlam nha-adlam <5 0 5 0>;
+    pos miim-adlam laam-adlam <-5 0 -5 0>;
+    pos miim-adlam bhe-adlam <-5 0 -5 0>;
+    pos miim-adlam ra-adlam <5 0 5 0>;
+    pos miim-adlam e-adlam <10 0 10 0>;
+    pos miim-adlam fa-adlam <-10 0 -10 0>;
+    pos miim-adlam yhe-adlam <-10 0 -10 0>;
+    pos miim-adlam waw-adlam <-5 0 -5 0>;
+    pos miim-adlam nun-adlam <5 0 5 0>;
+    pos miim-adlam u-adlam <-5 0 -5 0>;
+    pos miim-adlam qaaf-adlam <-10 0 -10 0>;
+    pos miim-adlam tu-adlam <-10 0 -10 0>;
+    pos miim-adlam nha-adlam <5 0 5 0>;
+    pos ba-adlam laam-adlam <-5 0 -5 0>;
+    pos ba-adlam e-adlam <-5 0 -5 0>;
+    pos ba-adlam waw-adlam <-5 0 -5 0>;
+    pos bhe-adlam alif-adlam <5 0 5 0>;
+    pos bhe-adlam yhe-adlam <-25 0 -25 0>;
+    pos bhe-adlam ya-adlam <-5 0 -5 0>;
+    pos bhe-adlam qaaf-adlam <-20 0 -20 0>;
+    pos bhe-adlam ga-adlam <-5 0 -5 0>;
+    pos bhe-adlam kha-adlam <-20 0 -20 0>;
+    pos e-adlam bhe-adlam <-5 0 -5 0>;
+    pos e-adlam ra-adlam <5 0 5 0>;
+    pos e-adlam fa-adlam <-10 0 -10 0>;
+    pos e-adlam yhe-adlam <-10 0 -10 0>;
+    pos e-adlam u-adlam <-5 0 -5 0>;
+    pos e-adlam qaaf-adlam <-10 0 -10 0>;
+    pos e-adlam tu-adlam <-10 0 -10 0>;
+    pos e-adlam nha-adlam <5 0 5 0>;
+    pos o-adlam laam-adlam <-5 0 -5 0>;
+    pos o-adlam miim-adlam <-10 0 -10 0>;
+    pos o-adlam ba-adlam <-10 0 -10 0>;
+    pos o-adlam ra-adlam <-5 0 -5 0>;
+    pos o-adlam e-adlam <-5 0 -5 0>;
+    pos o-adlam fa-adlam <-5 0 -5 0>;
+    pos o-adlam o-adlam <-10 0 -10 0>;
+    pos o-adlam yhe-adlam <-21 0 -21 0>;
+    pos o-adlam waw-adlam <-5 0 -5 0>;
+    pos o-adlam ya-adlam <-10 0 -10 0>;
+    pos o-adlam jiim-adlam <-10 0 -10 0>;
+    pos o-adlam ga-adlam <-10 0 -10 0>;
+    pos o-adlam nha-adlam <-10 0 -10 0>;
+    pos o-adlam va-adlam <-10 0 -10 0>;
+    pos o-adlam kha-adlam <-30 0 -30 0>;
+    pos o-adlam zal-adlam <-10 0 -10 0>;
+    pos dha-adlam nya-adlam <5 0 5 0>;
+    pos yhe-adlam miim-adlam <-5 0 -5 0>;
+    pos yhe-adlam ba-adlam <-5 0 -5 0>;
+    pos yhe-adlam o-adlam <-5 0 -5 0>;
+    pos yhe-adlam yhe-adlam <-10 0 -10 0>;
+    pos yhe-adlam ya-adlam <-10 0 -10 0>;
+    pos yhe-adlam jiim-adlam <-5 0 -5 0>;
+    pos yhe-adlam chi-adlam <5 0 5 0>;
+    pos yhe-adlam qaaf-adlam <-20 0 -20 0>;
+    pos yhe-adlam ga-adlam <-10 0 -10 0>;
+    pos yhe-adlam tu-adlam <-5 0 -5 0>;
+    pos yhe-adlam va-adlam <-5 0 -5 0>;
+    pos yhe-adlam kha-adlam <-20 0 -20 0>;
+    pos yhe-adlam zal-adlam <-5 0 -5 0>;
+    pos yhe-adlam kpo-adlam <-5 0 -5 0>;
+    pos waw-adlam bhe-adlam <-5 0 -5 0>;
+    pos waw-adlam ra-adlam <5 0 5 0>;
+    pos waw-adlam fa-adlam <-10 0 -10 0>;
+    pos waw-adlam yhe-adlam <-10 0 -10 0>;
+    pos waw-adlam u-adlam <-5 0 -5 0>;
+    pos waw-adlam qaaf-adlam <-10 0 -10 0>;
+    pos waw-adlam tu-adlam <-10 0 -10 0>;
+    pos waw-adlam nha-adlam <5 0 5 0>;
+    pos nun-adlam laam-adlam <-15 0 -15 0>;
+    pos nun-adlam miim-adlam <-25 0 -25 0>;
+    pos nun-adlam e-adlam <-5 0 -5 0>;
+    pos nun-adlam yhe-adlam <-10 0 -10 0>;
+    pos nun-adlam waw-adlam <-5 0 -5 0>;
+    pos nun-adlam chi-adlam <5 0 5 0>;
+    pos nun-adlam qaaf-adlam <-30 0 -30 0>;
+    pos nun-adlam nha-adlam <-30 0 -30 0>;
+    pos nun-adlam kha-adlam <-20 0 -20 0>;
+    pos kaf-adlam alif-adlam <-5 0 -5 0>;
+    pos kaf-adlam laam-adlam <-5 0 -5 0>;
+    pos kaf-adlam ya-adlam <-10 0 -10 0>;
+    pos kaf-adlam chi-adlam <-5 0 -5 0>;
+    pos kaf-adlam ga-adlam <-10 0 -10 0>;
+    pos ya-adlam alif-adlam <-5 0 -5 0>;
+    pos ya-adlam bhe-adlam <-5 0 -5 0>;
+    pos ya-adlam ya-adlam <-15 0 -15 0>;
+    pos ya-adlam ga-adlam <-15 0 -15 0>;
+    pos ya-adlam nha-adlam <-10 0 -10 0>;
+    pos jiim-adlam laam-adlam <-5 0 -5 0>;
+    pos jiim-adlam bhe-adlam <-5 0 -5 0>;
+    pos jiim-adlam ra-adlam <5 0 5 0>;
+    pos jiim-adlam e-adlam <-5 0 -5 0>;
+    pos jiim-adlam fa-adlam <-10 0 -10 0>;
+    pos jiim-adlam yhe-adlam <-10 0 -10 0>;
+    pos jiim-adlam waw-adlam <-5 0 -5 0>;
+    pos jiim-adlam u-adlam <-5 0 -5 0>;
+    pos jiim-adlam qaaf-adlam <-10 0 -10 0>;
+    pos jiim-adlam tu-adlam <-10 0 -10 0>;
+    pos jiim-adlam nha-adlam <5 0 5 0>;
+    pos chi-adlam alif-adlam <5 0 5 0>;
+    pos chi-adlam miim-adlam <-5 0 -5 0>;
+    pos chi-adlam ba-adlam <-5 0 -5 0>;
+    pos chi-adlam o-adlam <-5 0 -5 0>;
+    pos chi-adlam yhe-adlam <-10 0 -10 0>;
+    pos chi-adlam jiim-adlam <-5 0 -5 0>;
+    pos chi-adlam chi-adlam <15 0 15 0>;
+    pos chi-adlam ha-adlam <10 0 10 0>;
+    pos chi-adlam qaaf-adlam <-40 0 -40 0>;
+    pos chi-adlam nha-adlam <-10 0 -10 0>;
+    pos chi-adlam va-adlam <-5 0 -5 0>;
+    pos chi-adlam kha-adlam <-20 0 -20 0>;
+    pos chi-adlam gbe-adlam <5 0 5 0>;
+    pos chi-adlam zal-adlam <-5 0 -5 0>;
+    pos ha-adlam alif-adlam <-5 0 -5 0>;
+    pos ha-adlam laam-adlam <-5 0 -5 0>;
+    pos ha-adlam miim-adlam <-20 0 -20 0>;
+    pos ha-adlam ba-adlam <-20 0 -20 0>;
+    pos ha-adlam bhe-adlam <-5 0 -5 0>;
+    pos ha-adlam e-adlam <-5 0 -5 0>;
+    pos ha-adlam o-adlam <-20 0 -20 0>;
+    pos ha-adlam waw-adlam <-5 0 -5 0>;
+    pos ha-adlam nun-adlam <-5 0 -5 0>;
+    pos ha-adlam ya-adlam <-10 0 -10 0>;
+    pos ha-adlam jiim-adlam <-20 0 -20 0>;
+    pos ha-adlam chi-adlam <-5 0 -5 0>;
+    pos ha-adlam ha-adlam <-20 0 -20 0>;
+    pos ha-adlam ga-adlam <-10 0 -10 0>;
+    pos ha-adlam tu-adlam <-10 0 -10 0>;
+    pos ha-adlam nha-adlam <-20 0 -20 0>;
+    pos ha-adlam va-adlam <-20 0 -20 0>;
+    pos ha-adlam gbe-adlam <-15 0 -15 0>;
+    pos ha-adlam zal-adlam <-20 0 -20 0>;
+    pos qaaf-adlam alif-adlam <-5 0 -5 0>;
+    pos qaaf-adlam yhe-adlam <-30 0 -30 0>;
+    pos qaaf-adlam qaaf-adlam <-25 0 -25 0>;
+    pos qaaf-adlam kha-adlam <-10 0 -10 0>;
+    pos ga-adlam chi-adlam <-5 0 -5 0>;
+    pos ga-adlam nha-adlam <10 0 10 0>;
+    pos nya-adlam yhe-adlam <-30 0 -30 0>;
+    pos nya-adlam qaaf-adlam <-25 0 -25 0>;
+    pos nya-adlam kha-adlam <-10 0 -10 0>;
+    pos tu-adlam laam-adlam <-5 0 -5 0>;
+    pos nha-adlam chi-adlam <20 0 20 0>;
+    pos nha-adlam qaaf-adlam <-20 0 -20 0>;
+    pos nha-adlam nha-adlam <-20 0 -20 0>;
+    pos nha-adlam gbe-adlam <10 0 10 0>;
+    pos va-adlam laam-adlam <-5 0 -5 0>;
+    pos va-adlam e-adlam <-5 0 -5 0>;
+    pos va-adlam waw-adlam <-5 0 -5 0>;
+    pos gbe-adlam alif-adlam <-10 0 -10 0>;
+    pos gbe-adlam yhe-adlam <-20 0 -20 0>;
+    pos gbe-adlam qaaf-adlam <-20 0 -20 0>;
+    pos gbe-adlam nha-adlam <-20 0 -20 0>;
+    pos zal-adlam laam-adlam <-5 0 -5 0>;
+    pos zal-adlam bhe-adlam <-5 0 -5 0>;
+    pos zal-adlam ra-adlam <5 0 5 0>;
+    pos zal-adlam e-adlam <-5 0 -5 0>;
+    pos zal-adlam fa-adlam <-10 0 -10 0>;
+    pos zal-adlam yhe-adlam <-10 0 -10 0>;
+    pos zal-adlam waw-adlam <-5 0 -5 0>;
+    pos zal-adlam u-adlam <-5 0 -5 0>;
+    pos zal-adlam qaaf-adlam <-10 0 -10 0>;
+    pos zal-adlam tu-adlam <-10 0 -10 0>;
+    pos zal-adlam nha-adlam <5 0 5 0>;
+    pos kpo-adlam yhe-adlam <-5 0 -5 0>;
+    pos zero-adlam six-adlam <-10 0 -10 0>;
+    pos zero-adlam seven-adlam <-30 0 -30 0>;
+    pos zero-adlam eight-adlam <-20 0 -20 0>;
+    pos zero-adlam nine-adlam <-10 0 -10 0>;
+    pos one-adlam seven-adlam <-10 0 -10 0>;
+    pos two-adlam one-adlam <-20 0 -20 0>;
+    pos two-adlam two-adlam <-20 0 -20 0>;
+    pos two-adlam five-adlam <-20 0 -20 0>;
+    pos two-adlam seven-adlam <-30 0 -30 0>;
+    pos two-adlam eight-adlam <-20 0 -20 0>;
+    pos two-adlam nine-adlam <-30 0 -30 0>;
+    pos three-adlam seven-adlam <-20 0 -20 0>;
+    pos three-adlam nine-adlam <-30 0 -30 0>;
+    pos four-adlam zero-adlam <-20 0 -20 0>;
+    pos four-adlam four-adlam <-20 0 -20 0>;
+    pos four-adlam six-adlam <10 0 10 0>;
+    pos five-adlam two-adlam <-20 0 -20 0>;
+    pos five-adlam three-adlam <-10 0 -10 0>;
+    pos five-adlam five-adlam <-10 0 -10 0>;
+    pos five-adlam seven-adlam <-30 0 -30 0>;
+    pos five-adlam eight-adlam <-30 0 -30 0>;
+    pos five-adlam nine-adlam <-50 0 -50 0>;
+    pos six-adlam zero-adlam <-10 0 -10 0>;
+    pos six-adlam five-adlam <-20 0 -20 0>;
+    pos six-adlam eight-adlam <-10 0 -10 0>;
+    pos six-adlam nine-adlam <-50 0 -50 0>;
+    pos seven-adlam zero-adlam <-10 0 -10 0>;
+    pos seven-adlam one-adlam <-10 0 -10 0>;
+    pos seven-adlam two-adlam <-10 0 -10 0>;
+    pos seven-adlam four-adlam <-10 0 -10 0>;
+    pos seven-adlam five-adlam <-20 0 -20 0>;
+    pos seven-adlam eight-adlam <-10 0 -10 0>;
+    pos seven-adlam nine-adlam <-20 0 -20 0>;
+    pos eight-adlam zero-adlam <-30 0 -30 0>;
+    pos eight-adlam two-adlam <-20 0 -20 0>;
+    pos eight-adlam five-adlam <-50 0 -50 0>;
+    pos eight-adlam six-adlam <-20 0 -20 0>;
+    pos eight-adlam seven-adlam <-20 0 -20 0>;
+    pos eight-adlam nine-adlam <-30 0 -30 0>;
+    pos nine-adlam five-adlam <-10 0 -10 0>;
+    pos nine-adlam six-adlam <-30 0 -30 0>;
+    pos nine-adlam seven-adlam <-30 0 -30 0>;
+    pos nine-adlam eight-adlam <-20 0 -20 0>;
+  subtable;
+    pos @_curveTL-adlam @_curveTR-adlam <-10 0 -10 0>;
+    pos @_curveTL-adlam @_dblhumpR-adlam <-5 0 -5 0>;
+    pos @_dblhumpL-adlam @_curveTR-adlam <-15 0 -15 0>;
+    pos @_dblhumpL-adlam @_dblhumpR-adlam <-5 0 -5 0>;
+    pos @_ee-nko @_i-nko <-60 0 -60 0>;
+    pos @_ee-nko @_e-nko <-30 0 -30 0>;
+    pos @_ee-nko @_o-nko <-30 0 -30 0>;
+    pos @_ee-nko @_ja-nko <-40 0 -40 0>;
+    pos @_ee-nko @_ra-nko <-20 0 -20 0>;
+    pos @_ee-nko @_rra-nko <-20 0 -20 0>;
+    pos @_ee-nko @_gba-nko <-70 0 -70 0>;
+    pos @_ee-nko @_la-nko <-20 0 -20 0>;
+    pos @_ee-nko @_nawoloso-nko <-80 0 -80 0>;
+    pos @_ee-nko @_nya-nko <-10 0 -10 0>;
+    pos @_ee-nko @_ya-nko <-10 0 -10 0>;
+    pos @_ee-nko @_nyawoloso-nko <-10 0 -10 0>;
+    pos @_ee-nko @_fa-nko <-60 0 -60 0>;
+    pos @_ee-nko @_ta-nko <10 0 10 0>;
+    pos @_ee-nko @_ba-nko <-40 0 -40 0>;
+    pos @_i-nko @_ee-nko <-60 0 -60 0>;
+    pos @_i-nko @_e-nko <-110 0 -110 0>;
+    pos @_i-nko @_o-nko <-30 0 -30 0>;
+    pos @_i-nko @_n-nko <-60 0 -60 0>;
+    pos @_i-nko @_ra-nko <-20 0 -20 0>;
+    pos @_i-nko @_rra-nko <-20 0 -20 0>;
+    pos @_i-nko @_la-nko <-20 0 -20 0>;
+    pos @_i-nko @_nya-nko <-50 0 -50 0>;
+    pos @_i-nko @_ha-nko <-30 0 -30 0>;
+    pos @_i-nko @_ya-nko <-60 0 -60 0>;
+    pos @_i-nko @_nyawoloso-nko <-40 0 -40 0>;
+    pos @_i-nko @_u-nko <-50 0 -50 0>;
+    pos @_i-nko @_oo-nko <-50 0 -50 0>;
+    pos @_i-nko @_da-nko <-60 0 -60 0>;
+    pos @_i-nko @_sa-nko <-50 0 -50 0>;
+    pos @_i-nko @_fa-nko <-30 0 -30 0>;
+    pos @_i-nko @_ma-nko <-70 0 -70 0>;
+    pos @_i-nko @_ta-nko <-80 0 -80 0>;
+    pos @_e-nko @_ee-nko <-30 0 -30 0>;
+    pos @_e-nko @_i-nko <-110 0 -110 0>;
+    pos @_e-nko @_o-nko <-30 0 -30 0>;
+    pos @_e-nko @_ja-nko <-40 0 -40 0>;
+    pos @_e-nko @_ra-nko <-50 0 -50 0>;
+    pos @_e-nko @_rra-nko <-60 0 -60 0>;
+    pos @_e-nko @_gba-nko <-130 0 -130 0>;
+    pos @_e-nko @_la-nko <-30 0 -30 0>;
+    pos @_e-nko @_nawoloso-nko <-90 0 -90 0>;
+    pos @_e-nko @_nya-nko <-90 0 -90 0>;
+    pos @_e-nko @_ya-nko <-80 0 -80 0>;
+    pos @_e-nko @_nyawoloso-nko <-80 0 -80 0>;
+    pos @_e-nko @_u-nko <-30 0 -30 0>;
+    pos @_e-nko @_da-nko <-20 0 -20 0>;
+    pos @_e-nko @_sa-nko <-20 0 -20 0>;
+    pos @_e-nko @_fa-nko <-140 0 -140 0>;
+    pos @_e-nko @_ta-nko <-20 0 -20 0>;
+    pos @_e-nko @_ba-nko <-100 0 -100 0>;
+    pos @_o-nko @_ee-nko <-30 0 -30 0>;
+    pos @_o-nko @_i-nko <-30 0 -30 0>;
+    pos @_o-nko @_e-nko <-30 0 -30 0>;
+    pos @_o-nko @_ra-nko <-30 0 -30 0>;
+    pos @_o-nko @_rra-nko <-30 0 -30 0>;
+    pos @_o-nko @_gba-nko <-30 0 -30 0>;
+    pos @_o-nko @_la-nko <-30 0 -30 0>;
+    pos @_o-nko @_nawoloso-nko <-40 0 -40 0>;
+    pos @_o-nko @_nya-nko <-40 0 -40 0>;
+    pos @_o-nko @_ya-nko <-30 0 -30 0>;
+    pos @_o-nko @_u-nko <-20 0 -20 0>;
+    pos @_o-nko @_da-nko <-30 0 -30 0>;
+    pos @_o-nko @_sa-nko <-20 0 -20 0>;
+    pos @_o-nko @_ma-nko <-40 0 -40 0>;
+    pos @_n-nko @_ee-nko <-50 0 -50 0>;
+    pos @_n-nko @_e-nko <-150 0 -150 0>;
+    pos @_n-nko @_o-nko <-10 0 -10 0>;
+    pos @_n-nko @_ra-nko <-20 0 -20 0>;
+    pos @_n-nko @_rra-nko <-20 0 -20 0>;
+    pos @_n-nko @_la-nko <-20 0 -20 0>;
+    pos @_n-nko @_nawoloso-nko <-20 0 -20 0>;
+    pos @_n-nko @_nya-nko <-20 0 -20 0>;
+    pos @_n-nko @_ya-nko <-20 0 -20 0>;
+    pos @_n-nko @_nyawoloso-nko <-20 0 -20 0>;
+    pos @_n-nko @_oo-nko <-20 0 -20 0>;
+    pos @_n-nko @_da-nko <-40 0 -40 0>;
+    pos @_n-nko @_sa-nko <-20 0 -20 0>;
+    pos @_n-nko @_ma-nko <-60 0 -60 0>;
+    pos @_n-nko @_ta-nko <-60 0 -60 0>;
+    pos @_pa-nko @_ee-nko <-40 0 -40 0>;
+    pos @_pa-nko @_e-nko <-100 0 -100 0>;
+    pos @_pa-nko @_u-nko <-40 0 -40 0>;
+    pos @_pa-nko @_oo-nko <-30 0 -30 0>;
+    pos @_pa-nko @_da-nko <-40 0 -40 0>;
+    pos @_pa-nko @_ta-nko <-50 0 -50 0>;
+    pos @_ja-nko @_ee-nko <-60 0 -60 0>;
+    pos @_ja-nko @_e-nko <-90 0 -90 0>;
+    pos @_ja-nko @_n-nko <-50 0 -50 0>;
+    pos @_ja-nko @_ra-nko <-20 0 -20 0>;
+    pos @_ja-nko @_rra-nko <-20 0 -20 0>;
+    pos @_ja-nko @_la-nko <-40 0 -40 0>;
+    pos @_ja-nko @_nya-nko <-60 0 -60 0>;
+    pos @_ja-nko @_ha-nko <-50 0 -50 0>;
+    pos @_ja-nko @_ya-nko <-40 0 -40 0>;
+    pos @_ja-nko @_nyawoloso-nko <-20 0 -20 0>;
+    pos @_ja-nko @_u-nko <-60 0 -60 0>;
+    pos @_ja-nko @_oo-nko <-40 0 -40 0>;
+    pos @_ja-nko @_da-nko <-80 0 -80 0>;
+    pos @_ja-nko @_sa-nko <-60 0 -60 0>;
+    pos @_ja-nko @_fa-nko <-20 0 -20 0>;
+    pos @_ja-nko @_ma-nko <-70 0 -70 0>;
+    pos @_ja-nko @_ta-nko <-90 0 -90 0>;
+    pos @_cha-nko @_ee-nko <-40 0 -40 0>;
+    pos @_cha-nko @_i-nko <-40 0 -40 0>;
+    pos @_cha-nko @_e-nko <-70 0 -70 0>;
+    pos @_cha-nko @_n-nko <-30 0 -30 0>;
+    pos @_cha-nko @_ja-nko <-40 0 -40 0>;
+    pos @_cha-nko @_gba-nko <-20 0 -20 0>;
+    pos @_cha-nko @_la-nko <-20 0 -20 0>;
+    pos @_cha-nko @_nawoloso-nko <-20 0 -20 0>;
+    pos @_cha-nko @_ya-nko <-10 0 -10 0>;
+    pos @_cha-nko @_da-nko <-40 0 -40 0>;
+    pos @_cha-nko @_sa-nko <-20 0 -20 0>;
+    pos @_cha-nko @_ma-nko <-20 0 -20 0>;
+    pos @_cha-nko @_ta-nko <-60 0 -60 0>;
+    pos @_ra-nko @_ee-nko <-20 0 -20 0>;
+    pos @_ra-nko @_i-nko <-20 0 -20 0>;
+    pos @_ra-nko @_e-nko <-50 0 -50 0>;
+    pos @_ra-nko @_o-nko <-30 0 -30 0>;
+    pos @_ra-nko @_ja-nko <-20 0 -20 0>;
+    pos @_ra-nko @_ra-nko <-20 0 -20 0>;
+    pos @_ra-nko @_gba-nko <-20 0 -20 0>;
+    pos @_ra-nko @_nawoloso-nko <-20 0 -20 0>;
+    pos @_ra-nko @_nya-nko <-30 0 -30 0>;
+    pos @_ra-nko @_da-nko <-20 0 -20 0>;
+    pos @_ra-nko @_fa-nko <-20 0 -20 0>;
+    pos @_ra-nko @_ma-nko <-20 0 -20 0>;
+    pos @_ra-nko @_ta-nko <-40 0 -40 0>;
+    pos @_rra-nko @_ee-nko <-20 0 -20 0>;
+    pos @_rra-nko @_i-nko <-20 0 -20 0>;
+    pos @_rra-nko @_e-nko <-60 0 -60 0>;
+    pos @_rra-nko @_o-nko <-30 0 -30 0>;
+    pos @_rra-nko @_ja-nko <-20 0 -20 0>;
+    pos @_rra-nko @_rra-nko <-20 0 -20 0>;
+    pos @_rra-nko @_gba-nko <-20 0 -20 0>;
+    pos @_rra-nko @_nawoloso-nko <-20 0 -20 0>;
+    pos @_rra-nko @_nya-nko <-30 0 -30 0>;
+    pos @_rra-nko @_da-nko <-20 0 -20 0>;
+    pos @_rra-nko @_fa-nko <-20 0 -20 0>;
+    pos @_rra-nko @_ma-nko <-20 0 -20 0>;
+    pos @_rra-nko @_ta-nko <-40 0 -40 0>;
+    pos @_gba-nko @_ee-nko <-80 0 -80 0>;
+    pos @_gba-nko @_e-nko <-130 0 -130 0>;
+    pos @_gba-nko @_o-nko <-30 0 -30 0>;
+    pos @_gba-nko @_n-nko <-50 0 -50 0>;
+    pos @_gba-nko @_ra-nko <-20 0 -20 0>;
+    pos @_gba-nko @_rra-nko <-20 0 -20 0>;
+    pos @_gba-nko @_nya-nko <-40 0 -40 0>;
+    pos @_gba-nko @_ya-nko <-40 0 -40 0>;
+    pos @_gba-nko @_nyawoloso-nko <-20 0 -20 0>;
+    pos @_gba-nko @_u-nko <-60 0 -60 0>;
+    pos @_gba-nko @_oo-nko <-40 0 -40 0>;
+    pos @_gba-nko @_da-nko <-70 0 -70 0>;
+    pos @_gba-nko @_sa-nko <-50 0 -50 0>;
+    pos @_gba-nko @_ma-nko <-60 0 -60 0>;
+    pos @_gba-nko @_ta-nko <-50 0 -50 0>;
+    pos @_ka-nko @_ee-nko <-10 0 -10 0>;
+    pos @_ka-nko @_i-nko <-20 0 -20 0>;
+    pos @_ka-nko @_e-nko <-90 0 -90 0>;
+    pos @_ka-nko @_ja-nko <-30 0 -30 0>;
+    pos @_ka-nko @_da-nko <-20 0 -20 0>;
+    pos @_ka-nko @_sa-nko <-10 0 -10 0>;
+    pos @_ka-nko @_ma-nko <-30 0 -30 0>;
+    pos @_ka-nko @_ta-nko <-10 0 -10 0>;
+    pos @_la-nko @_ee-nko <-70 0 -70 0>;
+    pos @_la-nko @_i-nko <-40 0 -40 0>;
+    pos @_la-nko @_e-nko <-110 0 -110 0>;
+    pos @_la-nko @_o-nko <-20 0 -20 0>;
+    pos @_la-nko @_n-nko <-60 0 -60 0>;
+    pos @_la-nko @_ja-nko <-20 0 -20 0>;
+    pos @_la-nko @_ra-nko <-20 0 -20 0>;
+    pos @_la-nko @_rra-nko <-20 0 -20 0>;
+    pos @_la-nko @_la-nko <-20 0 -20 0>;
+    pos @_la-nko @_nawoloso-nko <-20 0 -20 0>;
+    pos @_la-nko @_nya-nko <-20 0 -20 0>;
+    pos @_la-nko @_ya-nko <-20 0 -20 0>;
+    pos @_la-nko @_nyawoloso-nko <-20 0 -20 0>;
+    pos @_la-nko @_u-nko <-40 0 -40 0>;
+    pos @_la-nko @_oo-nko <-50 0 -50 0>;
+    pos @_la-nko @_da-nko <-40 0 -40 0>;
+    pos @_la-nko @_sa-nko <-50 0 -50 0>;
+    pos @_la-nko @_fa-nko <20 0 20 0>;
+    pos @_la-nko @_ma-nko <-60 0 -60 0>;
+    pos @_la-nko @_ta-nko <-70 0 -70 0>;
+    pos @_nawoloso-nko @_ee-nko <-100 0 -100 0>;
+    pos @_nawoloso-nko @_e-nko <-90 0 -90 0>;
+    pos @_nawoloso-nko @_o-nko <-40 0 -40 0>;
+    pos @_nawoloso-nko @_n-nko <-100 0 -100 0>;
+    pos @_nawoloso-nko @_ra-nko <-20 0 -20 0>;
+    pos @_nawoloso-nko @_rra-nko <-20 0 -20 0>;
+    pos @_nawoloso-nko @_nawoloso-nko <-20 0 -20 0>;
+    pos @_nawoloso-nko @_nya-nko <-60 0 -60 0>;
+    pos @_nawoloso-nko @_ha-nko <-30 0 -30 0>;
+    pos @_nawoloso-nko @_ya-nko <-40 0 -40 0>;
+    pos @_nawoloso-nko @_u-nko <-60 0 -60 0>;
+    pos @_nawoloso-nko @_oo-nko <-40 0 -40 0>;
+    pos @_nawoloso-nko @_da-nko <-70 0 -70 0>;
+    pos @_nawoloso-nko @_sa-nko <-70 0 -70 0>;
+    pos @_nawoloso-nko @_ma-nko <-60 0 -60 0>;
+    pos @_nawoloso-nko @_ta-nko <-80 0 -80 0>;
+    pos @_nawoloso-nko @_ba-nko <-20 0 -20 0>;
+    pos @_nya-nko @_ee-nko <-10 0 -10 0>;
+    pos @_nya-nko @_i-nko <-30 0 -30 0>;
+    pos @_nya-nko @_e-nko <-100 0 -100 0>;
+    pos @_nya-nko @_o-nko <-30 0 -30 0>;
+    pos @_nya-nko @_n-nko <-20 0 -20 0>;
+    pos @_nya-nko @_ja-nko <-20 0 -20 0>;
+    pos @_nya-nko @_ra-nko <-30 0 -30 0>;
+    pos @_nya-nko @_rra-nko <-30 0 -30 0>;
+    pos @_nya-nko @_gba-nko <-10 0 -10 0>;
+    pos @_nya-nko @_nawoloso-nko <-30 0 -30 0>;
+    pos @_nya-nko @_nya-nko <-40 0 -40 0>;
+    pos @_nya-nko @_ha-nko <-20 0 -20 0>;
+    pos @_nya-nko @_u-nko <-20 0 -20 0>;
+    pos @_nya-nko @_oo-nko <-20 0 -20 0>;
+    pos @_nya-nko @_da-nko <-30 0 -30 0>;
+    pos @_nya-nko @_sa-nko <-40 0 -40 0>;
+    pos @_nya-nko @_fa-nko <-30 0 -30 0>;
+    pos @_nya-nko @_ma-nko <-40 0 -40 0>;
+    pos @_nya-nko @_ta-nko <-40 0 -40 0>;
+    pos @_na-nko @_ee-nko <-60 0 -60 0>;
+    pos @_na-nko @_i-nko <-20 0 -20 0>;
+    pos @_na-nko @_e-nko <-120 0 -120 0>;
+    pos @_na-nko @_n-nko <-30 0 -30 0>;
+    pos @_na-nko @_la-nko <-20 0 -20 0>;
+    pos @_na-nko @_nya-nko <-20 0 -20 0>;
+    pos @_na-nko @_na-nko <-10 0 -10 0>;
+    pos @_na-nko @_ya-nko <-20 0 -20 0>;
+    pos @_na-nko @_u-nko <-20 0 -20 0>;
+    pos @_na-nko @_oo-nko <-20 0 -20 0>;
+    pos @_na-nko @_da-nko <-40 0 -40 0>;
+    pos @_na-nko @_sa-nko <-30 0 -30 0>;
+    pos @_na-nko @_ma-nko <-60 0 -60 0>;
+    pos @_na-nko @_ta-nko <-80 0 -80 0>;
+    pos @_ha-nko @_ee-nko <-20 0 -20 0>;
+    pos @_ha-nko @_e-nko <-90 0 -90 0>;
+    pos @_ha-nko @_n-nko <-20 0 -20 0>;
+    pos @_ha-nko @_ya-nko <-10 0 -10 0>;
+    pos @_ha-nko @_da-nko <-20 0 -20 0>;
+    pos @_ha-nko @_sa-nko <-20 0 -20 0>;
+    pos @_ha-nko @_ma-nko <-40 0 -40 0>;
+    pos @_ha-nko @_ta-nko <-40 0 -40 0>;
+    pos @_ya-nko @_ee-nko <-10 0 -10 0>;
+    pos @_ya-nko @_i-nko <-50 0 -50 0>;
+    pos @_ya-nko @_e-nko <-80 0 -80 0>;
+    pos @_ya-nko @_o-nko <-30 0 -30 0>;
+    pos @_ya-nko @_ja-nko <-40 0 -40 0>;
+    pos @_ya-nko @_gba-nko <-30 0 -30 0>;
+    pos @_ya-nko @_nawoloso-nko <-40 0 -40 0>;
+    pos @_ya-nko @_ha-nko <-10 0 -10 0>;
+    pos @_ya-nko @_ya-nko <-10 0 -10 0>;
+    pos @_ya-nko @_u-nko <-20 0 -20 0>;
+    pos @_ya-nko @_fa-nko <-20 0 -20 0>;
+    pos @_ya-nko @_ma-nko <-30 0 -30 0>;
+    pos @_ya-nko @_ta-nko <-20 0 -20 0>;
+    pos @_ya-nko @_ba-nko <-30 0 -30 0>;
+    pos @_nyawoloso-nko @_ee-nko <-10 0 -10 0>;
+    pos @_nyawoloso-nko @_i-nko <-40 0 -40 0>;
+    pos @_nyawoloso-nko @_e-nko <-80 0 -80 0>;
+    pos @_nyawoloso-nko @_ja-nko <-20 0 -20 0>;
+    pos @_nyawoloso-nko @_gba-nko <-20 0 -20 0>;
+    pos @_nyawoloso-nko @_ha-nko <-20 0 -20 0>;
+    pos @_nyawoloso-nko @_u-nko <-20 0 -20 0>;
+    pos @_nyawoloso-nko @_da-nko <-30 0 -30 0>;
+    pos @_nyawoloso-nko @_sa-nko <-20 0 -20 0>;
+    pos @_nyawoloso-nko @_fa-nko <-50 0 -50 0>;
+    pos @_nyawoloso-nko @_ma-nko <-30 0 -30 0>;
+    pos @_nyawoloso-nko @_ta-nko <-20 0 -20 0>;
+    pos @_u-nko @_i-nko <-60 0 -60 0>;
+    pos @_u-nko @_o-nko <-20 0 -20 0>;
+    pos @_u-nko @_ja-nko <-20 0 -20 0>;
+    pos @_u-nko @_gba-nko <-60 0 -60 0>;
+    pos @_u-nko @_la-nko <-20 0 -20 0>;
+    pos @_u-nko @_nawoloso-nko <-60 0 -60 0>;
+    pos @_u-nko @_ya-nko <-20 0 -20 0>;
+    pos @_u-nko @_nyawoloso-nko <-20 0 -20 0>;
+    pos @_u-nko @_fa-nko <-60 0 -60 0>;
+    pos @_u-nko @_ta-nko <-20 0 -20 0>;
+    pos @_u-nko @_ba-nko <-30 0 -30 0>;
+    pos @_oo-nko @_i-nko <-49 0 -49 0>;
+    pos @_oo-nko @_o-nko <-30 0 -30 0>;
+    pos @_oo-nko @_ja-nko <-30 0 -30 0>;
+    pos @_oo-nko @_ra-nko <-30 0 -30 0>;
+    pos @_oo-nko @_rra-nko <-30 0 -30 0>;
+    pos @_oo-nko @_gba-nko <-40 0 -40 0>;
+    pos @_oo-nko @_nawoloso-nko <-50 0 -50 0>;
+    pos @_oo-nko @_fa-nko <-30 0 -30 0>;
+    pos @_oo-nko @_ta-nko <-20 0 -20 0>;
+    pos @_oo-nko @_ba-nko <-30 0 -30 0>;
+    pos @_da-nko @_i-nko <-60 0 -60 0>;
+    pos @_da-nko @_o-nko <-30 0 -30 0>;
+    pos @_da-nko @_ja-nko <-40 0 -40 0>;
+    pos @_da-nko @_ra-nko <-20 0 -20 0>;
+    pos @_da-nko @_rra-nko <-20 0 -20 0>;
+    pos @_da-nko @_gba-nko <-70 0 -70 0>;
+    pos @_da-nko @_nawoloso-nko <-60 0 -60 0>;
+    pos @_da-nko @_nya-nko <-30 0 -30 0>;
+    pos @_da-nko @_nyawoloso-nko <-30 0 -30 0>;
+    pos @_da-nko @_fa-nko <-60 0 -60 0>;
+    pos @_da-nko @_ba-nko <-40 0 -40 0>;
+    pos @_sa-nko @_i-nko <-40 0 -40 0>;
+    pos @_sa-nko @_o-nko <-20 0 -20 0>;
+    pos @_sa-nko @_ja-nko <-60 0 -60 0>;
+    pos @_sa-nko @_ra-nko <-20 0 -20 0>;
+    pos @_sa-nko @_rra-nko <-20 0 -20 0>;
+    pos @_sa-nko @_gba-nko <-50 0 -50 0>;
+    pos @_sa-nko @_nawoloso-nko <-60 0 -60 0>;
+    pos @_sa-nko @_nya-nko <-30 0 -30 0>;
+    pos @_sa-nko @_ya-nko <-20 0 -20 0>;
+    pos @_sa-nko @_nyawoloso-nko <-40 0 -40 0>;
+    pos @_sa-nko @_fa-nko <-50 0 -50 0>;
+    pos @_sa-nko @_ba-nko <-40 0 -40 0>;
+    pos @_fa-nko @_i-nko <-60 0 -60 0>;
+    pos @_fa-nko @_o-nko <-20 0 -20 0>;
+    pos @_fa-nko @_ja-nko <-40 0 -40 0>;
+    pos @_fa-nko @_gba-nko <-30 0 -30 0>;
+    pos @_fa-nko @_nawoloso-nko <-40 0 -40 0>;
+    pos @_fa-nko @_nya-nko <-20 0 -20 0>;
+    pos @_fa-nko @_ya-nko <-20 0 -20 0>;
+    pos @_fa-nko @_nyawoloso-nko <-40 0 -40 0>;
+    pos @_fa-nko @_fa-nko <-30 0 -30 0>;
+    pos @_fa-nko @_ba-nko <-30 0 -30 0>;
+    pos @_ma-nko @_i-nko <-70 0 -70 0>;
+    pos @_ma-nko @_o-nko <-40 0 -40 0>;
+    pos @_ma-nko @_ja-nko <-50 0 -50 0>;
+    pos @_ma-nko @_ra-nko <-20 0 -20 0>;
+    pos @_ma-nko @_rra-nko <-20 0 -20 0>;
+    pos @_ma-nko @_gba-nko <-60 0 -60 0>;
+    pos @_ma-nko @_nawoloso-nko <-50 0 -50 0>;
+    pos @_ma-nko @_nya-nko <-40 0 -40 0>;
+    pos @_ma-nko @_ya-nko <-40 0 -40 0>;
+    pos @_ma-nko @_nyawoloso-nko <-40 0 -40 0>;
+    pos @_ma-nko @_fa-nko <-80 0 -80 0>;
+    pos @_ma-nko @_ba-nko <-70 0 -70 0>;
+    pos @_ta-nko @_e-nko <-20 0 -20 0>;
+    pos @_wa-nko @_nawoloso-nko <-30 0 -30 0>;
+    pos @_wa-nko @_fa-nko <-40 0 -40 0>;
+  } KERN_RTL;
+
+#< feature
+} kern;
+feature ccmp {
+# Glyph Composition/Decomposition
+
+lookup ccmp_Other_1 {
+
+	sub [sinnyiiyhe-adlam kaf-adlam jiim-adlam tu-adlam kha-adlam zal-adlam sha-adlam] gemination-adlam' by gemination-adlam.wide;
+
+	@Markscomb = [aliflengthencomb-adlam vowellengthencomb-adlam gemination-adlam gemination-adlam.wide ];
+	@MarkscombCase = [aliflengthencomb-adlam.case vowellengthencomb-adlam.case gemination-adlam.case gemination-adlam.wide.case];
+	
+	
+	
+	sub @Uppercase @Markscomb' by @MarkscombCase;
+
+	
+} ccmp_Other_1;
+
+script nko ;
+language dflt;
+sub space by space.nko;
+sub percent by percent.nko;
+sub perthousand by perthousand.nko;
+sub parenleft by parenleft.nko;
+sub parenright by parenright.nko;
+sub bracketright by bracketright.nko;
+sub bracketleft by bracketleft.nko;
+
+
+script adlm;
+language dflt;
+sub percent by percent.adlam;
+sub perthousand by perthousand.adlam;
+} ccmp;
+feature init {
+# Initial Forms
+
+#> feature
+  sub a-nko by a-nko.init;
+  sub ba-nko by ba-nko.init;
+  sub cha-nko by cha-nko.init;
+  sub da-nko by da-nko.init;
+  sub e-nko by e-nko.init;
+  sub ee-nko by ee-nko.init;
+  sub fa-nko by fa-nko.init;
+  sub gba-nko by gba-nko.init;
+  sub ha-nko by ha-nko.init;
+  sub i-nko by i-nko.init;
+  sub ja-nko by ja-nko.init;
+  sub ka-nko by ka-nko.init;
+  sub la-nko by la-nko.init;
+  sub ma-nko by ma-nko.init;
+  sub n-nko by n-nko.init;
+  sub na-nko by na-nko.init;
+  sub nawoloso-nko by nawoloso-nko.init;
+  sub nya-nko by nya-nko.init;
+  sub nyawoloso-nko by nyawoloso-nko.init;
+  sub o-nko by o-nko.init;
+  sub oo-nko by oo-nko.init;
+  sub pa-nko by pa-nko.init;
+  sub ra-nko by ra-nko.init;
+  sub rra-nko by rra-nko.init;
+  sub sa-nko by sa-nko.init;
+  sub ta-nko by ta-nko.init;
+  sub u-nko by u-nko.init;
+  sub wa-nko by wa-nko.init;
+  sub ya-nko by ya-nko.init;
+#< feature
+} init;
+feature medi {
+# Medial Forms
+
+#> feature
+  sub a-nko by a-nko.medi;
+  sub ba-nko by ba-nko.medi;
+  sub cha-nko by cha-nko.medi;
+  sub da-nko by da-nko.medi;
+  sub e-nko by e-nko.medi;
+  sub ee-nko by ee-nko.medi;
+  sub fa-nko by fa-nko.medi;
+  sub gba-nko by gba-nko.medi;
+  sub ha-nko by ha-nko.medi;
+  sub i-nko by i-nko.medi;
+  sub ja-nko by ja-nko.medi;
+  sub ka-nko by ka-nko.medi;
+  sub la-nko by la-nko.medi;
+  sub ma-nko by ma-nko.medi;
+  sub n-nko by n-nko.medi;
+  sub na-nko by na-nko.medi;
+  sub nawoloso-nko by nawoloso-nko.medi;
+  sub nya-nko by nya-nko.medi;
+  sub nyawoloso-nko by nyawoloso-nko.medi;
+  sub o-nko by o-nko.medi;
+  sub oo-nko by oo-nko.medi;
+  sub pa-nko by pa-nko.medi;
+  sub ra-nko by ra-nko.medi;
+  sub rra-nko by rra-nko.medi;
+  sub sa-nko by sa-nko.medi;
+  sub ta-nko by ta-nko.medi;
+  sub u-nko by u-nko.medi;
+  sub wa-nko by wa-nko.medi;
+  sub ya-nko by ya-nko.medi;
+#< feature
+} medi;
+feature fina {
+# Terminal Forms
+
+#> feature
+  sub a-nko by a-nko.fina;
+  sub a-nko.dant by a-nko.dant.fina;
+  sub ba-nko by ba-nko.fina;
+  sub ba-nko.dant by ba-nko.dant.fina;
+  sub cha-nko by cha-nko.fina;
+  sub cha-nko.dant by cha-nko.dant.fina;
+  sub da-nko by da-nko.fina;
+  sub da-nko.dant by da-nko.dant.fina;
+  sub e-nko by e-nko.fina;
+  sub e-nko.dant by e-nko.dant.fina;
+  sub ee-nko by ee-nko.fina;
+  sub ee-nko.dant by ee-nko.dant.fina;
+  sub fa-nko by fa-nko.fina;
+  sub fa-nko.dant by fa-nko.dant.fina;
+  sub gba-nko by gba-nko.fina;
+  sub gba-nko.dant by gba-nko.dant.fina;
+  sub ha-nko by ha-nko.fina;
+  sub ha-nko.dant by ha-nko.dant.fina;
+  sub i-nko by i-nko.fina;
+  sub i-nko.dant by i-nko.dant.fina;
+  sub ja-nko by ja-nko.fina;
+  sub ja-nko.dant by ja-nko.dant.fina;
+  sub ka-nko by ka-nko.fina;
+  sub ka-nko.dant by ka-nko.dant.fina;
+  sub la-nko by la-nko.fina;
+  sub la-nko.dant by la-nko.dant.fina;
+  sub ma-nko by ma-nko.fina;
+  sub ma-nko.dant by ma-nko.dant.fina;
+  sub n-nko by n-nko.fina;
+  sub n-nko.dant by n-nko.dant.fina;
+  sub na-nko by na-nko.fina;
+  sub na-nko.dant by na-nko.dant.fina;
+  sub nawoloso-nko by nawoloso-nko.fina;
+  sub nawoloso-nko.dant by nawoloso-nko.dant.fina;
+  sub nya-nko by nya-nko.fina;
+  sub nya-nko.dant by nya-nko.dant.fina;
+  sub nyawoloso-nko by nyawoloso-nko.fina;
+  sub nyawoloso-nko.dant by nyawoloso-nko.dant.fina;
+  sub o-nko by o-nko.fina;
+  sub o-nko.dant by o-nko.dant.fina;
+  sub oo-nko by oo-nko.fina;
+  sub oo-nko.dant by oo-nko.dant.fina;
+  sub pa-nko by pa-nko.fina;
+  sub pa-nko.dant by pa-nko.dant.fina;
+  sub ra-nko by ra-nko.fina;
+  sub ra-nko.dant by ra-nko.dant.fina;
+  sub rra-nko by rra-nko.fina;
+  sub rra-nko.dant by rra-nko.dant.fina;
+  sub sa-nko by sa-nko.fina;
+  sub sa-nko.dant by sa-nko.dant.fina;
+  sub ta-nko by ta-nko.fina;
+  sub ta-nko.dant by ta-nko.dant.fina;
+  sub u-nko by u-nko.fina;
+  sub u-nko.dant by u-nko.dant.fina;
+  sub wa-nko by wa-nko.fina;
+  sub wa-nko.dant by wa-nko.dant.fina;
+  sub ya-nko by ya-nko.fina;
+  sub ya-nko.dant by ya-nko.dant.fina;
+#< feature
+} fina;
+feature rclt {
+# Required Contextual Alternates
+
+sub a-nko dantayalan-nko by a-nko.dant;
+sub ee-nko dantayalan-nko by ee-nko.dant;
+sub i-nko dantayalan-nko by i-nko.dant;
+sub e-nko dantayalan-nko by e-nko.dant;
+sub u-nko dantayalan-nko by u-nko.dant;
+sub oo-nko dantayalan-nko by oo-nko.dant;
+sub o-nko dantayalan-nko by o-nko.dant;
+sub n-nko dantayalan-nko by n-nko.dant;
+sub ba-nko dantayalan-nko by ba-nko.dant;
+sub pa-nko dantayalan-nko by pa-nko.dant;
+sub ta-nko dantayalan-nko by ta-nko.dant;
+sub ja-nko dantayalan-nko by ja-nko.dant;
+sub cha-nko dantayalan-nko by cha-nko.dant;
+sub da-nko dantayalan-nko by da-nko.dant;
+sub ra-nko dantayalan-nko by ra-nko.dant;
+sub rra-nko dantayalan-nko by rra-nko.dant;
+sub sa-nko dantayalan-nko by sa-nko.dant;
+sub gba-nko dantayalan-nko by gba-nko.dant;
+sub fa-nko dantayalan-nko by fa-nko.dant;
+sub ka-nko dantayalan-nko by ka-nko.dant;
+sub la-nko dantayalan-nko by la-nko.dant;
+sub nawoloso-nko dantayalan-nko by nawoloso-nko.dant;
+sub ma-nko dantayalan-nko by ma-nko.dant;
+sub nya-nko dantayalan-nko by nya-nko.dant;
+sub na-nko dantayalan-nko by na-nko.dant;
+sub ha-nko dantayalan-nko by ha-nko.dant;
+sub wa-nko dantayalan-nko by wa-nko.dant;
+sub ya-nko dantayalan-nko by ya-nko.dant;
+sub nyawoloso-nko dantayalan-nko by nyawoloso-nko.dant;
+
+sub a-nko.fina dantayalan-nko by a-nko.dant.fina;
+sub ee-nko.fina dantayalan-nko by ee-nko.dant.fina;
+sub i-nko.fina dantayalan-nko by i-nko.dant.fina;
+sub e-nko.fina dantayalan-nko by e-nko.dant.fina;
+sub u-nko.fina dantayalan-nko by u-nko.dant.fina;
+sub oo-nko.fina dantayalan-nko by oo-nko.dant.fina;
+sub o-nko.fina dantayalan-nko by o-nko.dant.fina;
+sub n-nko.fina dantayalan-nko by n-nko.dant.fina;
+sub ba-nko.fina dantayalan-nko by ba-nko.dant.fina;
+sub pa-nko.fina dantayalan-nko by pa-nko.dant.fina;
+sub ta-nko.fina dantayalan-nko by ta-nko.dant.fina;
+sub ja-nko.fina dantayalan-nko by ja-nko.dant.fina;
+sub cha-nko.fina dantayalan-nko by cha-nko.dant.fina;
+sub da-nko.fina dantayalan-nko by da-nko.dant.fina;
+sub ra-nko.fina dantayalan-nko by ra-nko.dant.fina;
+sub rra-nko.fina dantayalan-nko by rra-nko.dant.fina;
+sub sa-nko.fina dantayalan-nko by sa-nko.dant.fina;
+sub gba-nko.fina dantayalan-nko by gba-nko.dant.fina;
+sub fa-nko.fina dantayalan-nko by fa-nko.dant.fina;
+sub ka-nko.fina dantayalan-nko by ka-nko.dant.fina;
+sub la-nko.fina dantayalan-nko by la-nko.dant.fina;
+sub nawoloso-nko.fina dantayalan-nko by nawoloso-nko.dant.fina;
+sub ma-nko.fina dantayalan-nko by ma-nko.dant.fina;
+sub nya-nko.fina dantayalan-nko by nya-nko.dant.fina;
+sub na-nko.fina dantayalan-nko by na-nko.dant.fina;
+sub ha-nko.fina dantayalan-nko by ha-nko.dant.fina;
+sub wa-nko.fina dantayalan-nko by wa-nko.dant.fina;
+sub ya-nko.fina dantayalan-nko by ya-nko.dant.fina;
+sub nyawoloso-nko.fina dantayalan-nko by nyawoloso-nko.dant.fina;
+
+
+lookup subpercent {
+	sub @nkoNumbers percent' by percent.nko;
+ 	sub @nkoNumbers perthousand' by perthousand.nko;
+	sub @adlamNumbers percent' by percent.adlam;
+ 	sub @adlamNumbers perthousand' by perthousand.adlam;
+
+} subpercent;
+
+
+} rclt;
+feature mark {
+#> feature
+# GPOS feature : Mark Positioning
+    markClass shorthightonecomb-nko <anchor 29 662> @top;
+    markClass shortlowtonecomb-nko <anchor 9 662> @top;
+    markClass shortrisingtonecomb-nko <anchor -26 662> @top;
+    markClass longdescendingtonecomb-nko <anchor 3 662> @top;
+    markClass longhightonecomb-nko <anchor 29 662> @top;
+    markClass longlowtonecomb-nko <anchor 9 662> @top;
+    markClass longrisingtonecomb-nko <anchor 29 662> @top;
+    markClass nasalizationcomb-nko <anchor 24 0> @bottom;
+    markClass doubledotabovecomb-nko <anchor -26 662> @top;
+    markClass dantayalan-nko <anchor 280 0> @bottom;
+    markClass dantayalanright-nko <anchor 86 0> @right;
+    markClass aliflengthencomb-adlam <anchor 82 450> @topAlif;
+    markClass aliflengthencomb-adlam.case <anchor 86 662> @top;
+    markClass vowellengthencomb-adlam <anchor 37 450> @top;
+    markClass vowellengthencomb-adlam.case <anchor 96 662> @top;
+    markClass gemination-adlam <anchor 52 450> @top;
+    markClass gemination-adlam.case <anchor 95 662> @top;
+    markClass gemination-adlam.wide <anchor 15 450> @top;
+    markClass gemination-adlam.wide.case <anchor 58 662> @top;
+    markClass hamza-adlam <anchor 30 449> @top;
+    markClass consonantmodcomb-adlam <anchor 56 449> @top;
+    markClass gemconsonantmodcomb-adlam <anchor 36 449> @top;
+    markClass hoortobbhere-adlam <anchor 95 662> @top;
+    markClass lestobbhere-adlam <anchor -74 0> @bottom;
+
+  lookup markLTR {
+      pos base ee-nko
+          <anchor 411 0> mark @bottom
+          <anchor 278 661> mark @top;
+      pos base i-nko
+          <anchor 316 0> mark @bottom
+          <anchor 184 661> mark @top;
+      pos base e-nko
+          <anchor 404 0> mark @bottom
+          <anchor 274 661> mark @top;
+      pos base u-nko
+          <anchor 369 0> mark @bottom
+          <anchor 238 661> mark @top;
+      pos base oo-nko
+          <anchor 323 0> mark @bottom
+          <anchor 194 660> mark @top;
+      pos base o-nko
+          <anchor 340 0> mark @bottom
+          <anchor 213 661> mark @top;
+      pos base n-nko
+          <anchor 141 661> mark @top;
+      pos base ba-nko
+          <anchor 164 661> mark @top;
+      pos base pa-nko
+          <anchor 127 661> mark @top;
+      pos base ta-nko
+          <anchor 50 661> mark @top;
+      pos base ja-nko
+          <anchor 149 661> mark @top;
+      pos base cha-nko
+          <anchor 189 661> mark @top;
+      pos base da-nko
+          <anchor 299 661> mark @top;
+      pos base ra-nko
+          <anchor 106 661> mark @top;
+      pos base rra-nko
+          <anchor 201 661> mark @top;
+      pos base sa-nko
+          <anchor 289 661> mark @top;
+      pos base gba-nko
+          <anchor 229 661> mark @top;
+      pos base fa-nko
+          <anchor 364 661> mark @top;
+      pos base ka-nko
+          <anchor 131 661> mark @top;
+      pos base la-nko
+          <anchor 149 661> mark @top;
+      pos base nawoloso-nko
+          <anchor 173 671> mark @top;
+      pos base ma-nko
+          <anchor 239 661> mark @top;
+      pos base nya-nko
+          <anchor 199 661> mark @top;
+      pos base na-nko
+          <anchor 149 661> mark @top;
+      pos base ha-nko
+          <anchor 169 661> mark @top;
+      pos base wa-nko
+          <anchor 199 661> mark @top;
+      pos base ya-nko
+          <anchor 188 661> mark @top;
+      pos base nyawoloso-nko
+          <anchor 189 661> mark @top;
+      pos base a-nko.init
+          <anchor 193 0> mark @bottom
+          <anchor 62 661> mark @top;
+      pos base ee-nko.init
+          <anchor 411 0> mark @bottom
+          <anchor 278 661> mark @top;
+      pos base i-nko.init
+          <anchor 316 0> mark @bottom
+          <anchor 184 661> mark @top;
+      pos base e-nko.init
+          <anchor 404 0> mark @bottom
+          <anchor 274 661> mark @top;
+      pos base u-nko.init
+          <anchor 369 0> mark @bottom
+          <anchor 238 661> mark @top;
+      pos base oo-nko.init
+          <anchor 323 0> mark @bottom
+          <anchor 194 660> mark @top;
+      pos base o-nko.init
+          <anchor 340 0> mark @bottom
+          <anchor 213 661> mark @top;
+      pos base n-nko.init
+          <anchor 141 661> mark @top;
+      pos base ba-nko.init
+          <anchor 164 661> mark @top;
+      pos base pa-nko.init
+          <anchor 127 661> mark @top;
+      pos base ta-nko.init
+          <anchor 50 661> mark @top;
+      pos base ja-nko.init
+          <anchor 149 661> mark @top;
+      pos base cha-nko.init
+          <anchor 189 661> mark @top;
+      pos base da-nko.init
+          <anchor 309 661> mark @top;
+      pos base ra-nko.init
+          <anchor 106 661> mark @top;
+      pos base rra-nko.init
+          <anchor 201 661> mark @top;
+      pos base sa-nko.init
+          <anchor 289 661> mark @top;
+      pos base gba-nko.init
+          <anchor 229 661> mark @top;
+      pos base fa-nko.init
+          <anchor 364 661> mark @top;
+      pos base ka-nko.init
+          <anchor 131 661> mark @top;
+      pos base la-nko.init
+          <anchor 149 661> mark @top;
+      pos base nawoloso-nko.init
+          <anchor 173 661> mark @top;
+      pos base ma-nko.init
+          <anchor 239 661> mark @top;
+      pos base nya-nko.init
+          <anchor 199 661> mark @top;
+      pos base na-nko.init
+          <anchor 149 661> mark @top;
+      pos base ha-nko.init
+          <anchor 169 661> mark @top;
+      pos base wa-nko.init
+          <anchor 199 661> mark @top;
+      pos base nyawoloso-nko.init
+          <anchor 189 661> mark @top;
+      pos base a-nko.medi
+          <anchor 193 0> mark @bottom
+          <anchor 62 661> mark @top;
+      pos base ee-nko.medi
+          <anchor 411 0> mark @bottom
+          <anchor 278 661> mark @top;
+      pos base i-nko.medi
+          <anchor 316 0> mark @bottom
+          <anchor 184 661> mark @top;
+      pos base e-nko.medi
+          <anchor 404 0> mark @bottom
+          <anchor 274 661> mark @top;
+      pos base u-nko.medi
+          <anchor 369 0> mark @bottom
+          <anchor 238 661> mark @top;
+      pos base oo-nko.medi
+          <anchor 323 0> mark @bottom
+          <anchor 194 660> mark @top;
+      pos base o-nko.medi
+          <anchor 340 0> mark @bottom
+          <anchor 213 661> mark @top;
+      pos base n-nko.medi
+          <anchor 141 661> mark @top;
+      pos base ba-nko.medi
+          <anchor 164 661> mark @top;
+      pos base pa-nko.medi
+          <anchor 127 661> mark @top;
+      pos base ta-nko.medi
+          <anchor 50 661> mark @top;
+      pos base ja-nko.medi
+          <anchor 149 661> mark @top;
+      pos base cha-nko.medi
+          <anchor 189 661> mark @top;
+      pos base da-nko.medi
+          <anchor 299 661> mark @top;
+      pos base ra-nko.medi
+          <anchor 106 661> mark @top;
+      pos base rra-nko.medi
+          <anchor 201 661> mark @top;
+      pos base sa-nko.medi
+          <anchor 289 661> mark @top;
+      pos base gba-nko.medi
+          <anchor 229 661> mark @top;
+      pos base fa-nko.medi
+          <anchor 364 661> mark @top;
+      pos base ka-nko.medi
+          <anchor 131 661> mark @top;
+      pos base la-nko.medi
+          <anchor 149 661> mark @top;
+      pos base nawoloso-nko.medi
+          <anchor 173 661> mark @top;
+      pos base ma-nko.medi
+          <anchor 239 661> mark @top;
+      pos base nya-nko.medi
+          <anchor 199 661> mark @top;
+      pos base na-nko.medi
+          <anchor 149 661> mark @top;
+      pos base ha-nko.medi
+          <anchor 169 661> mark @top;
+      pos base wa-nko.medi
+          <anchor 199 661> mark @top;
+      pos base ya-nko.medi
+          <anchor 188 661> mark @top;
+      pos base nyawoloso-nko.medi
+          <anchor 189 661> mark @top;
+      pos base a-nko.fina
+          <anchor 193 0> mark @bottom
+          <anchor 62 661> mark @top;
+      pos base ee-nko.fina
+          <anchor 411 0> mark @bottom
+          <anchor 278 661> mark @top;
+      pos base i-nko.fina
+          <anchor 376 0> mark @bottom
+          <anchor 184 661> mark @top;
+      pos base e-nko.fina
+          <anchor 404 0> mark @bottom
+          <anchor 274 661> mark @top;
+      pos base u-nko.fina
+          <anchor 369 0> mark @bottom
+          <anchor 238 661> mark @top;
+      pos base oo-nko.fina
+          <anchor 323 0> mark @bottom
+          <anchor 194 660> mark @top;
+      pos base o-nko.fina
+          <anchor 340 0> mark @bottom
+          <anchor 213 661> mark @top;
+      pos base n-nko.fina
+          <anchor 141 661> mark @top;
+      pos base ba-nko.fina
+          <anchor 164 661> mark @top;
+      pos base pa-nko.fina
+          <anchor 127 661> mark @top;
+      pos base ja-nko.fina
+          <anchor 149 661> mark @top;
+      pos base cha-nko.fina
+          <anchor 189 661> mark @top;
+      pos base da-nko.fina
+          <anchor 299 661> mark @top;
+      pos base ra-nko.fina
+          <anchor 106 661> mark @top;
+      pos base rra-nko.fina
+          <anchor 201 661> mark @top;
+      pos base sa-nko.fina
+          <anchor 289 661> mark @top;
+      pos base gba-nko.fina
+          <anchor 229 661> mark @top;
+      pos base fa-nko.fina
+          <anchor 364 661> mark @top;
+      pos base ka-nko.fina
+          <anchor 131 661> mark @top;
+      pos base la-nko.fina
+          <anchor 149 661> mark @top;
+      pos base nawoloso-nko.fina
+          <anchor 173 661> mark @top;
+      pos base ma-nko.fina
+          <anchor 239 661> mark @top;
+      pos base nya-nko.fina
+          <anchor 199 661> mark @top;
+      pos base na-nko.fina
+          <anchor 149 661> mark @top;
+      pos base ha-nko.fina
+          <anchor 169 661> mark @top;
+      pos base wa-nko.fina
+          <anchor 199 661> mark @top;
+      pos base ya-nko.fina
+          <anchor 188 661> mark @top;
+      pos base nyawoloso-nko.fina
+          <anchor 189 661> mark @top;
+      pos base a-nko.dant.fina
+          <anchor 193 0> mark @bottom
+          <anchor 343 0> mark @right
+          <anchor 62 661> mark @top;
+      pos base ee-nko.dant.fina
+          <anchor 411 0> mark @bottom
+          <anchor 790 0> mark @right
+          <anchor 278 661> mark @top;
+      pos base i-nko.dant.fina
+          <anchor 316 0> mark @bottom
+          <anchor 184 661> mark @top;
+      pos base e-nko.dant.fina
+          <anchor 404 0> mark @bottom
+          <anchor 274 661> mark @top;
+      pos base u-nko.dant.fina
+          <anchor 369 0> mark @bottom
+          <anchor 238 661> mark @top;
+      pos base oo-nko.dant.fina
+          <anchor 323 0> mark @bottom
+          <anchor 194 660> mark @top;
+      pos base o-nko.dant.fina
+          <anchor 340 0> mark @bottom
+          <anchor 213 661> mark @top;
+      pos base n-nko.dant.fina
+          <anchor 141 661> mark @top;
+      pos base ba-nko.dant.fina
+          <anchor 164 661> mark @top;
+      pos base pa-nko.dant.fina
+          <anchor 127 661> mark @top;
+      pos base ta-nko.dant.fina
+          <anchor 50 661> mark @top;
+      pos base ja-nko.dant.fina
+          <anchor 149 661> mark @top;
+      pos base cha-nko.dant.fina
+          <anchor 189 661> mark @top;
+      pos base da-nko.dant.fina
+          <anchor 299 661> mark @top;
+      pos base ra-nko.dant.fina
+          <anchor 106 661> mark @top;
+      pos base rra-nko.dant.fina
+          <anchor 201 661> mark @top;
+      pos base sa-nko.dant.fina
+          <anchor 289 661> mark @top;
+      pos base gba-nko.dant.fina
+          <anchor 229 661> mark @top;
+      pos base fa-nko.dant.fina
+          <anchor 364 661> mark @top;
+      pos base ka-nko.dant.fina
+          <anchor 131 661> mark @top;
+      pos base la-nko.dant.fina
+          <anchor 149 661> mark @top;
+      pos base nawoloso-nko.dant.fina
+          <anchor 173 661> mark @top;
+      pos base ma-nko.dant.fina
+          <anchor 239 661> mark @top;
+      pos base nya-nko.dant.fina
+          <anchor 199 661> mark @top;
+      pos base na-nko.dant.fina
+          <anchor 149 661> mark @top;
+      pos base ha-nko.dant.fina
+          <anchor 169 661> mark @top;
+      pos base ya-nko.dant.fina
+          <anchor 188 661> mark @top;
+      pos base nyawoloso-nko.dant.fina
+          <anchor 189 661> mark @top;
+      pos base e-nko.dant
+          <anchor 404 0> mark @bottom
+          <anchor 274 661> mark @top;
+      pos base u-nko.dant
+          <anchor 369 0> mark @bottom
+          <anchor 238 661> mark @top;
+      pos base oo-nko.dant
+          <anchor 333 0> mark @bottom
+          <anchor 204 660> mark @top;
+      pos base o-nko.dant
+          <anchor 335 0> mark @bottom
+          <anchor 208 661> mark @top;
+      pos base da-nko.dant
+          <anchor 299 661> mark @top;
+      pos base rra-nko.dant
+          <anchor 201 661> mark @top;
+      pos base sa-nko.dant
+          <anchor 289 661> mark @top;
+      pos base fa-nko.dant
+          <anchor 364 661> mark @top;
+      pos base ma-nko.dant
+          <anchor 235 661> mark @top;
+      pos base wa-nko.dant
+          <anchor 209 661> mark @top;
+      pos base zero-nko
+          <anchor 385 0> mark @bottom;
+      pos base one-nko
+          <anchor 112 662> mark @top;
+      pos base two-nko
+          <anchor 226 0> mark @bottom;
+      pos base three-nko
+          <anchor 252 0> mark @bottom;
+      pos base four-nko
+          <anchor 302 0> mark @bottom;
+      pos base five-nko
+          <anchor 252 0> mark @bottom;
+      pos base six-nko
+          <anchor 282 0> mark @bottom;
+      pos base seven-nko
+          <anchor 222 0> mark @bottom;
+      pos base eight-nko
+          <anchor 192 0> mark @bottom;
+      pos base nine-nko
+          <anchor 352 0> mark @bottom;
+      pos base Alif-adlam
+          <anchor 225 0> mark @bottom
+          <anchor 375 662> mark @top;
+      pos base Daali-adlam
+          <anchor 205 0> mark @bottom
+          <anchor 333 662> mark @top;
+      pos base Laam-adlam
+          <anchor 317 0> mark @bottom
+          <anchor 449 662> mark @top;
+      pos base Miim-adlam
+          <anchor 212 0> mark @bottom
+          <anchor 354 662> mark @top;
+      pos base Ba-adlam
+          <anchor 285 0> mark @bottom
+          <anchor 404 662> mark @top;
+      pos base Sinnyiiyhe-adlam
+          <anchor 357 0> mark @bottom
+          <anchor 490 662> mark @top;
+      pos base Pe-adlam
+          <anchor 259 0> mark @bottom
+          <anchor 384 662> mark @top;
+      pos base Bhe-adlam
+          <anchor 232 0> mark @bottom
+          <anchor 355 662> mark @top;
+      pos base Ra-adlam
+          <anchor 250 0> mark @bottom
+          <anchor 382 662> mark @top;
+      pos base E-adlam
+          <anchor 265 0> mark @bottom
+          <anchor 384 662> mark @top;
+      pos base Fa-adlam
+          <anchor 238 0> mark @bottom
+          <anchor 370 662> mark @top;
+      pos base I-adlam
+          <anchor 272 0> mark @bottom
+          <anchor 400 662> mark @top;
+      pos base O-adlam
+          <anchor 285 0> mark @bottom
+          <anchor 425 662> mark @top;
+      pos base Dha-adlam
+          <anchor 263 -3> mark @bottom
+          <anchor 390 662> mark @top;
+      pos base Yhe-adlam
+          <anchor 245 0> mark @bottom
+          <anchor 409 662> mark @top;
+      pos base Waw-adlam
+          <anchor 245 0> mark @bottom
+          <anchor 395 662> mark @top;
+      pos base Nun-adlam
+          <anchor 217 0> mark @bottom
+          <anchor 348 662> mark @top;
+      pos base Kaf-adlam
+          <anchor 285 0> mark @bottom
+          <anchor 383 662> mark @top;
+      pos base Ya-adlam
+          <anchor 165 0> mark @bottom
+          <anchor 298 662> mark @top;
+      pos base U-adlam
+          <anchor 286 0> mark @bottom
+          <anchor 421 662> mark @top;
+      pos base Jiim-adlam
+          <anchor 362 0> mark @bottom
+          <anchor 494 662> mark @top;
+      pos base Chi-adlam
+          <anchor 245 0> mark @bottom
+          <anchor 384 662> mark @top;
+      pos base Ha-adlam
+          <anchor 151 0> mark @bottom
+          <anchor 304 662> mark @top;
+      pos base Qaaf-adlam
+          <anchor 258 0> mark @bottom
+          <anchor 397 662> mark @top;
+      pos base Ga-adlam
+          <anchor 228 0> mark @bottom
+          <anchor 367 662> mark @top;
+      pos base Nya-adlam
+          <anchor 248 0> mark @bottom
+          <anchor 388 662> mark @top;
+      pos base Tu-adlam
+          <anchor 335 0> mark @bottom
+          <anchor 462 662> mark @top;
+      pos base Nha-adlam
+          <anchor 255 0> mark @bottom
+          <anchor 395 662> mark @top;
+      pos base Va-adlam
+          <anchor 241 0> mark @bottom
+          <anchor 360 662> mark @top;
+      pos base Kha-adlam
+          <anchor 265 0> mark @bottom
+          <anchor 433 662> mark @top;
+      pos base Gbe-adlam
+          <anchor 245 0> mark @bottom
+          <anchor 380 662> mark @top;
+      pos base Zal-adlam
+          <anchor 353 0> mark @bottom
+          <anchor 485 662> mark @top;
+      pos base Kpo-adlam
+          <anchor 251 0> mark @bottom
+          <anchor 379 662> mark @top;
+      pos base Sha-adlam
+          <anchor 346 0> mark @bottom
+          <anchor 478 662> mark @top;
+      pos base alif-adlam
+          <anchor 175 0> mark @bottom
+          <anchor 303 450> mark @top
+          <anchor 298 466> mark @topAlif;
+      pos base daali-adlam
+          <anchor 164 0> mark @bottom
+          <anchor 245 450> mark @top;
+      pos base laam-adlam
+          <anchor 162 0> mark @bottom
+          <anchor 256 450> mark @top;
+      pos base miim-adlam
+          <anchor 143 0> mark @bottom
+          <anchor 229 450> mark @top;
+      pos base ba-adlam
+          <anchor 212 0> mark @bottom
+          <anchor 304 451> mark @top;
+      pos base sinnyiiyhe-adlam
+          <anchor 302 0> mark @bottom
+          <anchor 391 450> mark @top;
+      pos base pe-adlam
+          <anchor 207 0> mark @bottom
+          <anchor 297 450> mark @top;
+      pos base bhe-adlam
+          <anchor 155 0> mark @bottom
+          <anchor 264 450> mark @top;
+      pos base ra-adlam
+          <anchor 178 0> mark @bottom
+          <anchor 274 450> mark @top;
+      pos base e-adlam
+          <anchor 186 0> mark @bottom
+          <anchor 269 450> mark @top;
+      pos base fa-adlam
+          <anchor 191 0> mark @bottom
+          <anchor 278 450> mark @top;
+      pos base i-adlam
+          <anchor 197 0> mark @bottom
+          <anchor 289 450> mark @top;
+      pos base o-adlam
+          <anchor 205 0> mark @bottom
+          <anchor 306 459> mark @top;
+      pos base dha-adlam
+          <anchor 172 0> mark @bottom
+          <anchor 274 450> mark @top;
+      pos base yhe-adlam
+          <anchor 175 0> mark @bottom
+          <anchor 288 450> mark @top;
+      pos base waw-adlam
+          <anchor 179 0> mark @bottom
+          <anchor 275 450> mark @top;
+      pos base nun-adlam
+          <anchor 152 0> mark @bottom
+          <anchor 251 450> mark @top;
+      pos base kaf-adlam
+          <anchor 185 0> mark @bottom
+          <anchor 275 450> mark @top;
+      pos base ya-adlam
+          <anchor 125 0> mark @bottom
+          <anchor 217 450> mark @top;
+      pos base u-adlam
+          <anchor 217 0> mark @bottom
+          <anchor 309 459> mark @top;
+      pos base jiim-adlam
+          <anchor 294 0> mark @bottom
+          <anchor 383 450> mark @top;
+      pos base chi-adlam
+          <anchor 233 0> mark @bottom
+          <anchor 322 450> mark @top;
+      pos base ha-adlam
+          <anchor 147 0> mark @bottom
+          <anchor 206 450> mark @top;
+      pos base qaaf-adlam
+          <anchor 194 0> mark @bottom
+          <anchor 281 450> mark @top;
+      pos base ga-adlam
+          <anchor 155 0> mark @bottom
+          <anchor 258 450> mark @top;
+      pos base nya-adlam
+          <anchor 183 0> mark @bottom
+          <anchor 281 450> mark @top;
+      pos base tu-adlam
+          <anchor 235 0> mark @bottom
+          <anchor 338 450> mark @top;
+      pos base nha-adlam
+          <anchor 185 0> mark @bottom
+          <anchor 287 450> mark @top;
+      pos base va-adlam
+          <anchor 175 0> mark @bottom
+          <anchor 277 450> mark @top;
+      pos base kha-adlam
+          <anchor 205 0> mark @bottom
+          <anchor 298 450> mark @top;
+      pos base gbe-adlam
+          <anchor 174 0> mark @bottom
+          <anchor 256 450> mark @top;
+      pos base zal-adlam
+          <anchor 250 0> mark @bottom
+          <anchor 341 450> mark @top;
+      pos base kpo-adlam
+          <anchor 188 0> mark @bottom
+          <anchor 281 450> mark @top;
+      pos base sha-adlam
+          <anchor 296 0> mark @bottom
+          <anchor 392 450> mark @top;
+  } markLTR;
+
+  lookup markLTR;
+#< feature
+} mark;

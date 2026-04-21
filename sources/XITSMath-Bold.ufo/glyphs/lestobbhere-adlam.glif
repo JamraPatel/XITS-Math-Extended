@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lestobbhere-adlam" format="2">
+  <unicode hex="1E94B"/>
+  <outline>
+    <contour>
+      <point x="-0.5501" y="-220.733" type="curve" smooth="yes"/>
+      <point x="35.4499" y="-220.733"/>
+      <point x="66.6499" y="-190.733"/>
+      <point x="66.6499" y="-155.933" type="curve" smooth="yes"/>
+      <point x="66.6499" y="-119.933"/>
+      <point x="35.4499" y="-87.5331"/>
+      <point x="0.649901" y="-87.5331" type="curve" smooth="yes"/>
+      <point x="-36.5501" y="-87.5331"/>
+      <point x="-66.5501" y="-117.533"/>
+      <point x="-66.5501" y="-154.733" type="curve" smooth="yes"/>
+      <point x="-66.5501" y="-191.933"/>
+      <point x="-37.7501" y="-220.733"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,1</string>
+  </dict>
+  </lib>
+</glyph>

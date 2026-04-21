@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="six.sinf" format="2">
+  <advance width="300"/>
+  <outline>
+    <contour>
+      <point x="278" y="233" type="line"/>
+      <point x="279" y="217" type="line"/>
+      <point x="210" y="209"/>
+      <point x="133" y="154"/>
+      <point x="92" y="81" type="curve"/>
+      <point x="109" y="88"/>
+      <point x="125" y="91"/>
+      <point x="139" y="91" type="curve" smooth="yes"/>
+      <point x="200" y="91"/>
+      <point x="243" y="46"/>
+      <point x="243" y="-16" type="curve" smooth="yes"/>
+      <point x="243" y="-107"/>
+      <point x="174" y="-183"/>
+      <point x="93" y="-183" type="curve" smooth="yes"/>
+      <point x="26" y="-183"/>
+      <point x="-18" y="-133"/>
+      <point x="-18" y="-55" type="curve" smooth="yes"/>
+      <point x="-18" y="42"/>
+      <point x="41" y="138"/>
+      <point x="135" y="191" type="curve" smooth="yes"/>
+      <point x="179" y="217"/>
+      <point x="203" y="224"/>
+      <point x="278" y="233" type="curve"/>
+    </contour>
+    <contour>
+      <point x="120" y="63" type="line"/>
+      <point x="94" y="63"/>
+      <point x="75" y="52"/>
+      <point x="60" y="26" type="curve" smooth="yes"/>
+      <point x="44" y="0"/>
+      <point x="33" y="-48"/>
+      <point x="33" y="-87" type="curve" smooth="yes"/>
+      <point x="33" y="-134"/>
+      <point x="53" y="-161"/>
+      <point x="87" y="-161" type="curve" smooth="yes"/>
+      <point x="138" y="-161"/>
+      <point x="184" y="-89"/>
+      <point x="184" y="-8" type="curve" smooth="yes"/>
+      <point x="184" y="35"/>
+      <point x="159" y="63"/>
+      <point x="120" y="63" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>6179fa33d006e438c0fee4b4c251669ee7a57929acb783f196dd36749e684d69db1e14d5e2ed2df6c4f66793c7220d147915cc169b224f5e9da352b7fb5fcdfe</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -183 22</string>
+          <string>hstem 63 28</string>
+          <string>vstem -18 51</string>
+          <string>vstem 184 59</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>
