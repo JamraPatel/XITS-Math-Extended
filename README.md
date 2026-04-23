@@ -25,7 +25,7 @@ This project expands on the Arabic support included in 2014 to support other RTL
 
 ## Basic Usage
 
-XITS Adlam and N'ko additions were made in conjuction with an update to LibreOffice Math that makes common mathematical functions in both scripts available. Below are reccomended font choices for typesetting formulas in each script in LibreOffice Math. For more comprehensive information regarding see ![Adlam_Usage_LO.pdf](documentation/Adlam_Usage_LO.pdf) and ![Nko_Usage_LO.pdf](documentation/Nko_Usage_LO.pdf) in the documentation folder.
+XITS Adlam and N'ko additions were made in conjuction with an update to LibreOffice Math that makes common mathematical functions in both scripts available. Below are reccomended font choices for typesetting formulas in each script in LibreOffice Math. For more comprehensive information regarding see [Adlam_Usage_LO.pdf](documentation/Adlam_Usage_LO.pdf) and [Nko_Usage_LO.pdf](documentation/Nko_Usage_LO.pdf) in the documentation folder.
 
 ### Adlam
 Math - XITS Math Regular
