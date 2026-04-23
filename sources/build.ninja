@@ -1,0 +1,152 @@
+# buildTTF: Build a TTF from a source file
+rule buildTTF
+  command = $
+      /Users/neilspatel/Documents/GitHub/XITS-Math/venv/bin/python3.11 -m $
+      gftools.builder.jobrunner fontmake --output-path $out -o ttf $
+      $fontmake_type $in $args $stamp
+  description = buildTTF
+
+# autohint: Run gftools-autohint
+rule autohint
+  command = $
+      /Users/neilspatel/Documents/GitHub/XITS-Math/venv/bin/python3.11 -m $
+      gftools.builder.jobrunner gftools-autohint $args -o $out $in $stamp
+  description = autohint
+
+# fix: Run gftools-fix
+rule fix
+  command = $
+      /Users/neilspatel/Documents/GitHub/XITS-Math/venv/bin/python3.11 -m $
+      gftools.builder.jobrunner gftools-fix-font -o $out $args $in $stamp
+  description = fix
+
+# compress: Compress to webfont
+rule compress
+  command = $
+      /Users/neilspatel/Documents/GitHub/XITS-Math/venv/bin/python3.11 -m $
+      gftools.builder.jobrunner fonttools ttLib.woff2 compress -o $out $in $
+      $stamp
+  description = compress
+
+# copy: Copy a file
+rule copy
+  command = $
+      /Users/neilspatel/Documents/GitHub/XITS-Math/venv/bin/python3.11 -m $
+      gftools.builder.jobrunner cp $in $out $stamp
+  description = copy
+
+# Generating /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmp6xjgdwyt
+build /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmp6xjgdwyt: $
+    buildTTF XITSMath-Regular.ufo
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpi4no63gs
+build /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpi4no63gs: $
+    buildTTF XITSMath-Bold.ufo
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpg43nyvmy
+build /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpg43nyvmy: $
+    buildTTF XITSMath-Italic.ufo
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpit4egfsg
+build /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpit4egfsg: $
+    buildTTF XITSMathUnjoined-Regular.ufo
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmp_gh158qb
+build /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmp_gh158qb: $
+    buildTTF XITSMathUnjoined-Italic.ufo
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating ../fonts/webfonts/XITSMath-Regular.woff2
+build ../fonts/webfonts/XITSMath-Regular.woff2: compress $
+    ../fonts/ttf/XITSMath-Regular.ttf
+  operation = compress
+# Generating ../fonts/webfonts/XITSMath-Bold.woff2
+build ../fonts/webfonts/XITSMath-Bold.woff2: compress $
+    ../fonts/ttf/XITSMath-Bold.ttf
+  operation = compress
+# Generating ../fonts/webfonts/XITSMath-Italic.woff2
+build ../fonts/webfonts/XITSMath-Italic.woff2: compress $
+    ../fonts/ttf/XITSMath-Italic.ttf
+  operation = compress
+# Generating ../fonts/webfonts/XITSMathUnjoined-Regular.woff2
+build ../fonts/webfonts/XITSMathUnjoined-Regular.woff2: compress $
+    ../fonts/ttf/XITSMathUnjoined-Regular.ttf
+  operation = compress
+# Generating ../fonts/webfonts/XITSMathUnjoined-Italic.woff2
+build ../fonts/webfonts/XITSMathUnjoined-Italic.woff2: compress $
+    ../fonts/ttf/XITSMathUnjoined-Italic.ttf
+  operation = compress
+# Generating /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmptwln5oj_
+build /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmptwln5oj_: $
+    autohint /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmp6xjgdwyt
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/XITSMath-Regular.ttf
+build ../fonts/ttf/XITSMath-Regular.ttf: fix $
+    /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmptwln5oj_
+  operation = fix
+  args = 
+# Generating /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpv9ip8ipk
+build /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpv9ip8ipk: $
+    autohint /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpi4no63gs
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/XITSMath-Bold.ttf
+build ../fonts/ttf/XITSMath-Bold.ttf: fix $
+    /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpv9ip8ipk
+  operation = fix
+  args = 
+# Generating /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpc4ezm3xz
+build /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpc4ezm3xz: $
+    autohint /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpg43nyvmy
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/XITSMath-Italic.ttf
+build ../fonts/ttf/XITSMath-Italic.ttf: fix $
+    /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpc4ezm3xz
+  operation = fix
+  args = 
+# Generating /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpksm0pxxj
+build /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpksm0pxxj: $
+    autohint /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpit4egfsg
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/XITSMathUnjoined-Regular.ttf
+build ../fonts/ttf/XITSMathUnjoined-Regular.ttf: fix $
+    /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpksm0pxxj
+  operation = fix
+  args = 
+# Generating /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpo2f82hgd
+build /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpo2f82hgd: $
+    autohint /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmp_gh158qb
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/XITSMathUnjoined-Italic.ttf
+build ../fonts/ttf/XITSMathUnjoined-Italic.ttf: fix $
+    /var/folders/z6/qp2km9dx3c1b872pts1d55m80000gn/T/tmpo2f82hgd
+  operation = fix
+  args = 
+default ../fonts/webfonts/XITSMath-Regular.woff2 $
+    ../fonts/webfonts/XITSMath-Bold.woff2 $
+    ../fonts/webfonts/XITSMath-Italic.woff2 $
+    ../fonts/webfonts/XITSMathUnjoined-Regular.woff2 $
+    ../fonts/webfonts/XITSMathUnjoined-Italic.woff2
