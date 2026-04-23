@@ -44,4 +44,26 @@
       <point x="327" y="700" type="curve"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>a1dca146057e18e6fb6fde1df37f8e22122ee50652a915abe1dc190e4ad29fd7d2a45e5f7ae7ac759a7f940cc13f0b24d1e71b417c7ee6e74ce58b3627895f97</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 383 65</string>
+          <string>hstem 675 20</string>
+          <string>vstem 74 59</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
 </glyph>

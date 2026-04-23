@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gemination-adlam.wide.case" format="2">
   <advance width="74"/>
-  <anchor x="58.4" y="662" name="_top"/>
+  <anchor x="108.4" y="662" name="_top"/>
   <outline>
     <contour>
-      <point x="-181.63" y="783.98" type="line"/>
-      <point x="364.36" y="783.98" type="line"/>
-      <point x="369.36" y="793.98" type="line"/>
-      <point x="357.36" y="833.98" type="line"/>
-      <point x="-188.63" y="833.98" type="line"/>
-      <point x="-193.63" y="823.98" type="line"/>
+      <point x="-131.63" y="783.98" type="line"/>
+      <point x="414.36" y="783.98" type="line"/>
+      <point x="419.36" y="793.98" type="line"/>
+      <point x="407.36" y="833.98" type="line"/>
+      <point x="-138.63" y="833.98" type="line"/>
+      <point x="-143.63" y="823.98" type="line"/>
     </contour>
   </outline>
   <lib>

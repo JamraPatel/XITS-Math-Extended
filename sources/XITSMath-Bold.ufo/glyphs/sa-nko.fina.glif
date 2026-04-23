@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sa-nko.fina" format="2">
   <advance width="745"/>
+  <anchor x="370" y="661" name="top"/>
   <outline>
     <contour>
       <point x="145" y="107" type="line"/>

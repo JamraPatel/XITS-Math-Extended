@@ -71,4 +71,31 @@
       <point x="632" y="221" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>fe2151729eb20099f6dcfb8ebc2e5265044745ceaae65dc85d86a5d0300575d06de865f1bfbc467a8828f5b97b1ab72f9c4bbb3480b38330e8212b9b42f55769</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -320 42</string>
+          <string>hstem 650 20</string>
+          <string>hstem 782 42</string>
+          <string>vstem 45 80</string>
+          <string>vstem 133 98</string>
+          <string>vstem 281 112</string>
+          <string>vstem 443 98</string>
+          <string>vstem 552 80</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
 </glyph>

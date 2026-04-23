@@ -3,6 +3,7 @@
   <advance width="498"/>
   <unicode hex="07F8"/>
   <outline>
+    <component base="period" xOffset="144" yOffset="232"/>
     <contour>
       <point x="55" y="0" type="line"/>
       <point x="447" y="0" type="line"/>

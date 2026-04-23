@@ -215,4 +215,33 @@
       <point x="307" y="-7" type="curve"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>314fda9d1827a6ae2a95de03247e48d6012233d9cc611af8f67eee61dae3301fdcf9329a01f549d62db4ce6dfdcc06012147931454f1df396cbf4cca3fdae29f</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -269 52</string>
+          <string>hstem 1948 52</string>
+          <string>vstem 56 119</string>
+          <string>vstem 454 119</string>
+          <string>vstem 852 119</string>
+          <string>vstem 1015 121</string>
+          <string>vstem 1250 119</string>
+          <string>vstem 1413 121</string>
+          <string>vstem 1811 121</string>
+          <string>vstem 2209 121</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
 </glyph>

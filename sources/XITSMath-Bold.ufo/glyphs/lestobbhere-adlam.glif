@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lestobbhere-adlam" format="2">
   <unicode hex="1E94B"/>
+  <anchor x="0" y="-0.5991" name="_bottom"/>
   <outline>
     <contour>
       <point x="-0.5501" y="-220.733" type="curve" smooth="yes"/>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ee-nko.init" format="2">
+  <advance width="711"/>
+  <anchor x="351" y="0" name="bottom"/>
+  <anchor x="341" y="661" name="top"/>
+  <outline>
+    <contour>
+      <point x="655" y="225" type="curve" smooth="yes"/>
+      <point x="655" y="369"/>
+      <point x="544" y="460"/>
+      <point x="344" y="460" type="curve" smooth="yes"/>
+      <point x="174" y="460"/>
+      <point x="55" y="378"/>
+      <point x="55" y="225" type="curve" smooth="yes"/>
+      <point x="55" y="183.79"/>
+      <point x="62.36" y="147.6"/>
+      <point x="76.84" y="116.67" type="curve"/>
+      <point x="59.88" y="81.93"/>
+      <point x="40.88" y="70"/>
+      <point x="2" y="70" type="curve" smooth="yes"/>
+      <point x="-19" y="70" type="line"/>
+      <point x="-19" y="0" type="line"/>
+      <point x="2" y="0" type="line" smooth="yes"/>
+      <point x="63.26" y="0"/>
+      <point x="102.24" y="11.15"/>
+      <point x="128.81" y="49.59" type="curve"/>
+      <point x="179.32" y="7.78"/>
+      <point x="255.23" y="-14"/>
+      <point x="355" y="-14" type="curve" smooth="yes"/>
+      <point x="542" y="-14"/>
+      <point x="655" y="80"/>
+    </contour>
+    <contour>
+      <point x="561" y="241" type="curve" smooth="yes"/>
+      <point x="561" y="115"/>
+      <point x="480" y="56"/>
+      <point x="346" y="56" type="curve" smooth="yes"/>
+      <point x="203" y="56"/>
+      <point x="120" y="118"/>
+      <point x="120" y="235" type="curve" smooth="yes"/>
+      <point x="120" y="343"/>
+      <point x="208" y="416"/>
+      <point x="339" y="416" type="curve" smooth="yes"/>
+      <point x="489" y="416"/>
+      <point x="561" y="345"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>ee-nko</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

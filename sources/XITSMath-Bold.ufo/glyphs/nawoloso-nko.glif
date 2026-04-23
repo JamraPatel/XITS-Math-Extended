@@ -2,6 +2,7 @@
 <glyph name="nawoloso-nko" format="2">
   <advance width="482"/>
   <unicode hex="07E0"/>
+  <anchor x="241" y="661" name="top"/>
   <outline>
     <contour>
       <point x="19" y="555" type="line"/>

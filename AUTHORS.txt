@@ -5,3 +5,7 @@
 # Names should be added to this file as:
 # Name or Organization <email address>
 
+Neil Patel neil@jamra-patel.com
+Khaled Hosny khaledhosny@eglug.org
+Daniel Benjamin Miller dbmiller@dbmiller.org
+STIX Fonts project stix@aip.org

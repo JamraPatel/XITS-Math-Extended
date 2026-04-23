@@ -81,7 +81,6 @@ languagesystem nko  dflt; # N'Ko default
 #
 # Feature definitions
 #
-
 feature locl {
 # GSUB feature: Localized Forms
 # Lookups: 2
@@ -101,7 +100,6 @@ feature locl {
 
 
 } locl;
-
 feature ccmp {
 # GSUB feature: Glyph Composition / Decomposition
 # Lookups: 3
@@ -127,7 +125,6 @@ feature ccmp {
   sub perthousand by perthousand.nko;
 
 } ccmp;
-
 feature rclt {
 # GSUB feature: Required Contextual Alternates
 # Lookups: 2
@@ -167,7 +164,6 @@ feature rclt {
   sub @rclt2 perthousand' by perthousand.adlam;
 
 } rclt;
-
 feature mark {
 # GPOS feature: Mark Positioning
 # Lookups: 1
@@ -541,4 +537,3 @@ feature mark {
 
 
 } mark;
-

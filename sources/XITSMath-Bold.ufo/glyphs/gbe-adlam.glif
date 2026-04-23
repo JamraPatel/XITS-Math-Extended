@@ -2,6 +2,8 @@
 <glyph name="gbe-adlam" format="2">
   <advance width="515"/>
   <unicode hex="1E940"/>
+  <anchor x="236" y="450" name="top"/>
+  <anchor x="262" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="464" y="28.6614" type="line"/>
@@ -47,6 +49,7 @@
       <point x="460.006" y="40" type="line"/>
     </contour>
   </outline>
+  <guideline angle="66.0375" x="372.778" y="230"/>
   <lib>
   <dict>
   <key>public.markColor</key>

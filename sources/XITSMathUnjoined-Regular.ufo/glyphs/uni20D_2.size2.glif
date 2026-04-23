@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni20D2.size2" format="2">
+  <outline>
+    <contour>
+      <point x="-192" y="-229" type="line"/>
+      <point x="-242" y="-229" type="line"/>
+      <point x="-242" y="731" type="line"/>
+      <point x="-192" y="731" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w0m-192,-229l-242,-229l-242,731l-192,731</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>vstem -242 50</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

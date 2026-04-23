@@ -2,6 +2,8 @@
 <glyph name="nya-adlam" format="2">
   <advance width="541"/>
   <unicode hex="1E93B"/>
+  <anchor x="281" y="450" name="top"/>
+  <anchor x="279" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="504.82" y="126.367" type="line" smooth="yes"/>
@@ -54,6 +56,7 @@
       <point x="504.82" y="-13.04" type="line"/>
     </contour>
   </outline>
+  <guideline angle="127.467" x="446.153" y="397.004"/>
   <lib>
   <dict>
   <key>public.markColor</key>

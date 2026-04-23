@@ -2,6 +2,7 @@
 <glyph name="pa-nko" format="2">
   <advance width="489"/>
   <unicode hex="07D4"/>
+  <anchor x="209" y="661" name="top"/>
   <outline>
     <contour>
       <point x="59" y="323" type="line"/>

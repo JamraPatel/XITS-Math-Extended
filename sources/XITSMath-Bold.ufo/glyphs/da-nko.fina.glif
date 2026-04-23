@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="da-nko.fina" format="2">
   <advance width="786"/>
+  <anchor x="357" y="661" name="top"/>
   <outline>
     <contour>
       <point x="481.513" y="107" type="curve" smooth="yes"/>

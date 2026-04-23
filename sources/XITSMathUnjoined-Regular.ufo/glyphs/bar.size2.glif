@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar.size2" format="2">
+  <advance width="320"/>
+  <outline>
+    <contour>
+      <point x="193" y="-279" type="line"/>
+      <point x="127" y="-279" type="line"/>
+      <point x="127" y="1566" type="line"/>
+      <point x="193" y="1566" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w320m193,-279l127,-279l127,1566l193,1566</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>vstem 127 66</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

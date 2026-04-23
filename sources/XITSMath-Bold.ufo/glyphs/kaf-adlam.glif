@@ -2,6 +2,8 @@
 <glyph name="kaf-adlam" format="2">
   <advance width="609"/>
   <unicode hex="1E933"/>
+  <anchor x="311" y="450" name="top"/>
+  <anchor x="305" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="548.32" y="0" type="line"/>

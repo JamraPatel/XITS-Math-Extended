@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slash.size1.rtlm" format="2">
+  <advance width="579"/>
+  <outline>
+    <contour>
+      <point x="25" y="1066" type="line"/>
+      <point x="98" y="1066" type="line"/>
+      <point x="552" y="-164" type="line"/>
+      <point x="479" y="-164" type="line"/>
+    </contour>
+  </outline>
+</glyph>

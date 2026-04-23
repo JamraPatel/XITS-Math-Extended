@@ -70,33 +70,6 @@
   <string>XITS Math</string>
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Bold</string>
-  <key>openTypeNameRecords</key>
-  <array>
-  <dict>
-    <key>nameID</key>
-    <integer>256</integer>
-    <key>platformID</key>
-    <integer>3</integer>
-    <key>encodingID</key>
-    <integer>1</integer>
-    <key>languageID</key>
-    <integer>1033</integer>
-    <key>string</key>
-    <string>Mathematical Calligraphic Alphabet</string>
-  </dict>
-  <dict>
-    <key>nameID</key>
-    <integer>257</integer>
-    <key>platformID</key>
-    <integer>3</integer>
-    <key>encodingID</key>
-    <integer>1</integer>
-    <key>languageID</key>
-    <integer>1033</integer>
-    <key>string</key>
-    <string>Upright Integrals</string>
-  </dict>
-  </array>
   <key>openTypeNameVersion</key>
   <string>$version</string>
   <key>openTypeOS2CodePageRanges</key>

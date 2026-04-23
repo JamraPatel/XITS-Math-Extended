@@ -2,6 +2,8 @@
 <glyph name="Jiim-adlam" format="2">
   <advance width="972"/>
   <unicode hex="1E914"/>
+  <anchor x="486" y="662" name="top"/>
+  <anchor x="486" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="304.414" y="676" type="curve" smooth="yes"/>

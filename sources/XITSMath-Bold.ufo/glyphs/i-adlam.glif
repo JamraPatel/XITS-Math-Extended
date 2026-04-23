@@ -2,6 +2,8 @@
 <glyph name="i-adlam" format="2">
   <advance width="580"/>
   <unicode hex="1E92D"/>
+  <anchor x="291" y="450" name="top"/>
+  <anchor x="290" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="206" y="344" type="line"/>
@@ -28,6 +30,7 @@
       <point x="206" y="117" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="153.155" x="288.444" y="303.387"/>
   <lib>
   <dict>
   <key>public.markColor</key>

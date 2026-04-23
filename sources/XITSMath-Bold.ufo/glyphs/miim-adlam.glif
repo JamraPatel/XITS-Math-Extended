@@ -2,6 +2,8 @@
 <glyph name="miim-adlam" format="2">
   <advance width="528"/>
   <unicode hex="1E925"/>
+  <anchor x="256" y="450" name="top"/>
+  <anchor x="256" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="466.24" y="352.56" type="line" smooth="yes"/>
@@ -46,6 +48,7 @@
       <point x="466.24" y="287.88" type="line"/>
     </contour>
   </outline>
+  <guideline angle="339.585" x="330.068" y="235.28"/>
   <lib>
   <dict>
   <key>public.markColor</key>

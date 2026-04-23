@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aliflengthencomb-adlam" format="2">
   <unicode hex="1E944"/>
+  <anchor x="85" y="450" name="_topAlif"/>
   <outline>
     <contour>
       <point x="289.524" y="498" type="line"/>

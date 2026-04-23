@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="longrisingtonecomb-nko" format="2">
   <unicode hex="07F1"/>
+  <anchor x="29" y="662" name="_top"/>
   <outline>
     <contour>
       <point x="178" y="765" type="line"/>

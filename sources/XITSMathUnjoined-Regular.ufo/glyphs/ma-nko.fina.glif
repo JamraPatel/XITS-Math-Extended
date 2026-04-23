@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ma-nko.fina" format="2">
+  <advance width="612"/>
+  <anchor x="306" y="662" name="top"/>
+  <outline>
+    <contour>
+      <point x="35" y="14" type="curve"/>
+      <point x="47" y="0" type="line"/>
+      <point x="471" y="0" type="line" smooth="yes"/>
+      <point x="504" y="0"/>
+      <point x="526" y="4"/>
+      <point x="543" y="23" type="curve"/>
+      <point x="545" y="23" type="line"/>
+      <point x="565" y="3"/>
+      <point x="588" y="0"/>
+      <point x="628" y="0" type="curve" smooth="yes"/>
+      <point x="631" y="0" type="line"/>
+      <point x="631" y="70" type="line"/>
+      <point x="628" y="70" type="line" smooth="yes"/>
+      <point x="591" y="70"/>
+      <point x="566" y="83"/>
+      <point x="558" y="118" type="curve" smooth="yes"/>
+      <point x="520" y="283"/>
+      <point x="419" y="510"/>
+      <point x="345" y="661" type="curve"/>
+      <point x="276" y="661" type="line"/>
+      <point x="181" y="468"/>
+      <point x="100" y="250"/>
+    </contour>
+    <contour>
+      <point x="299" y="573" type="line"/>
+      <point x="345" y="482"/>
+      <point x="453" y="236"/>
+      <point x="474" y="118" type="curve" smooth="yes"/>
+      <point x="478" y="93"/>
+      <point x="480" y="71"/>
+      <point x="440" y="71" type="curve" smooth="yes"/>
+      <point x="111" y="71" type="line"/>
+      <point x="157" y="231"/>
+      <point x="238" y="442"/>
+      <point x="296" y="573" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>ma-nko</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

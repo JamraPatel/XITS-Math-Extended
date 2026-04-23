@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ja-nko.dant" format="2">
+  <advance width="465"/>
+  <anchor x="241" y="662" name="top"/>
+  <outline>
+    <component base="dantayalanleft-nko" xOffset="18"/>
+    <component base="dantayalanright-nko" xOffset="349"/>
+    <contour>
+      <point x="40" y="0" type="line"/>
+      <point x="435" y="0" type="line"/>
+      <point x="435" y="70" type="line"/>
+      <point x="323.81" y="70" type="line"/>
+      <point x="320.14" y="250.8"/>
+      <point x="263.16" y="392.59"/>
+      <point x="124" y="582" type="curve"/>
+      <point x="400" y="582" type="line"/>
+      <point x="430" y="652" type="line"/>
+      <point x="430" y="662" type="line"/>
+      <point x="32" y="662" type="line"/>
+      <point x="25" y="646" type="line"/>
+      <point x="179.31" y="414.05"/>
+      <point x="236.59" y="245.21"/>
+      <point x="239.84" y="70" type="curve"/>
+      <point x="40" y="70" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>ja-nko</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

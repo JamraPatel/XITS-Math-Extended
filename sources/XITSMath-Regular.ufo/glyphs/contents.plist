@@ -742,6 +742,8 @@
   <string>minus.glif</string>
   <key>mu</key>
   <string>mu.glif</string>
+  <key>mu.rtlm</key>
+  <string>mu.rtlm.glif</string>
   <key>multiply</key>
   <string>multiply.glif</string>
   <key>n</key>
@@ -1056,14 +1058,24 @@
   <string>six-nko.glif</string>
   <key>slash</key>
   <string>slash.glif</string>
+  <key>slash.rtlm</key>
+  <string>slash.rtlm.glif</string>
   <key>slash.size1</key>
   <string>slash.size1.glif</string>
+  <key>slash.size1.rtlm</key>
+  <string>slash.size1.rtlm.glif</string>
   <key>slash.size2</key>
   <string>slash.size2.glif</string>
+  <key>slash.size2.rtlm</key>
+  <string>slash.size2.rtlm.glif</string>
   <key>slash.size3</key>
   <string>slash.size3.glif</string>
+  <key>slash.size3.rtlm</key>
+  <string>slash.size3.rtlm.glif</string>
   <key>slash.size4</key>
   <string>slash.size4.glif</string>
+  <key>slash.size4.rtlm</key>
+  <string>slash.size4.rtlm.glif</string>
   <key>space</key>
   <string>space.glif</string>
   <key>space.nko</key>
@@ -5098,6 +5110,8 @@
   <string>uni03B_B_.ss.glif</string>
   <key>uni03BC</key>
   <string>uni03B_C_.glif</string>
+  <key>uni03BC.rtlm</key>
+  <string>uni03B_C_.rtlm.glif</string>
   <key>uni03BC.ss</key>
   <string>uni03B_C_.ss.glif</string>
   <key>uni03BD</key>
@@ -6240,6 +6254,8 @@
   <string>uni2214.glif</string>
   <key>uni2215</key>
   <string>uni2215.glif</string>
+  <key>uni2215.rtlm</key>
+  <string>uni2215.rtlm.glif</string>
   <key>uni2216</key>
   <string>uni2216.glif</string>
   <key>uni2217</key>
@@ -8704,8 +8720,12 @@
   <string>uni29F_7.glif</string>
   <key>uni29F8</key>
   <string>uni29F_8.glif</string>
+  <key>uni29F8.rtlm</key>
+  <string>uni29F_8.rtlm.glif</string>
   <key>uni29F8.size1</key>
   <string>uni29F_8.size1.glif</string>
+  <key>uni29F8.size1.rtlm</key>
+  <string>uni29F_8.size1.rtlm.glif</string>
   <key>uni29F9</key>
   <string>uni29F_9.glif</string>
   <key>uni29F9.size1</key>

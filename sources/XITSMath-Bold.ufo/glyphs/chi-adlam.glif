@@ -2,6 +2,8 @@
 <glyph name="chi-adlam" format="2">
   <advance width="669"/>
   <unicode hex="1E937"/>
+  <anchor x="341" y="450" name="top"/>
+  <anchor x="341" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="418.57" y="-55" type="line"/>

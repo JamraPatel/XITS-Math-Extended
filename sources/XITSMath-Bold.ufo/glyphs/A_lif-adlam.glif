@@ -2,6 +2,8 @@
 <glyph name="Alif-adlam" format="2">
   <advance width="682"/>
   <unicode hex="1E900"/>
+  <anchor x="347.508" y="662" name="top"/>
+  <anchor x="332" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="87" y="151.047" type="line" smooth="yes"/>

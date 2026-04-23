@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gemination-adlam.wide.case" format="2">
+  <anchor x="0" y="662" name="_top"/>
   <outline>
     <contour>
       <point x="-264.42" y="783.98" type="line"/>

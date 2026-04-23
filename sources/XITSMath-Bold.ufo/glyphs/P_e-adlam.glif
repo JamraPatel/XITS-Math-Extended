@@ -2,6 +2,8 @@
 <glyph name="Pe-adlam" format="2">
   <advance width="728"/>
   <unicode hex="1E906"/>
+  <anchor x="376" y="662" name="top"/>
+  <anchor x="360" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="641" y="662" type="line"/>

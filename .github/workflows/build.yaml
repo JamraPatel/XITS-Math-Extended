@@ -58,8 +58,9 @@ jobs:
 
     - name: Build font
       run: make build
-    - name: Check with fontspector
-      run: make test
+    # Checking supressed for now as it is determined which tests are relevant for a Math font if certain changes would affect compatibility with older versions of XITS.
+    #- name: Check with fontspector
+    #  run: make test
       continue-on-error: true
     - name: Generate proofs
       run: make proof

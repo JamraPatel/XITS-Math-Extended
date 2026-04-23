@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="longlowtonecomb-nko" format="2">
   <unicode hex="07F0"/>
+  <anchor x="9" y="662" name="_top"/>
   <outline>
     <contour>
       <point x="-108.6" y="908" type="curve"/>

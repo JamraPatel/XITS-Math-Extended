@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni27EE" format="2">
+  <advance width="233"/>
+  <unicode hex="27EE"/>
+  <outline>
+    <contour>
+      <point x="211" y="-166" type="line"/>
+      <point x="195" y="-177" type="line"/>
+      <point x="58" y="-70"/>
+      <point x="56" y="88"/>
+      <point x="56" y="247" type="curve" smooth="yes"/>
+      <point x="56" y="407"/>
+      <point x="57" y="567"/>
+      <point x="195" y="676" type="curve"/>
+      <point x="211" y="665" type="line"/>
+      <point x="146" y="581"/>
+      <point x="130" y="508"/>
+      <point x="130" y="403" type="curve" smooth="yes"/>
+      <point x="130" y="96" type="line" smooth="yes"/>
+      <point x="130" y="-9"/>
+      <point x="146" y="-82"/>
+      <point x="211" y="-166" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w233m211,-166l195,-177c58,-70 56,88 56,247c56,407 57,567 195,676l211,665c146,581 130,508 130,403l130,96c130,-9 146,-82 211,-166</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 656 20</string>
+          <string>vstem 56 74</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

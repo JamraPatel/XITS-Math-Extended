@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2037.ssty1" format="2">
+  <advance width="868"/>
+  <outline>
+    <component base="uni2037.ssty2" xScale="0.85" yScale="0.85" xOffset="-6.25" yOffset="5"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w868</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>vstem 286.15 28.05</string>
+          <string>vstem 513.1 28.05</string>
+          <string>vstem 740.05 28.05</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

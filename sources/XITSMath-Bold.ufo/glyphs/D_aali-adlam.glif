@@ -2,6 +2,8 @@
 <glyph name="Daali-adlam" format="2">
   <advance width="637"/>
   <unicode hex="1E901"/>
+  <anchor x="305.5" y="662" name="top"/>
+  <anchor x="309" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="474" y="0" type="line" smooth="yes"/>
@@ -38,6 +40,7 @@
       <point x="65" y="0" type="line"/>
     </contour>
   </outline>
+  <guideline angle="340.421" x="187" y="349"/>
   <lib>
   <dict>
   <key>public.markColor</key>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni20DE" format="2">
+  <unicode hex="20DE"/>
+  <outline>
+    <contour>
+      <point x="230" y="-180" type="line"/>
+      <point x="-730" y="-180" type="line"/>
+      <point x="-730" y="780" type="line"/>
+      <point x="230" y="780" type="line"/>
+    </contour>
+    <contour>
+      <point x="164" y="-114" type="line"/>
+      <point x="164" y="714" type="line"/>
+      <point x="-664" y="714" type="line"/>
+      <point x="-664" y="-114" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w0m230,-180l-730,-180l-730,780l230,780m164,-114l164,714l-664,714l-664,-114</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -180 66</string>
+          <string>hstem 714 66</string>
+          <string>vstem -730 66</string>
+          <string>vstem 164 66</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

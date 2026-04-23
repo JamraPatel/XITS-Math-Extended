@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aliflengthencomb-adlam" format="2">
   <unicode hex="1E944"/>
-  <anchor x="14.2581" y="450" name="_top"/>
+  <anchor x="132.258" y="450" name="_topAlif"/>
   <outline>
     <contour>
-      <point x="148.782" y="478" type="line"/>
-      <point x="148.782" y="496.817" type="line" smooth="yes"/>
-      <point x="148.782" y="549"/>
-      <point x="122.782" y="583"/>
-      <point x="-9.70125" y="583" type="curve" smooth="yes"/>
-      <point x="-178.218" y="583" type="line"/>
-      <point x="-198.218" y="543" type="line"/>
-      <point x="-195.218" y="533" type="line"/>
-      <point x="-14.7178" y="533" type="line" smooth="yes"/>
-      <point x="63.8511" y="533"/>
-      <point x="73.7822" y="525.868"/>
-      <point x="73.7822" y="477.817" type="curve" smooth="yes"/>
-      <point x="73.7822" y="458" type="line"/>
-      <point x="79.7822" y="458" type="line"/>
+      <point x="296.382" y="498" type="line"/>
+      <point x="300.146" y="516.817" type="line" smooth="yes"/>
+      <point x="301.669" y="524.436"/>
+      <point x="302.561" y="531.667"/>
+      <point x="302.561" y="538.461" type="curve" smooth="yes"/>
+      <point x="302.561" y="578.203"/>
+      <point x="272.04" y="603"/>
+      <point x="158.899" y="603" type="curve" smooth="yes"/>
+      <point x="-29.6179" y="603" type="line"/>
+      <point x="-57.6179" y="563" type="line"/>
+      <point x="-56.6179" y="553" type="line"/>
+      <point x="143.882" y="553" type="line" smooth="yes"/>
+      <point x="206.345" y="553"/>
+      <point x="224.524" y="548.493"/>
+      <point x="224.524" y="522.501" type="curve" smooth="yes"/>
+      <point x="224.524" y="515.798"/>
+      <point x="223.316" y="507.668"/>
+      <point x="221.346" y="497.817" type="curve" smooth="yes"/>
+      <point x="217.382" y="478" type="line"/>
+      <point x="223.382" y="478" type="line"/>
     </contour>
   </outline>
   <lib>

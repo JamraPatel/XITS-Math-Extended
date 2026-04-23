@@ -2,6 +2,8 @@
 <glyph name="kha-adlam" format="2">
   <advance width="609"/>
   <unicode hex="1E93F"/>
+  <anchor x="305" y="450" name="top"/>
+  <anchor x="289" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="60.68" y="0" type="line"/>

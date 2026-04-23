@@ -13,4 +13,26 @@
       <point x="-93" y="-86" type="line"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w0m-93,-260l-165,-260l-165,-158l-353,-158l-353,-260l-425,-260l-425,-86l-93,-86</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -158 72</string>
+          <string>vstem -425 72</string>
+          <string>vstem -165 72</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
 </glyph>

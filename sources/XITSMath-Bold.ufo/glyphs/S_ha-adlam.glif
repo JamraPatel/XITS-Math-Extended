@@ -2,6 +2,8 @@
 <glyph name="Sha-adlam" format="2">
   <advance width="929"/>
   <unicode hex="1E921"/>
+  <anchor x="460" y="662" name="top"/>
+  <anchor x="460" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="392" y="130" type="line" smooth="yes"/>

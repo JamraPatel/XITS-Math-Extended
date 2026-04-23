@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D5F2" format="2">
+  <advance width="452"/>
+  <unicode hex="1D5F2"/>
+  <outline>
+    <contour>
+      <point x="363" y="143" type="line"/>
+      <point x="433" y="77" type="line"/>
+      <point x="370" y="4"/>
+      <point x="331" y="-13"/>
+      <point x="246" y="-13" type="curve" smooth="yes"/>
+      <point x="115" y="-13"/>
+      <point x="25" y="79"/>
+      <point x="25" y="222" type="curve" smooth="yes"/>
+      <point x="25" y="319"/>
+      <point x="51" y="372"/>
+      <point x="93" y="416" type="curve" smooth="yes"/>
+      <point x="135" y="460"/>
+      <point x="184" y="473"/>
+      <point x="240" y="473" type="curve" smooth="yes"/>
+      <point x="358" y="473"/>
+      <point x="422" y="372"/>
+      <point x="422" y="233" type="curve" smooth="yes"/>
+      <point x="422" y="205" type="line"/>
+      <point x="150" y="205" type="line"/>
+      <point x="150" y="122"/>
+      <point x="202" y="88"/>
+      <point x="260" y="88" type="curve" smooth="yes"/>
+      <point x="291" y="88"/>
+      <point x="334" y="99"/>
+      <point x="363" y="143" type="curve"/>
+    </contour>
+    <contour>
+      <point x="159" y="300" type="line"/>
+      <point x="302" y="300" type="line"/>
+      <point x="302" y="358"/>
+      <point x="272" y="378"/>
+      <point x="233" y="378" type="curve" smooth="yes"/>
+      <point x="201" y="378"/>
+      <point x="161" y="347"/>
+      <point x="159" y="300" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>a9c341cb5375f6704554aae62861773fca2d024ef53b669de69db8f23426f4f5370e67e6c7f8e1809db0366937d74943c985b16112a0fad4251e387f6f008665</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -13 20</string>
+          <string>hstem 205 95</string>
+          <string>hstem 378 95</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

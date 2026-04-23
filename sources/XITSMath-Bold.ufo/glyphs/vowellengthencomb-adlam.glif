@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="vowellengthencomb-adlam" format="2">
   <unicode hex="1E945"/>
+  <anchor x="-32.4956" y="450" name="_top"/>
   <outline>
     <contour>
       <point x="-63.0577" y="672.313" type="curve"/>

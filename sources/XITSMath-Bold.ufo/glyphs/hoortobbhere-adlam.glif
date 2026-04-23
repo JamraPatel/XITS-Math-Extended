@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hoortobbhere-adlam" format="2">
   <unicode hex="1E94A"/>
+  <anchor x="-26" y="662" name="_top"/>
   <outline>
     <contour>
       <point x="-26.5501" y="789.9" type="curve" smooth="yes"/>

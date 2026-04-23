@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nyawoloso-nko.init" format="2">
   <advance width="526"/>
+  <anchor x="264" y="661" name="top"/>
   <outline>
     <contour>
       <point x="49" y="555" type="line"/>

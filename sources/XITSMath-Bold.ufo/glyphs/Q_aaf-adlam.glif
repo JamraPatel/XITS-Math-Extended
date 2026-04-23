@@ -2,6 +2,8 @@
 <glyph name="Qaaf-adlam" format="2">
   <advance width="710"/>
   <unicode hex="1E917"/>
+  <anchor x="391" y="662" name="top"/>
+  <anchor x="369" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="380" y="46" type="line" smooth="yes"/>
@@ -52,6 +54,8 @@
       <point x="641" y="46" type="line"/>
     </contour>
   </outline>
+  <guideline angle="116.129" x="450" y="501.897"/>
+  <guideline angle="116.129" x="526.298" y="481"/>
   <lib>
   <dict>
   <key>public.markColor</key>

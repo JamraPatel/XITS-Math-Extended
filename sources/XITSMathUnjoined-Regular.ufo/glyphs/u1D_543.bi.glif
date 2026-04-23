@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D543.bi" format="2">
+  <advance width="613"/>
+  <outline>
+    <contour>
+      <point x="568" y="63" type="line"/>
+      <point x="552" y="0" type="line"/>
+      <point x="18" y="0" type="line"/>
+      <point x="198" y="669" type="line"/>
+      <point x="408" y="669" type="line"/>
+      <point x="244" y="63" type="line"/>
+    </contour>
+    <contour>
+      <point x="324" y="606" type="line"/>
+      <point x="247" y="606" type="line"/>
+      <point x="101" y="63" type="line"/>
+      <point x="178" y="63" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w613m568,63l552,0l18,0l198,669l408,669l244,63m324,606l247,606l101,63l178,63</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 63</string>
+          <string>hstem 606 63</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

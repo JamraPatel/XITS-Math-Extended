@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2AE6.rtlm" format="2">
+  <advance width="685"/>
+  <outline>
+    <contour>
+      <point x="57" y="298" type="line"/>
+      <point x="360" y="298" type="line"/>
+      <point x="360" y="0" type="line"/>
+      <point x="426" y="0" type="line"/>
+      <point x="426" y="298" type="line"/>
+      <point x="560" y="298" type="line"/>
+      <point x="560" y="0" type="line"/>
+      <point x="626" y="0" type="line"/>
+      <point x="626" y="662" type="line"/>
+      <point x="560" y="662" type="line"/>
+      <point x="560" y="364" type="line"/>
+      <point x="426" y="364" type="line"/>
+      <point x="426" y="662" type="line"/>
+      <point x="360" y="662" type="line"/>
+      <point x="360" y="364" type="line"/>
+      <point x="57" y="364" type="line"/>
+    </contour>
+  </outline>
+</glyph>

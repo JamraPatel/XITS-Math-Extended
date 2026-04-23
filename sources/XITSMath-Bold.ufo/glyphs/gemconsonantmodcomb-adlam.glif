@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gemconsonantmodcomb-adlam" format="2">
   <unicode hex="1E949"/>
+  <anchor x="-91.5" y="449" name="_top"/>
   <outline>
     <contour>
       <point x="-49.6547" y="566.381" type="line"/>

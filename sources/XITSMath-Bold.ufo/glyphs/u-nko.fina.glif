@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u-nko.fina" format="2">
   <advance width="624"/>
+  <anchor x="304" y="0" name="bottom"/>
+  <anchor x="302" y="661" name="top"/>
   <outline>
     <contour>
       <point x="494" y="27" type="curve"/>

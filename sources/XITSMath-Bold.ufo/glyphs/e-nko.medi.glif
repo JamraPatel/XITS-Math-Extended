@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="e-nko.medi" format="2">
   <advance width="713"/>
+  <anchor x="352" y="0" name="bottom"/>
+  <anchor x="356" y="661" name="top"/>
   <outline>
     <contour>
       <point x="358" y="281" type="line"/>

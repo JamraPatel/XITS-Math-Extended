@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2980.size4" format="2">
+  <advance width="594"/>
+  <outline>
+    <component base="bar.size4" xOffset="-42"/>
+    <component base="bar.size4" xOffset="137"/>
+    <component base="bar.size4" xOffset="316"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w594</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>vstem 85 66</string>
+          <string>vstem 264 66</string>
+          <string>vstem 443 66</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

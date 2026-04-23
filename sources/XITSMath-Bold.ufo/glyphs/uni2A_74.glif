@@ -81,6 +81,27 @@
   <string>colon+colon+equal</string>
   <key>public.markColor</key>
   <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>2246c93d00a979bc317e3b753264ee98f78cf758d1837d111a10401bda6d4fdc192944cd3e50084f6593a1efd6ab1bd34f9768c8c4c250aede5789e57c070d4e</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -13 169</string>
+          <string>hstem 108 88</string>
+          <string>hstem 303 169</string>
+          <string>hstem 312 88</string>
+          <string>vstem 48.55 169</string>
+          <string>vstem 308.31 169</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
   </dict>
   </lib>
 </glyph>

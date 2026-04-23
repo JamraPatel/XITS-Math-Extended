@@ -2,6 +2,8 @@
 <glyph name="Gbe-adlam" format="2">
   <advance width="696"/>
   <unicode hex="1E91E"/>
+  <anchor x="352" y="662" name="top"/>
+  <anchor x="339" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="401" y="196.28" type="curve" smooth="yes"/>

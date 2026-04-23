@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2285.ss09" format="2">
+  <advance width="685"/>
+  <outline>
+    <contour>
+      <point x="331" y="532" type="line"/>
+      <point x="359" y="532" type="line" smooth="yes"/>
+      <point x="518" y="532"/>
+      <point x="630" y="401"/>
+      <point x="630" y="253" type="curve" smooth="yes"/>
+      <point x="630" y="105"/>
+      <point x="516" y="-26"/>
+      <point x="356" y="-26" type="curve" smooth="yes"/>
+      <point x="331" y="-26" type="line"/>
+      <point x="331" y="-156" type="line"/>
+      <point x="281" y="-156" type="line"/>
+      <point x="281" y="-26" type="line"/>
+      <point x="65" y="-26" type="line"/>
+      <point x="65" y="40" type="line"/>
+      <point x="281" y="40" type="line"/>
+      <point x="281" y="466" type="line"/>
+      <point x="65" y="466" type="line"/>
+      <point x="65" y="532" type="line"/>
+      <point x="281" y="532" type="line"/>
+      <point x="281" y="662" type="line"/>
+      <point x="331" y="662" type="line"/>
+    </contour>
+    <contour>
+      <point x="331" y="40" type="line"/>
+      <point x="356" y="40" type="line" smooth="yes"/>
+      <point x="470" y="40"/>
+      <point x="564" y="146"/>
+      <point x="564" y="253" type="curve" smooth="yes"/>
+      <point x="564" y="360"/>
+      <point x="469" y="466"/>
+      <point x="355" y="466" type="curve" smooth="yes"/>
+      <point x="331" y="466" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>084f169d85b9e1e95b504fe6bbb575fc24729c80fc84280dd1b79267b481e666b585d21ee2386b253c4bfdbc988294368f9a03f01177516c8d01c4e39be97eb3</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -26 66</string>
+          <string>hstem 466 66</string>
+          <string>vstem 281 50</string>
+          <string>vstem 564 66</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -2,6 +2,8 @@
 <glyph name="o-adlam" format="2">
   <advance width="581"/>
   <unicode hex="1E92E"/>
+  <anchor x="299" y="459" name="top"/>
+  <anchor x="289" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="194.82" y="239.28" type="curve" smooth="yes"/>

@@ -70,6 +70,129 @@
   <string>XITS Math</string>
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
+  <key>openTypeNameRecords</key>
+  <array>
+  <dict>
+    <key>nameID</key>
+    <integer>256</integer>
+    <key>platformID</key>
+    <integer>3</integer>
+    <key>encodingID</key>
+    <integer>1</integer>
+    <key>languageID</key>
+    <integer>1033</integer>
+    <key>string</key>
+    <string>Mathematical Calligraphic Alphabet</string>
+  </dict>
+  <dict>
+    <key>nameID</key>
+    <integer>257</integer>
+    <key>platformID</key>
+    <integer>3</integer>
+    <key>encodingID</key>
+    <integer>1</integer>
+    <key>languageID</key>
+    <integer>1033</integer>
+    <key>string</key>
+    <string>Mathematical Greek Sans Serif Alphabet</string>
+  </dict>
+  <dict>
+    <key>nameID</key>
+    <integer>258</integer>
+    <key>platformID</key>
+    <integer>3</integer>
+    <key>encodingID</key>
+    <integer>1</integer>
+    <key>languageID</key>
+    <integer>1033</integer>
+    <key>string</key>
+    <string>Mathematical Italic Sans Serif Digits</string>
+  </dict>
+  <dict>
+    <key>nameID</key>
+    <integer>259</integer>
+    <key>platformID</key>
+    <integer>3</integer>
+    <key>encodingID</key>
+    <integer>1</integer>
+    <key>languageID</key>
+    <integer>1033</integer>
+    <key>string</key>
+    <string>Mathematical Bold Monospace Digits</string>
+  </dict>
+  <dict>
+    <key>nameID</key>
+    <integer>260</integer>
+    <key>platformID</key>
+    <integer>3</integer>
+    <key>encodingID</key>
+    <integer>1</integer>
+    <key>languageID</key>
+    <integer>1033</integer>
+    <key>string</key>
+    <string>Mathematical Bold Double-Struck Alphabet</string>
+  </dict>
+  <dict>
+    <key>nameID</key>
+    <integer>261</integer>
+    <key>platformID</key>
+    <integer>3</integer>
+    <key>encodingID</key>
+    <integer>1</integer>
+    <key>languageID</key>
+    <integer>1033</integer>
+    <key>string</key>
+    <string>Mathematical Italic Double-Struck Alphabet</string>
+  </dict>
+  <dict>
+    <key>nameID</key>
+    <integer>262</integer>
+    <key>platformID</key>
+    <integer>3</integer>
+    <key>encodingID</key>
+    <integer>1</integer>
+    <key>languageID</key>
+    <integer>1033</integer>
+    <key>string</key>
+    <string>Mathematical Bold Italic Double-Struck Alphabet</string>
+  </dict>
+  <dict>
+    <key>nameID</key>
+    <integer>263</integer>
+    <key>platformID</key>
+    <integer>3</integer>
+    <key>encodingID</key>
+    <integer>1</integer>
+    <key>languageID</key>
+    <integer>1033</integer>
+    <key>string</key>
+    <string>Upright Integrals</string>
+  </dict>
+  <dict>
+    <key>nameID</key>
+    <integer>264</integer>
+    <key>platformID</key>
+    <integer>3</integer>
+    <key>encodingID</key>
+    <integer>1</integer>
+    <key>languageID</key>
+    <integer>1033</integer>
+    <key>string</key>
+    <string>Negated Symbols With Vertical Stroke</string>
+  </dict>
+  <dict>
+    <key>nameID</key>
+    <integer>265</integer>
+    <key>platformID</key>
+    <integer>3</integer>
+    <key>encodingID</key>
+    <integer>1</integer>
+    <key>languageID</key>
+    <integer>1033</integer>
+    <key>string</key>
+    <string>Plank constant over two pi, with a bar</string>
+  </dict>
+  </array>
   <key>openTypeNameVersion</key>
   <string>$version</string>
   <key>openTypeOS2CodePageRanges</key>

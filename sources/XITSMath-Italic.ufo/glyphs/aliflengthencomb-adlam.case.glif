@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aliflengthencomb-adlam.case" format="2">
-  <anchor x="14" y="662" name="_top"/>
+  <advance width="50"/>
+  <anchor x="136.4" y="662" name="_top"/>
   <outline>
     <contour>
-      <point x="134.528" y="757.753" type="curve"/>
-      <point x="145.801" y="795.488" type="line"/>
-      <point x="64.5755" y="810.299"/>
-      <point x="19.9311" y="857.342"/>
-      <point x="-22.4555" y="927.289" type="curve"/>
-      <point x="-98.0887" y="863.331" type="line"/>
-      <point x="-40.7839" y="798.313"/>
-      <point x="35.5514" y="762.853"/>
+      <point x="280.078" y="777.753" type="curve"/>
+      <point x="298.899" y="815.488" type="line"/>
+      <point x="220.635" y="830.299"/>
+      <point x="185.399" y="877.342"/>
+      <point x="157.002" y="947.289" type="curve"/>
+      <point x="68.5775" y="883.331" type="line"/>
+      <point x="112.879" y="818.313"/>
+      <point x="182.122" y="782.853"/>
     </contour>
   </outline>
   <lib>

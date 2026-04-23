@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ha-nko.medi" format="2">
   <advance width="520"/>
+  <anchor x="252" y="661" name="top"/>
   <outline>
     <contour>
       <point x="55" y="662" type="line"/>

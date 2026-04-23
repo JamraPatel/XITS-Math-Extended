@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ee-nko.dant" format="2">
+  <advance width="711"/>
+  <anchor x="351" y="0" name="bottom"/>
+  <anchor x="341" y="661" name="top"/>
+  <anchor x="730" y="0" name="right"/>
+  <outline>
+    <component base="ee-nko"/>
+    <component base="dantayalanleft-nko" xOffset="-20"/>
+    <component base="dantayalanright-nko" xOffset="599"/>
+    <contour>
+      <point x="2" y="0" type="line"/>
+      <point x="243" y="0" type="line"/>
+      <point x="212.731" y="70" type="line"/>
+      <point x="2" y="70" type="line"/>
+    </contour>
+    <contour>
+      <point x="442" y="0" type="line"/>
+      <point x="685" y="0" type="line"/>
+      <point x="684.731" y="70" type="line"/>
+      <point x="482" y="70" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>ee-nko</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

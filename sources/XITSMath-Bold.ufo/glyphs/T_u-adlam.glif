@@ -2,6 +2,8 @@
 <glyph name="Tu-adlam" format="2">
   <advance width="884"/>
   <unicode hex="1E91A"/>
+  <anchor x="494" y="662" name="top"/>
+  <anchor x="479" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="630.8" y="661.61" type="line"/>

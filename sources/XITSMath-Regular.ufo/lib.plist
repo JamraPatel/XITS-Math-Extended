@@ -4741,6 +4741,14 @@
     <string>uni021B</string>
     <string>commareversed</string>
     <string>question-ar</string>
+    <string>slash.rtlm</string>
+    <string>slash.size1.rtlm</string>
+    <string>slash.size2.rtlm</string>
+    <string>slash.size3.rtlm</string>
+    <string>slash.size4.rtlm</string>
+    <string>uni2215.rtlm</string>
+    <string>uni29F8.rtlm</string>
+    <string>uni29F8.size1.rtlm</string>
     <string>A.rtlm</string>
     <string>B.rtlm</string>
     <string>C.rtlm</string>
@@ -4774,6 +4782,8 @@
     <string>uni03B3.rtlm</string>
     <string>uni03B8.rtlm</string>
     <string>uni03C6.rtlm</string>
+    <string>mu.rtlm</string>
+    <string>uni03BC.rtlm</string>
     <string>a-nko</string>
     <string>ee-nko</string>
     <string>i-nko</string>

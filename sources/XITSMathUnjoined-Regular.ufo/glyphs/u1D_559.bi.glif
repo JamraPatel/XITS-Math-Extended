@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D559.bi" format="2">
+  <advance width="661"/>
+  <outline>
+    <contour>
+      <point x="336" y="418" type="line"/>
+      <point x="338" y="418" type="line"/>
+      <point x="382" y="454"/>
+      <point x="422" y="462"/>
+      <point x="478" y="462" type="curve" smooth="yes"/>
+      <point x="552" y="462"/>
+      <point x="616" y="416"/>
+      <point x="616" y="338" type="curve" smooth="yes"/>
+      <point x="616" y="318"/>
+      <point x="611" y="298"/>
+      <point x="606" y="279" type="curve" smooth="yes"/>
+      <point x="532" y="0" type="line"/>
+      <point x="342" y="0" type="line"/>
+      <point x="449" y="401" type="line"/>
+      <point x="437" y="401"/>
+      <point x="424" y="399"/>
+      <point x="413" y="396" type="curve" smooth="yes"/>
+      <point x="357" y="382"/>
+      <point x="303" y="294"/>
+      <point x="289" y="241" type="curve" smooth="yes"/>
+      <point x="227" y="0" type="line"/>
+      <point x="34" y="0" type="line"/>
+      <point x="222" y="699" type="line"/>
+      <point x="414" y="699" type="line"/>
+    </contour>
+    <contour>
+      <point x="484" y="63" type="line"/>
+      <point x="550" y="307" type="line"/>
+      <point x="553" y="317"/>
+      <point x="553" y="328"/>
+      <point x="553" y="338" type="curve" smooth="yes"/>
+      <point x="553" y="368"/>
+      <point x="539" y="385"/>
+      <point x="512" y="396" type="curve"/>
+      <point x="422" y="63" type="line"/>
+    </contour>
+    <contour>
+      <point x="333" y="636" type="line"/>
+      <point x="269" y="636" type="line"/>
+      <point x="115" y="63" type="line"/>
+      <point x="179" y="63" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>6ee0921539e6eed3fdfc076e4280860a523edcc662f08dbd801dc6b16a92fc6efa34575ce6eadcd0e406bac093ec14f1a1d7dbda9c10606a3b1c6c9b358fbce2</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 63</string>
+          <string>hstem 442 20</string>
+          <string>hstem 636 63</string>
+          <string>vstem 553 63</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

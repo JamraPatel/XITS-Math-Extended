@@ -2,6 +2,8 @@
 <glyph name="zal-adlam" format="2">
   <advance width="762"/>
   <unicode hex="1E941"/>
+  <anchor x="388" y="450" name="top"/>
+  <anchor x="385" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="316.4" y="0" type="line" smooth="yes"/>

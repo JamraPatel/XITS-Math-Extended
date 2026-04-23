@@ -2,6 +2,8 @@
 <glyph name="nun-adlam" format="2">
   <advance width="486"/>
   <unicode hex="1E932"/>
+  <anchor x="248" y="450" name="top"/>
+  <anchor x="243" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="183.72" y="0" type="curve" smooth="yes"/>

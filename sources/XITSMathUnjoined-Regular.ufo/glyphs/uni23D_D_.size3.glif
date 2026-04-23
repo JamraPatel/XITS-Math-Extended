@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni23DD.size3" format="2">
+  <advance width="1886"/>
+  <outline>
+    <contour>
+      <point x="1838" y="-200" type="line"/>
+      <point x="1886" y="-200" type="line"/>
+      <point x="1681" y="-330"/>
+      <point x="1354" y="-431"/>
+      <point x="941" y="-431" type="curve" smooth="yes"/>
+      <point x="526" y="-431"/>
+      <point x="205" y="-330"/>
+      <point x="0" y="-200" type="curve"/>
+      <point x="47" y="-200" type="line"/>
+      <point x="214" y="-283"/>
+      <point x="472" y="-361"/>
+      <point x="941" y="-361" type="curve" smooth="yes"/>
+      <point x="1410" y="-361"/>
+      <point x="1671" y="-283"/>
+      <point x="1838" y="-200" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>f1e7c2024001fb82c4681d87997b043411582b0569a601c15983b721d1d43f274be2ffc10d7e512311ec8768527af8a6e06e02a4c4a2f8b95820de44d48624dd</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -431 70</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="consonantmodcomb-adlam" format="2">
   <unicode hex="1E948"/>
-  <anchor x="0.5" y="449" name="_top"/>
+  <anchor x="106.3" y="449" name="_top"/>
   <outline>
     <contour>
-      <point x="123.75" y="664" type="line"/>
-      <point x="6.37903" y="535.95" type="line"/>
-      <point x="-6.7841" y="536.381" type="line"/>
-      <point x="-123.01" y="664" type="line"/>
-      <point x="-55.4249" y="676.063" type="line"/>
-      <point x="17.0336" y="596.37" type="line"/>
-      <point x="91.126" y="676" type="line"/>
+      <point x="278.55" y="694" type="line"/>
+      <point x="248.326" y="706" type="line"/>
+      <point x="158.308" y="626.37" type="line"/>
+      <point x="101.788" y="706.063" type="line"/>
+      <point x="26.79" y="694" type="line"/>
+      <point x="117.492" y="566.381" type="line"/>
+      <point x="135.569" y="565.95" type="line"/>
     </contour>
   </outline>
   <lib>

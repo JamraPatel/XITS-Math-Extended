@@ -2,6 +2,8 @@
 <glyph name="ba-adlam" format="2">
   <advance width="649"/>
   <unicode hex="1E926"/>
+  <anchor x="327" y="450" name="top"/>
+  <anchor x="324" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="590.41" y="369.01" type="line" smooth="yes"/>

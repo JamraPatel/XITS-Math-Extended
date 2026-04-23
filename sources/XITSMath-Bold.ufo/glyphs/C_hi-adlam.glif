@@ -2,6 +2,8 @@
 <glyph name="Chi-adlam" format="2">
   <advance width="711"/>
   <unicode hex="1E915"/>
+  <anchor x="337" y="662" name="top"/>
+  <anchor x="339" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="470" y="0" type="line"/>
@@ -50,6 +52,7 @@
       <point x="468.89" y="324" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="133.151" x="788.424" y="432"/>
   <lib>
   <dict>
   <key>public.markColor</key>

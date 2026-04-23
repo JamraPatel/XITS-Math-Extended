@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni22A7.rtlm" format="2">
+  <advance width="498"/>
+  <outline>
+    <contour>
+      <point x="64" y="198" type="line"/>
+      <point x="64" y="264" type="line"/>
+      <point x="368" y="264" type="line"/>
+      <point x="368" y="398" type="line"/>
+      <point x="64" y="398" type="line"/>
+      <point x="64" y="464" type="line"/>
+      <point x="368" y="464" type="line"/>
+      <point x="368" y="662" type="line"/>
+      <point x="434" y="662" type="line"/>
+      <point x="434" y="0" type="line"/>
+      <point x="368" y="0" type="line"/>
+      <point x="368" y="198" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w498m64,198l64,264l368,264l368,398l64,398l64,464l368,464l368,662l434,662l434,0l368,0l368,198</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 21 -21</string>
+          <string>hstem 198 66</string>
+          <string>hstem 398 66</string>
+          <string>hstem 642 20</string>
+          <string>vstem 368 66</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

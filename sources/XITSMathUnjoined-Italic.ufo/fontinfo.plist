@@ -26,7 +26,7 @@
   </dict>
   </array>
   <key>italicAngle</key>
-  <real>-11.3099</real>
+  <real>-11.3</real>
   <key>openTypeGaspRangeRecords</key>
   <array>
   <dict>
@@ -72,6 +72,16 @@
   <string>Italic</string>
   <key>openTypeNameVersion</key>
   <string>$version</string>
+  <key>openTypeOS2CodePageRanges</key>
+  <array>
+    <integer>0</integer>
+    <integer>1</integer>
+    <integer>2</integer>
+    <integer>3</integer>
+    <integer>4</integer>
+    <integer>7</integer>
+    <integer>29</integer>
+  </array>
   <key>openTypeOS2Panose</key>
   <array>
     <integer>0</integer>
@@ -118,6 +128,24 @@
   <integer>-250</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>100</integer>
+  <key>openTypeOS2UnicodeRanges</key>
+  <array>
+    <integer>0</integer>
+    <integer>1</integer>
+    <integer>2</integer>
+    <integer>3</integer>
+    <integer>4</integer>
+    <integer>5</integer>
+    <integer>7</integer>
+    <integer>9</integer>
+    <integer>14</integer>
+    <integer>31</integer>
+    <integer>33</integer>
+    <integer>34</integer>
+    <integer>35</integer>
+    <integer>42</integer>
+    <integer>43</integer>
+  </array>
   <key>openTypeOS2VendorID</key>
   <string>JP</string>
   <key>openTypeOS2WeightClass</key>
@@ -169,7 +197,7 @@
   <key>postscriptWeightName</key>
   <string>Italic</string>
   <key>styleMapFamilyName</key>
-  <string>XITS Math</string>
+  <string>XITS Math Unjoined</string>
   <key>styleMapStyleName</key>
   <string>italic</string>
   <key>styleName</key>

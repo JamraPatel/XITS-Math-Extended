@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gba-nko.init" format="2">
   <advance width="568"/>
+  <anchor x="270" y="661" name="top"/>
   <outline>
     <contour>
       <point x="206.257" y="185.09" type="curve" smooth="yes"/>
@@ -43,6 +44,10 @@
       <point x="219.481" y="144.284"/>
     </contour>
   </outline>
+  <guideline angle="69.7813" x="377" y="115"/>
+  <guideline angle="111.343" x="222" y="115"/>
+  <guideline angle="287.956" x="206.257" y="185.09"/>
+  <guideline angle="281.353" x="81.9173" y="648"/>
   <lib>
   <dict>
   <key>com.fontlab.recipe</key>

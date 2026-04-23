@@ -10,6 +10,7 @@ sources:
   - XITSMath-Regular.ufo
   - XITSMath-Bold.ufo
   - XITSMath-Italic.ufo
+  - XITSMathUnjoined-Regular.ufo
   - XITSMathUnjoined-Italic.ufo
 #  - RadioCanadaDisplay-Italic.glyphs
 # You don't have to supply the family name, but builds are slightly

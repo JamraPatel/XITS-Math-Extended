@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hamza-adlam" format="2">
   <unicode hex="1E947"/>
+  <anchor x="-20" y="449" name="_top"/>
   <outline>
     <contour>
       <point x="-13.8503" y="679.885" type="curve"/>
@@ -31,6 +32,7 @@
       <point x="-28.6609" y="702.024"/>
     </contour>
   </outline>
+  <guideline angle="171.254" x="129" y="771"/>
   <lib>
   <dict>
   <key>public.markColor</key>

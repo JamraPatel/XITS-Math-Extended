@@ -4,6 +4,42 @@
 @nkoNumbers = [zero-nko one-nko two-nko three-nko four-nko five-nko six-nko seven-nko eight-nko nine-nko];
 @adlamNumbers = [zero-adlam one-adlam two-adlam three-adlam four-adlam five-adlam six-adlam seven-adlam eight-adlam nine-adlam];
 #/< otclasses
+
+#/> kernclasses
+@a-nko = [a-nko a-nko.dant.fina a-nko.fina a-nko.init a-nko.medi];
+@ee-nko = [ee-nko ee-nko.dant.fina ee-nko.fina ee-nko.init ee-nko.medi];
+@i-nko = [i-nko i-nko.dant.fina i-nko.fina i-nko.init i-nko.medi];
+@e-nko = [e-nko e-nko.dant.fina e-nko.fina e-nko.init e-nko.medi];
+@u-nko = [u-nko u-nko.dant.fina u-nko.fina u-nko.init u-nko.medi];
+@oo-nko = [oo-nko oo-nko.dant.fina oo-nko.fina oo-nko.init oo-nko.medi];
+@o-nko = [o-nko o-nko.dant.fina o-nko.fina o-nko.init o-nko.medi];
+@n-nko = [n-nko n-nko.dant.fina n-nko.fina n-nko.init n-nko.medi];
+@ba-nko = [ba-nko ba-nko.dant.fina ba-nko.fina ba-nko.init ba-nko.medi];
+@pa-nko = [pa-nko pa-nko.dant.fina pa-nko.fina pa-nko.init pa-nko.medi];
+@ta-nko = [ta-nko ta-nko.dant.fina ta-nko.fina ta-nko.init ta-nko.medi];
+@ja-nko = [ja-nko ja-nko.dant.fina ja-nko.fina ja-nko.init ja-nko.medi];
+@cha-nko = [cha-nko cha-nko.dant.fina cha-nko.fina cha-nko.init cha-nko.medi];
+@da-nko = [da-nko da-nko.dant.fina da-nko.fina da-nko.init da-nko.medi];
+@ra-nko = [ra-nko ra-nko.dant.fina ra-nko.fina ra-nko.init ra-nko.medi];
+@rra-nko = [rra-nko rra-nko.dant.fina rra-nko.fina rra-nko.init rra-nko.medi];
+@sa-nko = [sa-nko sa-nko.dant.fina sa-nko.fina sa-nko.init sa-nko.medi];
+@gba-nko = [gba-nko gba-nko.dant.fina gba-nko.fina gba-nko.init gba-nko.medi];
+@fa-nko = [fa-nko fa-nko.dant.fina fa-nko.fina fa-nko.init fa-nko.medi];
+@ka-nko = [ka-nko ka-nko.dant.fina ka-nko.fina ka-nko.init ka-nko.medi];
+@la-nko = [la-nko la-nko.dant.fina la-nko.fina la-nko.init la-nko.medi];
+@nawoloso-nko = [nawoloso-nko nawoloso-nko.dant.fina nawoloso-nko.fina nawoloso-nko.init nawoloso-nko.medi];
+@ma-nko = [ma-nko ma-nko.dant.fina ma-nko.fina ma-nko.init ma-nko.medi];
+@nya-nko = [nya-nko nya-nko.dant.fina nya-nko.fina nya-nko.init nya-nko.medi];
+@na-nko = [na-nko na-nko.dant.fina na-nko.fina na-nko.init na-nko.medi];
+@ha-nko = [ha-nko ha-nko.dant.fina ha-nko.fina ha-nko.init ha-nko.medi];
+@wa-nko = [wa-nko wa-nko.dant.fina wa-nko.fina wa-nko.init wa-nko.medi];
+@ya-nko = [ya-nko ya-nko.dant.fina ya-nko.fina ya-nko.init ya-nko.medi];
+@nyawoloso-nko = [nyawoloso-nko nyawoloso-nko.dant.fina nyawoloso-nko.fina nyawoloso-nko.init nyawoloso-nko.medi];
+@curveTL-adlam = [e-adlam jiim-adlam laam-adlam miim-adlam waw-adlam zal-adlam];
+@curveTR-adlam = [ba-adlam jiim-adlam miim-adlam o-adlam va-adlam zal-adlam];
+@dblhumpR-adlam = [ga-adlam ya-adlam];
+@dblhumpL-adlam = [nya-adlam qaaf-adlam];
+#/< kernclasses
 #< classes
 
 
@@ -63,6 +99,14 @@ sub perthousand by perthousand.adlam;
  
 } ccmp;
 feature rtlm {
+  sub slash by slash.rtlm;
+  sub slash.size1 by slash.size1.rtlm;
+  sub slash.size2 by slash.size2.rtlm;
+  sub slash.size3 by slash.size3.rtlm;
+  sub slash.size4 by slash.size4.rtlm;
+  sub uni2215 by uni2215.rtlm;
+  sub uni29F8 by uni29F8.rtlm;
+  sub uni29F8.size1 by uni29F8.size1.rtlm; 
   sub A by A.rtlm;
   sub B by B.rtlm;
   sub C by C.rtlm;
@@ -95,6 +139,8 @@ feature rtlm {
   sub uni03B8 by uni03B8.rtlm;
   sub uni03C6 by uni03C6.rtlm;
   sub uni212F by uni212F.rtlm;
+  sub mu by mu.rtlm; 
+  sub uni03BC by uni03BC.rtlm;
   sub uni2A85 by uni2A86;
   sub uni2A86 by uni2A85;
   sub uni2A87 by uni2A88;

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shorthightonecomb-nko" format="2">
   <unicode hex="07EB"/>
+  <anchor x="29" y="662" name="_top"/>
   <outline>
     <contour>
       <point x="-156" y="775" type="line"/>

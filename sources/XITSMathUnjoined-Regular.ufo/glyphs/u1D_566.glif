@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D566" format="2">
+  <advance width="544"/>
+  <unicode hex="1D566"/>
+  <outline>
+    <contour>
+      <point x="489" y="0" type="line"/>
+      <point x="341" y="0" type="line"/>
+      <point x="341" y="59" type="line"/>
+      <point x="339" y="59" type="line"/>
+      <point x="311" y="14"/>
+      <point x="263" y="-10"/>
+      <point x="210" y="-10" type="curve" smooth="yes"/>
+      <point x="113" y="-10"/>
+      <point x="55" y="55"/>
+      <point x="55" y="151" type="curve" smooth="yes"/>
+      <point x="55" y="450" type="line"/>
+      <point x="203" y="450" type="line"/>
+      <point x="203" y="34" type="line"/>
+      <point x="207" y="33"/>
+      <point x="210" y="33"/>
+      <point x="214" y="33" type="curve" smooth="yes"/>
+      <point x="298" y="33"/>
+      <point x="341" y="125"/>
+      <point x="341" y="199" type="curve" smooth="yes"/>
+      <point x="341" y="450" type="line"/>
+      <point x="489" y="450" type="line"/>
+    </contour>
+    <contour>
+      <point x="445" y="44" type="line"/>
+      <point x="445" y="406" type="line"/>
+      <point x="385" y="406" type="line"/>
+      <point x="385" y="44" type="line"/>
+    </contour>
+    <contour>
+      <point x="159" y="41" type="line"/>
+      <point x="159" y="406" type="line"/>
+      <point x="99" y="406" type="line"/>
+      <point x="99" y="157" type="line" smooth="yes"/>
+      <point x="99" y="110"/>
+      <point x="112" y="61"/>
+      <point x="159" y="41" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>06b2506576cd19f8fff2934d40f954073c066cca812d4efbf7a324d2d3bf26726a6cde60bca063bb38c9cdd9032742c866b2b661f8e10f23cd4e4dbb55503b07</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -10 43</string>
+          <string>hstem 0 44</string>
+          <string>hstem 406 44</string>
+          <string>vstem 55 44</string>
+          <string>vstem 159 44</string>
+          <string>vstem 341 44</string>
+          <string>vstem 445 44</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

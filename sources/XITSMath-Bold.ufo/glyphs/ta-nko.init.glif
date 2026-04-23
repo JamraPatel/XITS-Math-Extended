@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ta-nko.init" format="2">
   <advance width="595"/>
+  <anchor x="158" y="661" name="top"/>
   <outline>
     <contour>
       <point x="85" y="167" type="line" smooth="yes"/>

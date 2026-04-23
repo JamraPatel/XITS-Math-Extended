@@ -2,6 +2,7 @@
 <glyph name="fa-nko" format="2">
   <advance width="689"/>
   <unicode hex="07DD"/>
+  <anchor x="453" y="661" name="top"/>
   <outline>
     <contour>
       <point x="85" y="329" type="curve" smooth="yes"/>

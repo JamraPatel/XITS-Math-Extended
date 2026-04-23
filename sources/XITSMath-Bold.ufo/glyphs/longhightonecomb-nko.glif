@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="longhightonecomb-nko" format="2">
   <unicode hex="07EF"/>
+  <anchor x="29" y="662" name="_top"/>
   <outline>
     <contour>
       <point x="-131" y="765" type="line"/>
@@ -13,6 +14,7 @@
       <point x="-135" y="775" type="line"/>
     </contour>
   </outline>
+  <guideline angle="135.266" x="89" y="799"/>
   <lib>
   <dict>
   <key>public.markColor</key>

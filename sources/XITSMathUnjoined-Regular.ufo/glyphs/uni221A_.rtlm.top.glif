@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni221A.rtlm.top" format="2">
+  <advance width="1184"/>
+  <outline>
+    <contour>
+      <point x="-27" y="560" type="line"/>
+      <point x="-27" y="626" type="line"/>
+      <point x="355" y="626" type="line"/>
+      <point x="355" y="0" type="line"/>
+      <point x="289" y="0" type="line"/>
+      <point x="289" y="560" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1184m-27,560l-27,626l355,626l355,0l289,0l289,560</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 560 66</string>
+          <string>vstem 289 66</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

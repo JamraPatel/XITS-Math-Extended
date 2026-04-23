@@ -2,6 +2,8 @@
 <glyph name="u-nko" format="2">
   <advance width="624"/>
   <unicode hex="07CE"/>
+  <anchor x="304" y="0" name="bottom"/>
+  <anchor x="302" y="661" name="top"/>
   <outline>
     <contour>
       <point x="96.969" y="145.782" type="line" smooth="yes"/>
