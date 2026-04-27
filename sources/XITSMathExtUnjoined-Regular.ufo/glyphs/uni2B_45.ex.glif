@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2B45.ex" format="2">
+  <advance width="315"/>
+  <outline>
+    <contour>
+      <point x="315" y="475" type="line"/>
+      <point x="0" y="475" type="line"/>
+      <point x="0" y="541" type="line"/>
+      <point x="315" y="541" type="line"/>
+    </contour>
+    <contour>
+      <point x="315" y="305" type="line"/>
+      <point x="0" y="305" type="line"/>
+      <point x="0" y="371" type="line"/>
+      <point x="315" y="371" type="line"/>
+    </contour>
+    <contour>
+      <point x="315" y="135" type="line"/>
+      <point x="0" y="135" type="line"/>
+      <point x="0" y="201" type="line"/>
+      <point x="315" y="201" type="line"/>
+    </contour>
+    <contour>
+      <point x="315" y="-35" type="line"/>
+      <point x="0" y="-35" type="line"/>
+      <point x="0" y="31" type="line"/>
+      <point x="315" y="31" type="line"/>
+    </contour>
+  </outline>
+</glyph>

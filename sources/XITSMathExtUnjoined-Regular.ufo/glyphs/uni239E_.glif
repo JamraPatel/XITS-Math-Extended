@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni239E" format="2">
+  <advance width="450"/>
+  <unicode hex="239E"/>
+  <outline>
+    <contour>
+      <point x="400" y="0" type="line"/>
+      <point x="276" y="0" type="line"/>
+      <point x="276" y="239" type="line" smooth="yes"/>
+      <point x="276" y="493"/>
+      <point x="222" y="778"/>
+      <point x="50" y="975" type="curve"/>
+      <point x="50" y="1005" type="line"/>
+      <point x="311" y="821"/>
+      <point x="400" y="462"/>
+      <point x="400" y="159" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D708.ss" format="2">
+  <advance width="376"/>
+  <outline>
+    <contour>
+      <point x="327" y="444" type="line"/>
+      <point x="403" y="464" type="line"/>
+      <point x="407" y="449"/>
+      <point x="416" y="416"/>
+      <point x="416" y="383" type="curve" smooth="yes"/>
+      <point x="416" y="337"/>
+      <point x="401" y="297"/>
+      <point x="375" y="251" type="curve" smooth="yes"/>
+      <point x="343" y="194"/>
+      <point x="280" y="119"/>
+      <point x="143" y="-14" type="curve"/>
+      <point x="123" y="-14" type="line"/>
+      <point x="41" y="453" type="line"/>
+      <point x="127" y="453" type="line"/>
+      <point x="184" y="121" type="line"/>
+      <point x="225" y="160"/>
+      <point x="258" y="194"/>
+      <point x="283" y="228" type="curve" smooth="yes"/>
+      <point x="308" y="263"/>
+      <point x="329" y="304"/>
+      <point x="329" y="348" type="curve" smooth="yes"/>
+      <point x="329" y="375"/>
+      <point x="323" y="405"/>
+      <point x="317" y="431" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

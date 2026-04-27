@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni22AA.rtlm" format="2">
+  <advance width="860"/>
+  <outline>
+    <contour>
+      <point x="45" y="298" type="line"/>
+      <point x="45" y="364" type="line"/>
+      <point x="348" y="364" type="line"/>
+      <point x="348" y="662" type="line"/>
+      <point x="414" y="662" type="line"/>
+      <point x="414" y="0" type="line"/>
+      <point x="348" y="0" type="line"/>
+      <point x="348" y="298" type="line"/>
+    </contour>
+    <contour>
+      <point x="548" y="0" type="line"/>
+      <point x="548" y="662" type="line"/>
+      <point x="614" y="662" type="line"/>
+      <point x="614" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="749" y="0" type="line"/>
+      <point x="749" y="662" type="line"/>
+      <point x="815" y="662" type="line"/>
+      <point x="815" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

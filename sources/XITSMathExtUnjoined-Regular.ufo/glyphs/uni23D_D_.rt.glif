@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni23DD.rt" format="2">
+  <advance width="1820"/>
+  <outline>
+    <contour>
+      <point x="1789" y="-200" type="line"/>
+      <point x="1845" y="-200" type="line"/>
+      <point x="1563" y="-567"/>
+      <point x="987" y="-813"/>
+      <point x="240" y="-813" type="curve" smooth="yes"/>
+      <point x="-10" y="-813" type="line"/>
+      <point x="-10" y="-678" type="line"/>
+      <point x="240" y="-678" type="line" smooth="yes"/>
+      <point x="968" y="-678"/>
+      <point x="1559" y="-439"/>
+      <point x="1789" y="-200" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

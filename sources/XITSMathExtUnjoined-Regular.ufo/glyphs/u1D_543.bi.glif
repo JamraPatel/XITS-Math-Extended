@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D543.bi" format="2">
+  <advance width="613"/>
+  <outline>
+    <contour>
+      <point x="568" y="63" type="line"/>
+      <point x="552" y="0" type="line"/>
+      <point x="18" y="0" type="line"/>
+      <point x="198" y="669" type="line"/>
+      <point x="408" y="669" type="line"/>
+      <point x="244" y="63" type="line"/>
+    </contour>
+    <contour>
+      <point x="324" y="606" type="line"/>
+      <point x="247" y="606" type="line"/>
+      <point x="101" y="63" type="line"/>
+      <point x="178" y="63" type="line"/>
+    </contour>
+  </outline>
+</glyph>

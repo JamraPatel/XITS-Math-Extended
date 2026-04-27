@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D568.bf" format="2">
+  <advance width="786"/>
+  <outline>
+    <contour>
+      <point x="789" y="461" type="line"/>
+      <point x="686" y="0" type="line"/>
+      <point x="458" y="0" type="line"/>
+      <point x="406" y="240" type="line"/>
+      <point x="403" y="240" type="line"/>
+      <point x="351" y="0" type="line"/>
+      <point x="122" y="0" type="line"/>
+      <point x="22" y="461" type="line"/>
+      <point x="222" y="461" type="line"/>
+      <point x="300" y="105" type="line"/>
+      <point x="302" y="105" type="line"/>
+      <point x="379" y="461" type="line"/>
+      <point x="558" y="461" type="line"/>
+      <point x="636" y="105" type="line"/>
+      <point x="638" y="105" type="line"/>
+      <point x="716" y="461" type="line"/>
+    </contour>
+    <contour>
+      <point x="572" y="70" type="line"/>
+      <point x="502" y="391" type="line"/>
+      <point x="446" y="391" type="line"/>
+      <point x="515" y="70" type="line"/>
+    </contour>
+    <contour>
+      <point x="236" y="70" type="line"/>
+      <point x="166" y="391" type="line"/>
+      <point x="109" y="391" type="line"/>
+      <point x="179" y="70" type="line"/>
+    </contour>
+  </outline>
+</glyph>

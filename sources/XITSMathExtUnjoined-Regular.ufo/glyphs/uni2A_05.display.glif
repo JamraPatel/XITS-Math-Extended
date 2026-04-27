@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2A05.display" format="2">
+  <advance width="1153"/>
+  <outline>
+    <contour>
+      <point x="1071" y="49" type="line"/>
+      <point x="975" y="49" type="line"/>
+      <point x="975" y="1414" type="line"/>
+      <point x="178" y="1414" type="line"/>
+      <point x="178" y="49" type="line"/>
+      <point x="82" y="49" type="line"/>
+      <point x="82" y="1500" type="line"/>
+      <point x="1071" y="1500" type="line"/>
+    </contour>
+  </outline>
+</glyph>

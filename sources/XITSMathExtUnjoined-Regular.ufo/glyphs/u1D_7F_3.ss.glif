@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D7F3.ss" format="2">
+  <advance width="500"/>
+  <outline>
+    <contour>
+      <point x="639" y="676" type="line"/>
+      <point x="236" y="0" type="line"/>
+      <point x="120" y="0" type="line"/>
+      <point x="469" y="561" type="line"/>
+      <point x="174" y="561" type="line"/>
+      <point x="226" y="676" type="line"/>
+    </contour>
+  </outline>
+</glyph>

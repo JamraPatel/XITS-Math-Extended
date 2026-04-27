@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni226E.ss09" format="2">
+  <advance width="685"/>
+  <outline>
+    <contour>
+      <point x="612" y="-26" type="line"/>
+      <point x="386" y="83" type="line"/>
+      <point x="386" y="-156" type="line"/>
+      <point x="336" y="-156" type="line"/>
+      <point x="336" y="108" type="line"/>
+      <point x="47" y="248" type="line"/>
+      <point x="47" y="258" type="line"/>
+      <point x="336" y="398" type="line"/>
+      <point x="336" y="662" type="line"/>
+      <point x="386" y="662" type="line"/>
+      <point x="386" y="422" type="line"/>
+      <point x="612" y="532" type="line"/>
+      <point x="612" y="467" type="line"/>
+      <point x="386" y="355" type="line"/>
+      <point x="386" y="151" type="line"/>
+      <point x="612" y="39" type="line"/>
+    </contour>
+    <contour>
+      <point x="336" y="175" type="line"/>
+      <point x="336" y="330" type="line"/>
+      <point x="180" y="253" type="line"/>
+    </contour>
+  </outline>
+</glyph>

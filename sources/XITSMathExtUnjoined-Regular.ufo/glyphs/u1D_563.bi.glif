@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D563.bi" format="2">
+  <advance width="403"/>
+  <outline>
+    <contour>
+      <point x="535" y="460" type="line"/>
+      <point x="538" y="403" type="line"/>
+      <point x="519" y="402"/>
+      <point x="499" y="401"/>
+      <point x="480" y="399" type="curve" smooth="yes"/>
+      <point x="447" y="396"/>
+      <point x="416" y="379"/>
+      <point x="389" y="361" type="curve" smooth="yes"/>
+      <point x="351" y="335"/>
+      <point x="303" y="285"/>
+      <point x="291" y="240" type="curve" smooth="yes"/>
+      <point x="226" y="0" type="line"/>
+      <point x="33" y="0" type="line"/>
+      <point x="155" y="449" type="line"/>
+      <point x="347" y="449" type="line"/>
+      <point x="333" y="398" type="line"/>
+      <point x="379" y="434"/>
+      <point x="440" y="462"/>
+      <point x="499" y="462" type="curve" smooth="yes"/>
+      <point x="511" y="462"/>
+      <point x="523" y="461"/>
+      <point x="535" y="460" type="curve"/>
+    </contour>
+    <contour>
+      <point x="266" y="386" type="line"/>
+      <point x="202" y="386" type="line"/>
+      <point x="114" y="63" type="line"/>
+      <point x="178" y="63" type="line"/>
+    </contour>
+  </outline>
+</glyph>

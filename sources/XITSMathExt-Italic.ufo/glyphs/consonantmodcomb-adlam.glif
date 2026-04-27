@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="consonantmodcomb-adlam" format="2">
+  <advance width="50"/>
+  <unicode hex="1E948"/>
+  <outline>
+    <contour>
+      <point x="278.55" y="694" type="line"/>
+      <point x="248.326" y="706" type="line"/>
+      <point x="158.308" y="626.37" type="line"/>
+      <point x="101.788" y="706.063" type="line"/>
+      <point x="26.79" y="694" type="line"/>
+      <point x="117.492" y="566.381" type="line"/>
+      <point x="135.569" y="565.95" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,1</string>
+  </dict>
+  </lib>
+</glyph>

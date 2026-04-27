@@ -18,7 +18,7 @@ XITS is an OpenType implementation of STIX fonts with multi-script math support.
 XITS is a Times-like typeface for mathematical and scientific publishing, based on STIX fonts. The main mission of XITS is to provide a version of STIX fonts enhanced with the OpenType MATH table, making it suitable for high quality mathematic typesetting with OpenType math-capable layout systems, like Microsoft Office 2007+, LibreOffice Math, XeTeX and LuaTeX.
 The orginal repository can be found archived at https://github.com/aliftype/xits.
 
-This project expands on the Arabic support included in 2014 to support other RTL writing systems, most notably Adlam and N'ko. Sources have been migrated from `SFD` to `UFO` format to provide more options for editing.
+XITS Math Extended expands on the Arabic support included in 2014 to support other RTL writing systems, most notably Adlam and N'ko. Sources have been migrated from `SFD` to `UFO` format to provide more options for editing.
 
 ![Sample Image](documentation/image1.png)
 ![Sample Image](documentation/image2.png)
@@ -28,18 +28,18 @@ This project expands on the Arabic support included in 2014 to support other RTL
 XITS Adlam and N'ko additions were made in conjuction with an update to LibreOffice Math that makes common mathematical functions in both scripts available. Below are reccomended font choices for typesetting formulas in each script in LibreOffice Math. For more comprehensive information regarding see [Adlam_Usage_LO.pdf](documentation/Adlam_Usage_LO.pdf) and [Nko_Usage_LO.pdf](documentation/Nko_Usage_LO.pdf) in the documentation folder.
 
 ### Adlam
-Math - XITS Math Regular
-Variable - XITS Math Italic
-Functions - XITS Math Regular
-Numbers - XITS Math Regular 
-Text - XITS Math Regular
+Math - XITS Math Ext Regular
+Variable - XITS Math Ext Italic
+Functions - XITS Math Ext Regular
+Numbers - XITS Math Ext Regular 
+Text - XITS Math Ext Regular
 
 ### N'ko
-Math - XITS Math Regular
-Variable - XITS Math Unjoined Italic
-Functions - XITS Math Bold
-Numbers - XITS Math Regular 
-Text - XITS Math Regular
+Math - XITS Math Ext Regular
+Variable - XITS Math Ext Unjoined Italic
+Functions - XITS Math Ext Bold
+Numbers - XITS Math Ext Regular 
+Text - XITS Math Ext Regular
 
 ## About
 
@@ -55,7 +55,7 @@ If you want to build fonts manually on your own computer:
 - `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
 - `make proof` will generate HTML proof files.
 
-The proof files and QA tests are also available automatically via GitHub Actions - look at https://JamraPatel.github.io/XITS-Math.git.
+The proof files and QA tests are also available automatically via GitHub Actions - look at https://JamraPatel.github.io/XITS-Math-Extended.git.
 
 ## Changelog
 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pe-adlam" format="2">
+  <advance width="555"/>
+  <unicode hex="1E928"/>
+  <outline>
+    <contour>
+      <point x="558.7" y="499" type="line"/>
+      <point x="548.3" y="499" type="line"/>
+      <point x="466.348" y="484.44" type="line"/>
+      <point x="390.052" y="102.96" type="line"/>
+      <point x="479.492" y="102.96" type="line"/>
+    </contour>
+    <contour>
+      <point x="441.793" y="361.663" type="line"/>
+      <point x="435.264" y="385.76"/>
+      <point x="380.057" y="478.4"/>
+      <point x="233.962" y="478.4" type="curve" smooth="yes"/>
+      <point x="192.047" y="478.4"/>
+      <point x="155.612" y="470.775"/>
+      <point x="139.828" y="458.64" type="curve"/>
+      <point x="48.2432" y="0" type="line"/>
+      <point x="140.046" y="0" type="line"/>
+      <point x="226.072" y="432.64" type="line"/>
+      <point x="234.013" y="434.651"/>
+      <point x="243.412" y="435.76"/>
+      <point x="254.038" y="435.76" type="curve" smooth="yes"/>
+      <point x="351.394" y="435.76"/>
+      <point x="437.994" y="342.669"/>
+      <point x="420.787" y="256.633" type="curve"/>
+    </contour>
+    <contour>
+      <point x="479.492" y="102.96" type="line"/>
+      <point x="390.052" y="102.96" type="line"/>
+      <point x="382.148" y="63.44" type="line" smooth="yes"/>
+      <point x="376.948" y="37.44"/>
+      <point x="382.356" y="33.28"/>
+      <point x="344.916" y="33.28" type="curve" smooth="yes"/>
+      <point x="217.036" y="33.28" type="line"/>
+      <point x="192.66" y="10.4" type="line"/>
+      <point x="194.7" y="0" type="line"/>
+      <point x="387.14" y="0" type="line" smooth="yes"/>
+      <point x="438.1" y="0"/>
+      <point x="460.564" y="8.32"/>
+      <point x="471.588" y="63.44" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,1</string>
+  </dict>
+  </lib>
+</glyph>

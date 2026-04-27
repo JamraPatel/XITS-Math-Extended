@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0330.size5" format="2">
+  <advance width="2328"/>
+  <outline>
+    <contour>
+      <point x="2299" y="-117" type="line"/>
+      <point x="2328" y="-117" type="line"/>
+      <point x="2299" y="-232"/>
+      <point x="2012" y="-280"/>
+      <point x="1812" y="-280" type="curve" smooth="yes"/>
+      <point x="1613" y="-280"/>
+      <point x="1322" y="-264"/>
+      <point x="1011" y="-217" type="curve" smooth="yes"/>
+      <point x="867" y="-195"/>
+      <point x="597" y="-183"/>
+      <point x="537" y="-183" type="curve" smooth="yes"/>
+      <point x="393" y="-183"/>
+      <point x="62" y="-215"/>
+      <point x="29" y="-280" type="curve"/>
+      <point x="0" y="-280" type="line"/>
+      <point x="35" y="-161"/>
+      <point x="372" y="-117"/>
+      <point x="551" y="-117" type="curve" smooth="yes"/>
+      <point x="648" y="-117"/>
+      <point x="1028" y="-140"/>
+      <point x="1296" y="-181" type="curve" smooth="yes"/>
+      <point x="1439" y="-203"/>
+      <point x="1776" y="-214"/>
+      <point x="1840" y="-214" type="curve" smooth="yes"/>
+      <point x="1993" y="-214"/>
+      <point x="2272" y="-183"/>
+      <point x="2299" y="-117" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

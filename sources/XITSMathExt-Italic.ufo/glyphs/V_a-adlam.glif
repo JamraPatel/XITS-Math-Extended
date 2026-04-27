@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Va-adlam" format="2">
+  <advance width="637"/>
+  <unicode hex="1E91C"/>
+  <outline>
+    <contour>
+      <point x="285.4" y="627" type="line"/>
+      <point x="203.4" y="642" type="line"/>
+      <point x="194.4" y="642" type="line"/>
+      <point x="66" y="0" type="line"/>
+      <point x="160" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="526" y="0" type="line"/>
+      <point x="627" y="505" type="line" smooth="yes"/>
+      <point x="631.837" y="529.184"/>
+      <point x="634.449" y="550.365"/>
+      <point x="634.449" y="568.686" type="curve" smooth="yes"/>
+      <point x="634.449" y="632.937"/>
+      <point x="602.325" y="662"/>
+      <point x="521.4" y="662" type="curve" smooth="yes"/>
+      <point x="154.4" y="662" type="line"/>
+      <point x="127.6" y="628" type="line"/>
+      <point x="129.6" y="618" type="line"/>
+      <point x="461.6" y="618" type="line" smooth="yes"/>
+      <point x="516.006" y="618"/>
+      <point x="538.862" y="604.669"/>
+      <point x="538.862" y="557.309" type="curve" smooth="yes"/>
+      <point x="538.862" y="541.123"/>
+      <point x="536.192" y="520.962"/>
+      <point x="531.2" y="496" type="curve" smooth="yes"/>
+      <point x="432" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="575.4" y="347" type="line"/>
+      <point x="333.4" y="347" type="line"/>
+      <point x="306.6" y="313" type="line"/>
+      <point x="308.6" y="303" type="line"/>
+      <point x="540.6" y="303" type="line"/>
+      <point x="577.4" y="337" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -7,15 +7,15 @@
 # sources/ directory, so all paths should be relative to that
 # directory.
 sources:
-  - XITSMath-Regular.ufo
-  - XITSMath-Bold.ufo
-  - XITSMath-Italic.ufo
-  - XITSMathUnjoined-Regular.ufo
-  - XITSMathUnjoined-Italic.ufo
+  - XITSMathExt-Regular.ufo
+  - XITSMathExt-Bold.ufo
+  - XITSMathExt-Italic.ufo
+  - XITSMathExtUnjoined-Regular.ufo
+  - XITSMathExtUnjoined-Italic.ufo
 #  - RadioCanadaDisplay-Italic.glyphs
 # You don't have to supply the family name, but builds are slightly
 # faster if you do.
-familyName: "XITS Math"
+familyName: "XITS Math Ext"
 
 # Next you can supply alternative paths for where you want the
 # binaries to live. But we'd recommend you stick to the defaults

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni221A.rtlm.ex" format="2">
+  <advance width="1184"/>
+  <outline>
+    <contour>
+      <point x="355" y="0" type="line"/>
+      <point x="289" y="0" type="line"/>
+      <point x="289" y="635" type="line"/>
+      <point x="355" y="635" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,1</string>
+  </dict>
+  </lib>
+</glyph>

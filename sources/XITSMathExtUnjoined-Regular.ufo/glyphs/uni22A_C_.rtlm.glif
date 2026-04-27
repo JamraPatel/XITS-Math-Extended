@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni22AC.rtlm" format="2">
+  <advance width="786"/>
+  <outline>
+    <contour>
+      <point x="708" y="662" type="line"/>
+      <point x="777" y="662" type="line"/>
+      <point x="621" y="502" type="line"/>
+      <point x="621" y="0" type="line"/>
+      <point x="555" y="0" type="line"/>
+      <point x="555" y="298" type="line"/>
+      <point x="422" y="298" type="line"/>
+      <point x="132" y="0" type="line"/>
+      <point x="63" y="0" type="line"/>
+      <point x="353" y="298" type="line"/>
+      <point x="64" y="298" type="line"/>
+      <point x="64" y="364" type="line"/>
+      <point x="418" y="364" type="line"/>
+      <point x="555" y="505" type="line"/>
+      <point x="555" y="662" type="line"/>
+      <point x="621" y="662" type="line"/>
+      <point x="621" y="573" type="line"/>
+    </contour>
+    <contour>
+      <point x="487" y="364" type="line"/>
+      <point x="555" y="364" type="line"/>
+      <point x="555" y="434" type="line"/>
+    </contour>
+  </outline>
+</glyph>

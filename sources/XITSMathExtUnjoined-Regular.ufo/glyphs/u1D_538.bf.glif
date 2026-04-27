@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D538.bf" format="2">
+  <advance width="787"/>
+  <outline>
+    <contour>
+      <point x="737" y="0" type="line"/>
+      <point x="506" y="0" type="line"/>
+      <point x="439" y="196" type="line"/>
+      <point x="189" y="196" type="line"/>
+      <point x="124" y="0" type="line"/>
+      <point x="50" y="0" type="line"/>
+      <point x="280" y="676" type="line"/>
+      <point x="507" y="676" type="line"/>
+    </contour>
+    <contour>
+      <point x="639" y="70" type="line"/>
+      <point x="457" y="606" type="line"/>
+      <point x="373" y="606" type="line"/>
+      <point x="555" y="70" type="line"/>
+    </contour>
+    <contour>
+      <point x="415" y="266" type="line"/>
+      <point x="314" y="564" type="line"/>
+      <point x="313" y="564" type="line"/>
+      <point x="213" y="266" type="line"/>
+    </contour>
+  </outline>
+</glyph>

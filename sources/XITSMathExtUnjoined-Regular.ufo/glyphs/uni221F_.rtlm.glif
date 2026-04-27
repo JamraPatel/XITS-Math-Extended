@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni221F.rtlm" format="2">
+  <advance width="685"/>
+  <outline>
+    <contour>
+      <point x="50" y="0" type="line"/>
+      <point x="50" y="66" type="line"/>
+      <point x="568" y="66" type="line"/>
+      <point x="568" y="584" type="line"/>
+      <point x="634" y="584" type="line"/>
+      <point x="634" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

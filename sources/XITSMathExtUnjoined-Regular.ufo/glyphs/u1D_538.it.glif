@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D538.it" format="2">
+  <advance width="671"/>
+  <outline>
+    <contour>
+      <point x="606" y="0" type="line"/>
+      <point x="454" y="0" type="line"/>
+      <point x="430" y="212" type="line"/>
+      <point x="171" y="212" type="line"/>
+      <point x="47" y="0" type="line"/>
+      <point x="3" y="0" type="line"/>
+      <point x="387" y="653" type="line"/>
+      <point x="535" y="653" type="line"/>
+    </contour>
+    <contour>
+      <point x="564" y="37" type="line"/>
+      <point x="501" y="616" type="line"/>
+      <point x="425" y="616" type="line"/>
+      <point x="488" y="37" type="line"/>
+    </contour>
+    <contour>
+      <point x="426" y="249" type="line"/>
+      <point x="390" y="581" type="line"/>
+      <point x="388" y="582" type="line"/>
+      <point x="192" y="249" type="line"/>
+    </contour>
+  </outline>
+</glyph>

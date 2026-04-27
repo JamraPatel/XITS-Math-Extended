@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D6F4.ss" format="2">
+  <advance width="654"/>
+  <outline>
+    <contour>
+      <point x="706" y="662" type="line"/>
+      <point x="687" y="588" type="line"/>
+      <point x="319" y="588" type="line"/>
+      <point x="484" y="343" type="line"/>
+      <point x="185" y="74" type="line"/>
+      <point x="606" y="74" type="line"/>
+      <point x="577" y="0" type="line"/>
+      <point x="21" y="0" type="line"/>
+      <point x="25" y="23" type="line"/>
+      <point x="380" y="342" type="line"/>
+      <point x="179" y="640" type="line"/>
+      <point x="185" y="662" type="line"/>
+    </contour>
+  </outline>
+</glyph>

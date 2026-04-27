@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D53D.it" format="2">
+  <advance width="469"/>
+  <outline>
+    <contour>
+      <point x="664" y="653" type="line"/>
+      <point x="655" y="616" type="line"/>
+      <point x="336" y="616" type="line"/>
+      <point x="263" y="340" type="line"/>
+      <point x="546" y="340" type="line"/>
+      <point x="535" y="303" type="line"/>
+      <point x="253" y="303" type="line"/>
+      <point x="172" y="0" type="line"/>
+      <point x="18" y="0" type="line"/>
+      <point x="192" y="653" type="line"/>
+    </contour>
+    <contour>
+      <point x="299" y="616" type="line"/>
+      <point x="221" y="616" type="line"/>
+      <point x="65" y="37" type="line"/>
+      <point x="145" y="37" type="line"/>
+    </contour>
+  </outline>
+</glyph>

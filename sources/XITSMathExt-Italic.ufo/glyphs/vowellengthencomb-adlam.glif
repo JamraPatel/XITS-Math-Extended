@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vowellengthencomb-adlam" format="2">
+  <advance width="50"/>
+  <unicode hex="1E945"/>
+  <outline>
+    <contour>
+      <point x="89.4049" y="662.313" type="curve"/>
+      <point x="22.9416" y="682.861" type="line"/>
+      <point x="7.46174" y="664.48"/>
+      <point x="-1.96177" y="641.953"/>
+      <point x="-1.96177" y="617.789" type="curve" smooth="yes"/>
+      <point x="-1.96177" y="577.815"/>
+      <point x="27.0416" y="552"/>
+      <point x="72.3556" y="552" type="curve" smooth="yes"/>
+      <point x="102.422" y="552"/>
+      <point x="132.338" y="563.365"/>
+      <point x="184.6" y="588" type="curve" smooth="yes"/>
+      <point x="282.003" y="633.913" type="line"/>
+      <point x="269.206" y="675.566" type="line"/>
+      <point x="181.494" y="633.131" type="line" smooth="yes"/>
+      <point x="136.893" y="611.554"/>
+      <point x="117.875" y="604.971"/>
+      <point x="102.246" y="604.715" type="curve" smooth="yes"/>
+      <point x="101.932" y="604.709"/>
+      <point x="101.62" y="604.707"/>
+      <point x="101.311" y="604.707" type="curve" smooth="yes"/>
+      <point x="83.1705" y="604.707"/>
+      <point x="75.153" y="613.573"/>
+      <point x="75.153" y="626.95" type="curve" smooth="yes"/>
+      <point x="75.153" y="640.027"/>
+      <point x="81.656" y="652.17"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,1</string>
+  </dict>
+  </lib>
+</glyph>

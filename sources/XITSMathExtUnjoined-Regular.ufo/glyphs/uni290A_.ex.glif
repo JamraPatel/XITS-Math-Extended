@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni290A.ex" format="2">
+  <advance width="926"/>
+  <outline>
+    <contour>
+      <point x="696" y="101" type="line"/>
+      <point x="630" y="101" type="line"/>
+      <point x="630" y="405" type="line"/>
+      <point x="696" y="405" type="line"/>
+    </contour>
+    <contour>
+      <point x="496" y="101" type="line"/>
+      <point x="430" y="101" type="line"/>
+      <point x="430" y="405" type="line"/>
+      <point x="496" y="405" type="line"/>
+    </contour>
+    <contour>
+      <point x="296" y="101" type="line"/>
+      <point x="230" y="101" type="line"/>
+      <point x="230" y="405" type="line"/>
+      <point x="296" y="405" type="line"/>
+    </contour>
+  </outline>
+</glyph>

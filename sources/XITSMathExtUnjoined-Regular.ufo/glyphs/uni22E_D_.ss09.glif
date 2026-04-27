@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni22ED.ss09" format="2">
+  <advance width="685"/>
+  <outline>
+    <contour>
+      <point x="631" y="329" type="line"/>
+      <point x="354" y="191" type="line"/>
+      <point x="354" y="-37" type="line"/>
+      <point x="621" y="-37" type="line"/>
+      <point x="621" y="-103" type="line"/>
+      <point x="354" y="-103" type="line"/>
+      <point x="354" y="-189" type="line"/>
+      <point x="304" y="-189" type="line"/>
+      <point x="304" y="-103" type="line"/>
+      <point x="74" y="-103" type="line"/>
+      <point x="74" y="-37" type="line"/>
+      <point x="304" y="-37" type="line"/>
+      <point x="304" y="166" type="line"/>
+      <point x="74" y="51" type="line"/>
+      <point x="74" y="607" type="line"/>
+      <point x="304" y="492" type="line"/>
+      <point x="304" y="695" type="line"/>
+      <point x="354" y="695" type="line"/>
+      <point x="354" y="467" type="line"/>
+    </contour>
+    <contour>
+      <point x="486" y="328" type="line"/>
+      <point x="486" y="330" type="line"/>
+      <point x="354" y="395" type="line"/>
+      <point x="354" y="262" type="line"/>
+    </contour>
+    <contour>
+      <point x="304" y="237" type="line"/>
+      <point x="304" y="420" type="line"/>
+      <point x="140" y="502" type="line"/>
+      <point x="140" y="156" type="line"/>
+    </contour>
+  </outline>
+</glyph>

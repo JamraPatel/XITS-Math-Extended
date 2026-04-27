@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2190.ex" format="2">
+  <advance width="315"/>
+  <outline>
+    <contour>
+      <point x="315" y="220" type="line"/>
+      <point x="0" y="220" type="line"/>
+      <point x="0" y="286" type="line"/>
+      <point x="315" y="286" type="line"/>
+    </contour>
+  </outline>
+</glyph>

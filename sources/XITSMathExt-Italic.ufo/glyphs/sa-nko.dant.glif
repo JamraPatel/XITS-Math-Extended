@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sa-nko.dant" format="2">
+  <advance width="717"/>
+  <outline>
+    <contour>
+      <point x="75" y="0" type="line"/>
+      <point x="751" y="0" type="line"/>
+      <point x="738" y="65" type="line"/>
+      <point x="62" y="65" type="line"/>
+    </contour>
+    <contour>
+      <point x="105" y="-146" type="line"/>
+      <point x="137" y="-146" type="line"/>
+      <point x="137" y="10" type="line"/>
+      <point x="73" y="10" type="line"/>
+    </contour>
+    <contour>
+      <point x="781" y="-146" type="line"/>
+      <point x="749" y="10" type="line"/>
+      <point x="685" y="10" type="line"/>
+      <point x="749" y="-146" type="line"/>
+    </contour>
+    <contour>
+      <point x="75" y="349" type="curve"/>
+      <point x="145" y="0" type="line"/>
+      <point x="499" y="0" type="line" smooth="yes"/>
+      <point x="623" y="0"/>
+      <point x="663" y="25"/>
+      <point x="663" y="81" type="curve" smooth="yes"/>
+      <point x="663" y="91"/>
+      <point x="661.85" y="102.969"/>
+      <point x="659" y="117" type="curve" smooth="yes"/>
+      <point x="607" y="373" type="line" smooth="yes"/>
+      <point x="592.79" y="442.958"/>
+      <point x="578" y="450"/>
+      <point x="375" y="450" type="curve" smooth="yes"/>
+      <point x="197" y="450" type="line" smooth="yes"/>
+      <point x="107" y="450"/>
+      <point x="71" y="431"/>
+      <point x="71" y="381" type="curve" smooth="yes"/>
+      <point x="71" y="371"/>
+      <point x="73" y="361"/>
+    </contour>
+    <contour>
+      <point x="192.07" y="65" type="line"/>
+      <point x="135" y="350" type="line" smooth="yes"/>
+      <point x="133.19" y="359.04"/>
+      <point x="132" y="366"/>
+      <point x="132" y="373" type="curve" smooth="yes"/>
+      <point x="132" y="397"/>
+      <point x="148" y="406"/>
+      <point x="207" y="406" type="curve" smooth="yes"/>
+      <point x="384" y="406" type="line" smooth="yes"/>
+      <point x="517" y="406"/>
+      <point x="528.599" y="396.921"/>
+      <point x="539" y="345" type="curve" smooth="yes"/>
+      <point x="583.07" y="125" type="line" smooth="yes"/>
+      <point x="584.881" y="115.96"/>
+      <point x="586.07" y="109"/>
+      <point x="586.07" y="102" type="curve" smooth="yes"/>
+      <point x="586.07" y="72"/>
+      <point x="564.07" y="65"/>
+      <point x="496.07" y="65" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>sa-nko</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

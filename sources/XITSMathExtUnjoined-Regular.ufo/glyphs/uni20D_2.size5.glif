@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni20D2.size5" format="2">
+  <outline>
+    <contour>
+      <point x="-192" y="-429" type="line"/>
+      <point x="-242" y="-429" type="line"/>
+      <point x="-242" y="931" type="line"/>
+      <point x="-192" y="931" type="line"/>
+    </contour>
+  </outline>
+</glyph>

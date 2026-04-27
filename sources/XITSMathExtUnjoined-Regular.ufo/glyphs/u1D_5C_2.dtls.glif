@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1D5C2.dtls" format="2">
+  <advance width="220"/>
+  <outline>
+    <contour>
+      <point x="152" y="0" type="line"/>
+      <point x="69" y="0" type="line"/>
+      <point x="69" y="440" type="line"/>
+      <point x="143" y="464" type="line"/>
+      <point x="152" y="459" type="line"/>
+    </contour>
+  </outline>
+</glyph>

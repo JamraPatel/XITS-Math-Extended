@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2270.ss09" format="2">
+  <advance width="685"/>
+  <outline>
+    <contour>
+      <point x="621" y="-103" type="line"/>
+      <point x="381" y="-103" type="line"/>
+      <point x="381" y="-189" type="line"/>
+      <point x="331" y="-189" type="line"/>
+      <point x="331" y="-103" type="line"/>
+      <point x="62" y="-103" type="line"/>
+      <point x="62" y="-37" type="line"/>
+      <point x="331" y="-37" type="line"/>
+      <point x="331" y="191" type="line"/>
+      <point x="56" y="324" type="line"/>
+      <point x="56" y="334" type="line"/>
+      <point x="331" y="467" type="line"/>
+      <point x="331" y="695" type="line"/>
+      <point x="381" y="695" type="line"/>
+      <point x="381" y="491" type="line"/>
+      <point x="621" y="607" type="line"/>
+      <point x="621" y="542" type="line"/>
+      <point x="381" y="423" type="line"/>
+      <point x="381" y="234" type="line"/>
+      <point x="621" y="116" type="line"/>
+      <point x="621" y="51" type="line"/>
+      <point x="381" y="167" type="line"/>
+      <point x="381" y="-37" type="line"/>
+      <point x="621" y="-37" type="line"/>
+    </contour>
+    <contour>
+      <point x="331" y="259" type="line"/>
+      <point x="331" y="399" type="line"/>
+      <point x="189" y="329" type="line"/>
+    </contour>
+  </outline>
+</glyph>

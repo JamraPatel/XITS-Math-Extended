@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni20E9.ex" format="2">
+  <advance width="200"/>
+  <outline>
+    <contour>
+      <point x="200" y="627" type="line"/>
+      <point x="0" y="627" type="line"/>
+      <point x="0" y="681" type="line"/>
+      <point x="200" y="681" type="line"/>
+    </contour>
+  </outline>
+</glyph>
