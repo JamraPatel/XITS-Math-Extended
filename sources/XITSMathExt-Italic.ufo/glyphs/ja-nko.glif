@@ -2,7 +2,6 @@
 <glyph name="ja-nko" format="2">
   <advance width="465"/>
   <unicode hex="07D6"/>
-  <anchor x="149" y="661" name="top"/>
   <outline>
     <contour>
       <point x="289" y="54" type="curve" smooth="yes"/>
@@ -21,7 +20,6 @@
       <point x="252" y="235"/>
     </contour>
   </outline>
-  <guideline angle="133.035" x="256.597" y="386"/>
   <lib>
   <dict>
   <key>public.markColor</key>

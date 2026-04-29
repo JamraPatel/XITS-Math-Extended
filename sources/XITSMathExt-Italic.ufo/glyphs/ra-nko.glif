@@ -2,7 +2,6 @@
 <glyph name="ra-nko" format="2">
   <advance width="357"/>
   <unicode hex="07D9"/>
-  <anchor x="106" y="661" name="top"/>
   <outline>
     <contour>
       <point x="72" y="647" type="line"/>

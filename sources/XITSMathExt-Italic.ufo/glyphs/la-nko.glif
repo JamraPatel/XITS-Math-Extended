@@ -2,7 +2,6 @@
 <glyph name="la-nko" format="2">
   <advance width="474"/>
   <unicode hex="07DF"/>
-  <anchor x="149" y="661" name="top"/>
   <outline>
     <contour>
       <point x="7" y="512" type="curve" smooth="yes"/>

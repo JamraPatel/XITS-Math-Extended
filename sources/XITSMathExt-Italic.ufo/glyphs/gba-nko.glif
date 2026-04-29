@@ -2,7 +2,6 @@
 <glyph name="gba-nko" format="2">
   <advance width="612"/>
   <unicode hex="07DC"/>
-  <anchor x="229" y="661" name="top"/>
   <outline>
     <contour>
       <point x="348.242" y="78" type="curve"/>
@@ -32,9 +31,6 @@
       <point x="502.307" y="398.998"/>
     </contour>
   </outline>
-  <guideline angle="69.7813" x="397" y="115"/>
-  <guideline angle="115.989" x="131" y="431"/>
-  <guideline angle="122.669" x="338" y="89"/>
   <lib>
   <dict>
   <key>public.markColor</key>

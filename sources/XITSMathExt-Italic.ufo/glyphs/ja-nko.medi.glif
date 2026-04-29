@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ja-nko.medi" format="2">
   <advance width="465"/>
-  <anchor x="149" y="661" name="top"/>
   <outline>
     <contour>
       <point x="347.953" y="22.5917" type="curve"/>

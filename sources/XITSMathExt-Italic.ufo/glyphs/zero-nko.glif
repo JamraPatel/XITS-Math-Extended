@@ -2,7 +2,6 @@
 <glyph name="zero-nko" format="2">
   <advance width="540"/>
   <unicode hex="07C0"/>
-  <anchor x="385" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="196" y="676" type="curve" smooth="yes"/>

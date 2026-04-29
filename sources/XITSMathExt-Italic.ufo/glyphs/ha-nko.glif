@@ -2,7 +2,6 @@
 <glyph name="ha-nko" format="2">
   <advance width="482"/>
   <unicode hex="07E4"/>
-  <anchor x="169" y="661" name="top"/>
   <outline>
     <contour>
       <point x="-12" y="662" type="line"/>

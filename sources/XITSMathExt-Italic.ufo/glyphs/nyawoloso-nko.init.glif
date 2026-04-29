@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nyawoloso-nko.init" format="2">
   <advance width="507"/>
-  <anchor x="189" y="661" name="top"/>
   <outline>
     <contour>
       <point x="5.92" y="597" type="line"/>
@@ -58,7 +57,6 @@
       <point x="372.6" y="422"/>
     </contour>
   </outline>
-  <guideline angle="101.31" x="258" y="480"/>
   <lib>
   <dict>
   <key>public.markColor</key>

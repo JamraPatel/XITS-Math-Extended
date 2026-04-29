@@ -2,7 +2,6 @@
 <glyph name="cha-nko" format="2">
   <advance width="393"/>
   <unicode hex="07D7"/>
-  <anchor x="189" y="661" name="top"/>
   <outline>
     <contour>
       <point x="41.64" y="423" type="line"/>

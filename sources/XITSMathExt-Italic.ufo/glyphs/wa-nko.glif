@@ -2,7 +2,6 @@
 <glyph name="wa-nko" format="2">
   <advance width="553"/>
   <unicode hex="07E5"/>
-  <anchor x="199" y="661" name="top"/>
   <outline>
     <contour>
       <point x="94" y="279" type="curve" smooth="yes"/>
@@ -52,8 +51,6 @@
       <point x="331.07" y="65" type="curve" smooth="yes"/>
     </contour>
   </outline>
-  <guideline angle="281.371" x="502" y="310"/>
-  <guideline angle="281.368" x="381" y="310"/>
   <lib>
   <dict>
   <key>public.markColor</key>

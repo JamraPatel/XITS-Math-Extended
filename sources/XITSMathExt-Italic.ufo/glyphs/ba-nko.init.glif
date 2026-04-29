@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ba-nko.init" format="2">
   <advance width="452"/>
-  <anchor x="164" y="661" name="top"/>
   <outline>
     <contour>
       <point x="131" y="121" type="line" smooth="yes"/>

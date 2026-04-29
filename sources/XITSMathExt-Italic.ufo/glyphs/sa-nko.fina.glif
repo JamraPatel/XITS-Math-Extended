@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sa-nko.fina" format="2">
   <advance width="717"/>
-  <anchor x="289" y="661" name="top"/>
   <outline>
     <contour>
       <point x="75" y="349" type="curve" smooth="yes"/>
@@ -44,8 +43,6 @@
       <point x="496" y="65" type="curve" smooth="yes"/>
     </contour>
   </outline>
-  <guideline angle="281.413" x="539" y="345"/>
-  <guideline angle="101.446" x="796" y="0"/>
   <lib>
   <dict>
   <key>public.markColor</key>

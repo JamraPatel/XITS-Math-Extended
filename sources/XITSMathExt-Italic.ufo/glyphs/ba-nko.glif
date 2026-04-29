@@ -2,7 +2,6 @@
 <glyph name="ba-nko" format="2">
   <advance width="452"/>
   <unicode hex="07D3"/>
-  <anchor x="164" y="661" name="top"/>
   <outline>
     <contour>
       <point x="155" y="0" type="line"/>

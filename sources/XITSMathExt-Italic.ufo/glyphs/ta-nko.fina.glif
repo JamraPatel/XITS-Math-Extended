@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ta-nko.fina" format="2">
   <advance width="550"/>
-  <anchor x="50" y="661" name="top"/>
   <outline>
     <contour>
       <point x="23" y="647" type="line"/>
@@ -49,7 +48,6 @@
       <point x="211.12" y="75.97"/>
     </contour>
   </outline>
-  <guideline angle="101.249" x="198" y="142"/>
   <lib>
   <dict>
   <key>public.markColor</key>

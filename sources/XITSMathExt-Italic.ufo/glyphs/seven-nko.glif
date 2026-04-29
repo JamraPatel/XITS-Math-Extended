@@ -2,7 +2,6 @@
 <glyph name="seven-nko" format="2">
   <advance width="449"/>
   <unicode hex="07C7"/>
-  <anchor x="222" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="226" y="79" type="line"/>
@@ -19,7 +18,6 @@
       <point x="426" y="235" type="line"/>
     </contour>
   </outline>
-  <guideline angle="48.2155" x="394.521" y="267.378"/>
   <lib>
   <dict>
   <key>public.markColor</key>

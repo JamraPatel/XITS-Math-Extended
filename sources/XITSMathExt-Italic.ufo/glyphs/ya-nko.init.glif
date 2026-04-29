@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ya-nko.init" format="2">
   <advance width="507"/>
-  <anchor x="188" y="661" name="top"/>
   <outline>
     <contour>
       <point x="151" y="647" type="line"/>
@@ -53,7 +52,6 @@
       <point x="372.6" y="422"/>
     </contour>
   </outline>
-  <guideline angle="281.31" x="26" y="70"/>
   <lib>
   <dict>
   <key>public.markColor</key>

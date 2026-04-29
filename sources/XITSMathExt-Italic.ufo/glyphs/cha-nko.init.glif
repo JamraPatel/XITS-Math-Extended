@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cha-nko.init" format="2">
   <advance width="393"/>
-  <anchor x="189" y="661" name="top"/>
   <outline>
     <contour>
       <point x="41.63" y="423" type="line"/>

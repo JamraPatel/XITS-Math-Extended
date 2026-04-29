@@ -2,8 +2,6 @@
 <glyph name="u-nko" format="2">
   <advance width="601"/>
   <unicode hex="07CE"/>
-  <anchor x="369" y="0" name="bottom"/>
-  <anchor x="238" y="661" name="top"/>
   <outline>
     <contour>
       <point x="130.22" y="145.782" type="line" smooth="yes"/>
@@ -45,7 +43,6 @@
       <point x="72.4952" y="435.369" type="line"/>
     </contour>
   </outline>
-  <guideline angle="101.277" x="212" y="-12"/>
   <lib>
   <dict>
   <key>public.markColor</key>

@@ -2,7 +2,6 @@
 <glyph name="five-nko" format="2">
   <advance width="423"/>
   <unicode hex="07C5"/>
-  <anchor x="252" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="56" y="647" type="line"/>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="na-nko.init" format="2">
   <advance width="484"/>
-  <anchor x="149" y="661" name="top"/>
   <outline>
     <contour>
       <point x="344" y="126" type="line" smooth="yes"/>

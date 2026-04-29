@@ -1712,10 +1712,16 @@
   <string>uni03B_0.glif</string>
   <key>uni03B1</key>
   <string>uni03B_1.glif</string>
+  <key>uni03B1.rtlm</key>
+  <string>uni03B_1.rtlm.glif</string>
   <key>uni03B2</key>
   <string>uni03B_2.glif</string>
+  <key>uni03B2.rtlm</key>
+  <string>uni03B_2.rtlm.glif</string>
   <key>uni03B3</key>
   <string>uni03B_3.glif</string>
+  <key>uni03B3.rtlm</key>
+  <string>uni03B_3.rtlm.glif</string>
   <key>uni03B4</key>
   <string>uni03B_4.glif</string>
   <key>uni03B5</key>
@@ -1726,6 +1732,8 @@
   <string>uni03B_7.glif</string>
   <key>uni03B8</key>
   <string>uni03B_8.glif</string>
+  <key>uni03B8.rtlm</key>
+  <string>uni03B_8.rtlm.glif</string>
   <key>uni03B9</key>
   <string>uni03B_9.glif</string>
   <key>uni03BA</key>
@@ -1754,6 +1762,8 @@
   <string>uni03C_5.glif</string>
   <key>uni03C6</key>
   <string>uni03C_6.glif</string>
+  <key>uni03C6.rtlm</key>
+  <string>uni03C_6.rtlm.glif</string>
   <key>uni03C7</key>
   <string>uni03C_7.glif</string>
   <key>uni03C8</key>

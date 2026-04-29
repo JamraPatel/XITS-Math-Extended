@@ -2,7 +2,6 @@
 <glyph name="ta-nko" format="2">
   <advance width="550"/>
   <unicode hex="07D5"/>
-  <anchor x="50" y="661" name="top"/>
   <outline>
     <contour>
       <point x="23" y="647" type="line"/>
@@ -38,7 +37,6 @@
       <point x="211.124" y="75.9786"/>
     </contour>
   </outline>
-  <guideline angle="101.249" x="198" y="142"/>
   <lib>
   <dict>
   <key>public.markColor</key>

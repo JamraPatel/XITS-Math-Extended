@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="n-nko.init" format="2">
   <advance width="612"/>
-  <anchor x="141" y="661" name="top"/>
   <outline>
     <contour>
       <point x="478.07" y="126" type="line" smooth="yes"/>
@@ -66,7 +65,6 @@
       <point x="51" y="454"/>
     </contour>
   </outline>
-  <guideline angle="281.31" x="436" y="336"/>
   <lib>
   <dict>
   <key>public.markColor</key>
