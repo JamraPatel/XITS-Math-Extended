@@ -1019,9 +1019,16 @@ feature cv01 {
 feature mark {
 #> feature
 # GPOS feature : Mark Positioning
+    markClass shorthightonecomb-nko <anchor 29 662> @top;
     markClass shortlowtonecomb-nko <anchor 9 662> @top;
+    markClass shortrisingtonecomb-nko <anchor -26 662> @top;
+    markClass longdescendingtonecomb-nko <anchor 3 662> @top;
     markClass longhightonecomb-nko <anchor 29 662> @top;
     markClass longlowtonecomb-nko <anchor 9 662> @top;
+    markClass longrisingtonecomb-nko <anchor 29 662> @top;
+    markClass nasalizationcomb-nko <anchor 24 0> @bottom;
+    markClass doubledotabovecomb-nko <anchor -26 662> @top;
+    markClass dantayalan-nko <anchor 220 0> @bottom;
     markClass aliflengthencomb-adlam <anchor 14 450> @topAlif;
     markClass aliflengthencomb-adlam.case <anchor 14 662> @top;
     markClass vowellengthencomb-adlam <anchor -32 450> @top;
@@ -1031,10 +1038,10 @@ feature mark {
     markClass gemination-adlam.wide <anchor 0 450> @top;
     markClass gemination-adlam.wide.case <anchor 0 662> @top;
     markClass hamza-adlam <anchor -20 449> @top;
-    markClass consonantmodcomb-adlam <anchor 0 449> @top;
-    markClass gemconsonantmodcomb-adlam <anchor -91 449> @top;
+    markClass consonantmodcomb-adlam <anchor 1 449> @top;
+    markClass gemconsonantmodcomb-adlam <anchor -92 449> @top;
     markClass hoortobbhere-adlam <anchor -26 662> @top;
-    markClass lestobbhere-adlam <anchor 0 0> @bottom;
+    markClass lestobbhere-adlam <anchor 0 -1> @bottom;
 
   lookup markLTR {
       pos base a-nko
@@ -1393,14 +1400,14 @@ feature mark {
           <anchor 286 0> mark @bottom
           <anchor 296 662> mark @top;
       pos base Ba-adlam
-          <anchor 359 0> mark @bottom
-          <anchor 346 662> mark @top;
+          <anchor 342 0> mark @bottom
+          <anchor 329 662> mark @top;
       pos base Sinnyiiyhe-adlam
           <anchor 431 0> mark @bottom
           <anchor 432 662> mark @top;
       pos base Pe-adlam
-          <anchor 333 0> mark @bottom
-          <anchor 326 662> mark @top;
+         <anchor 329 0> mark @bottom
+          <anchor 329 662> mark @top;
       pos base Bhe-adlam
           <anchor 306 0> mark @bottom
           <anchor 297 662> mark @top;
@@ -1477,8 +1484,8 @@ feature mark {
           <anchor 427 0> mark @bottom
           <anchor 427 662> mark @top;
       pos base Kpo-adlam
-          <anchor 325 0> mark @bottom
-          <anchor 321 662> mark @top;
+          <anchor 329 0> mark @bottom
+          <anchor 329 662> mark @top;
       pos base Sha-adlam
           <anchor 420 0> mark @bottom
           <anchor 420 662> mark @top;
@@ -1502,8 +1509,8 @@ feature mark {
           <anchor 376 0> mark @bottom
           <anchor 376 450> mark @top;
       pos base pe-adlam
-          <anchor 281 0> mark @bottom
-          <anchor 282 450> mark @top;
+          <anchor 253 0> mark @bottom
+          <anchor 240 450> mark @top;
       pos base bhe-adlam
           <anchor 229 0> mark @bottom
           <anchor 249 450> mark @top;
@@ -1523,8 +1530,8 @@ feature mark {
           <anchor 279 0> mark @bottom
           <anchor 289 459> mark @top;
       pos base dha-adlam
-          <anchor 246 0> mark @bottom
-          <anchor 259 450> mark @top;
+          <anchor 276 0> mark @bottom
+          <anchor 274 450> mark @top;
       pos base yhe-adlam
           <anchor 249 0> mark @bottom
           <anchor 273 450> mark @top;

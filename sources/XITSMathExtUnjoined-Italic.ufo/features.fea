@@ -165,375 +165,347 @@ feature rclt {
 
 } rclt;
 feature mark {
-# GPOS feature: Mark Positioning
-# Lookups: 1
+#> feature
+# GPOS feature : Mark Positioning
+    markClass shorthightonecomb-nko <anchor 29 662> @top;
+    markClass shortlowtonecomb-nko <anchor 9 662> @top;
+    markClass shortrisingtonecomb-nko <anchor -26 662> @top;
+    markClass longdescendingtonecomb-nko <anchor 3 662> @top;
+    markClass longhightonecomb-nko <anchor 29 662> @top;
+    markClass longlowtonecomb-nko <anchor 9 662> @top;
+    markClass longrisingtonecomb-nko <anchor 29 662> @top;
+    markClass nasalizationcomb-nko <anchor 24 0> @bottom;
+    markClass doubledotabovecomb-nko <anchor -26 662> @top;
+    markClass dantayalan-nko <anchor 280 0> @bottom;
+    markClass dantayalanright-nko <anchor 86 0> @right;
+    markClass aliflengthencomb-adlam <anchor 82 450> @topAlif;
+    markClass aliflengthencomb-adlam.case <anchor 86 662> @top;
+    markClass vowellengthencomb-adlam <anchor 37 450> @top;
+    markClass vowellengthencomb-adlam.case <anchor 96 662> @top;
+    markClass gemination-adlam <anchor 52 450> @top;
+    markClass gemination-adlam.case <anchor 95 662> @top;
+    markClass gemination-adlam.wide <anchor 15 450> @top;
+    markClass gemination-adlam.wide.case <anchor 58 662> @top;
+    markClass hamza-adlam <anchor 30 449> @top;
+    markClass consonantmodcomb-adlam <anchor 56 449> @top;
+    markClass gemconsonantmodcomb-adlam <anchor 36 449> @top;
+    markClass hoortobbhere-adlam <anchor 95 662> @top;
+    markClass lestobbhere-adlam <anchor -74 0> @bottom;
 
+  lookup markLTR {
+      pos base ee-nko
+          <anchor 411 0> mark @bottom
+          <anchor 278 661> mark @top;
+      pos base i-nko
+          <anchor 316 0> mark @bottom
+          <anchor 184 661> mark @top;
+      pos base e-nko
+          <anchor 404 0> mark @bottom
+          <anchor 274 661> mark @top;
+      pos base u-nko
+          <anchor 369 0> mark @bottom
+          <anchor 238 661> mark @top;
+      pos base oo-nko
+          <anchor 323 0> mark @bottom
+          <anchor 194 660> mark @top;
+      pos base o-nko
+          <anchor 340 0> mark @bottom
+          <anchor 213 661> mark @top;
+      pos base n-nko
+          <anchor 141 661> mark @top;
+      pos base ba-nko
+          <anchor 164 661> mark @top;
+      pos base pa-nko
+          <anchor 127 661> mark @top;
+      pos base ta-nko
+          <anchor 50 661> mark @top;
+      pos base ja-nko
+          <anchor 149 661> mark @top;
+      pos base cha-nko
+          <anchor 189 661> mark @top;
+      pos base da-nko
+          <anchor 299 661> mark @top;
+      pos base ra-nko
+          <anchor 106 661> mark @top;
+      pos base rra-nko
+          <anchor 201 661> mark @top;
+      pos base sa-nko
+          <anchor 289 661> mark @top;
+      pos base gba-nko
+          <anchor 229 661> mark @top;
+      pos base fa-nko
+          <anchor 364 661> mark @top;
+      pos base ka-nko
+          <anchor 131 661> mark @top;
+      pos base la-nko
+          <anchor 149 661> mark @top;
+      pos base nawoloso-nko
+          <anchor 173 671> mark @top;
+      pos base ma-nko
+          <anchor 239 661> mark @top;
+      pos base nya-nko
+          <anchor 199 661> mark @top;
+      pos base na-nko
+          <anchor 149 661> mark @top;
+      pos base ha-nko
+          <anchor 169 661> mark @top;
+      pos base wa-nko
+          <anchor 199 661> mark @top;
+      pos base ya-nko
+          <anchor 188 661> mark @top;
+      pos base nyawoloso-nko
+          <anchor 189 661> mark @top;
+      pos base e-nko.dant
+          <anchor 404 0> mark @bottom
+          <anchor 274 661> mark @top;
+      pos base u-nko.dant
+          <anchor 369 0> mark @bottom
+          <anchor 238 661> mark @top;
+      pos base oo-nko.dant
+          <anchor 333 0> mark @bottom
+          <anchor 204 660> mark @top;
+      pos base o-nko.dant
+          <anchor 335 0> mark @bottom
+          <anchor 208 661> mark @top;
+      pos base da-nko.dant
+          <anchor 299 661> mark @top;
+      pos base rra-nko.dant
+          <anchor 201 661> mark @top;
+      pos base sa-nko.dant
+          <anchor 289 661> mark @top;
+      pos base fa-nko.dant
+          <anchor 364 661> mark @top;
+      pos base ma-nko.dant
+          <anchor 235 661> mark @top;
+      pos base wa-nko.dant
+          <anchor 209 661> mark @top;
+      pos base zero-nko
+          <anchor 385 0> mark @bottom;
+      pos base one-nko
+          <anchor 112 662> mark @top;
+      pos base two-nko
+          <anchor 226 0> mark @bottom;
+      pos base three-nko
+          <anchor 252 0> mark @bottom;
+      pos base four-nko
+          <anchor 302 0> mark @bottom;
+      pos base five-nko
+          <anchor 252 0> mark @bottom;
+      pos base six-nko
+          <anchor 282 0> mark @bottom;
+      pos base seven-nko
+          <anchor 222 0> mark @bottom;
+      pos base eight-nko
+          <anchor 192 0> mark @bottom;
+      pos base nine-nko
+          <anchor 352 0> mark @bottom;
+      pos base Alif-adlam
+          <anchor 225 0> mark @bottom
+          <anchor 375 662> mark @top;
+      pos base Daali-adlam
+          <anchor 205 0> mark @bottom
+          <anchor 333 662> mark @top;
+      pos base Laam-adlam
+          <anchor 317 0> mark @bottom
+          <anchor 449 662> mark @top;
+      pos base Miim-adlam
+          <anchor 212 0> mark @bottom
+          <anchor 354 662> mark @top;
+      pos base Ba-adlam
+          <anchor 307 0> mark @bottom
+          <anchor 396 662> mark @top;
+      pos base Sinnyiiyhe-adlam
+          <anchor 357 0> mark @bottom
+          <anchor 490 662> mark @top;
+      pos base Pe-adlam
+          <anchor 269 0> mark @bottom
+          <anchor 394 662> mark @top;
+      pos base Bhe-adlam
+          <anchor 232 0> mark @bottom
+          <anchor 355 662> mark @top;
+      pos base Ra-adlam
+          <anchor 250 0> mark @bottom
+          <anchor 382 662> mark @top;
+      pos base E-adlam
+          <anchor 265 0> mark @bottom
+          <anchor 384 662> mark @top;
+      pos base Fa-adlam
+          <anchor 238 0> mark @bottom
+          <anchor 370 662> mark @top;
+      pos base I-adlam
+          <anchor 272 0> mark @bottom
+          <anchor 400 662> mark @top;
+      pos base O-adlam
+          <anchor 285 0> mark @bottom
+          <anchor 425 662> mark @top;
+      pos base Dha-adlam
+          <anchor 273 -3> mark @bottom
+          <anchor 390 662> mark @top;
+      pos base Yhe-adlam
+          <anchor 245 0> mark @bottom
+          <anchor 409 662> mark @top;
+      pos base Waw-adlam
+          <anchor 245 0> mark @bottom
+          <anchor 395 662> mark @top;
+      pos base Nun-adlam
+          <anchor 217 0> mark @bottom
+          <anchor 348 662> mark @top;
+      pos base Kaf-adlam
+          <anchor 285 0> mark @bottom
+          <anchor 383 662> mark @top;
+      pos base Ya-adlam
+          <anchor 165 0> mark @bottom
+          <anchor 298 662> mark @top;
+      pos base U-adlam
+          <anchor 286 0> mark @bottom
+          <anchor 421 662> mark @top;
+      pos base Jiim-adlam
+          <anchor 362 0> mark @bottom
+          <anchor 494 662> mark @top;
+      pos base Chi-adlam
+          <anchor 245 0> mark @bottom
+          <anchor 384 662> mark @top;
+      pos base Ha-adlam
+          <anchor 151 0> mark @bottom
+          <anchor 304 662> mark @top;
+      pos base Qaaf-adlam
+          <anchor 258 0> mark @bottom
+          <anchor 397 662> mark @top;
+      pos base Ga-adlam
+          <anchor 228 0> mark @bottom
+          <anchor 367 662> mark @top;
+      pos base Nya-adlam
+          <anchor 248 0> mark @bottom
+          <anchor 388 662> mark @top;
+      pos base Tu-adlam
+          <anchor 335 0> mark @bottom
+          <anchor 462 662> mark @top;
+      pos base Nha-adlam
+          <anchor 255 0> mark @bottom
+          <anchor 395 662> mark @top;
+      pos base Va-adlam
+          <anchor 241 0> mark @bottom
+          <anchor 360 662> mark @top;
+      pos base Kha-adlam
+          <anchor 265 0> mark @bottom
+          <anchor 433 662> mark @top;
+      pos base Gbe-adlam
+          <anchor 245 0> mark @bottom
+          <anchor 380 662> mark @top;
+      pos base Zal-adlam
+          <anchor 353 0> mark @bottom
+          <anchor 485 662> mark @top;
+      pos base Kpo-adlam
+          <anchor 261 0> mark @bottom
+          <anchor 389 662> mark @top;
+      pos base Sha-adlam
+          <anchor 346 0> mark @bottom
+          <anchor 478 662> mark @top;
+      pos base alif-adlam
+          <anchor 175 0> mark @bottom
+          <anchor 303 450> mark @top
+          <anchor 298 466> mark @topAlif;
+      pos base daali-adlam
+          <anchor 164 0> mark @bottom
+          <anchor 245 450> mark @top;
+      pos base laam-adlam
+          <anchor 162 0> mark @bottom
+          <anchor 256 450> mark @top;
+      pos base miim-adlam
+          <anchor 143 0> mark @bottom
+          <anchor 229 450> mark @top;
+      pos base ba-adlam
+          <anchor 212 0> mark @bottom
+          <anchor 304 451> mark @top;
+      pos base sinnyiiyhe-adlam
+          <anchor 302 0> mark @bottom
+          <anchor 391 450> mark @top;
+      pos base pe-adlam
+          <anchor 207 0> mark @bottom
+          <anchor 287 450> mark @top;
+      pos base bhe-adlam
+          <anchor 155 0> mark @bottom
+          <anchor 264 450> mark @top;
+      pos base ra-adlam
+          <anchor 178 0> mark @bottom
+          <anchor 274 450> mark @top;
+      pos base e-adlam
+          <anchor 186 0> mark @bottom
+          <anchor 269 450> mark @top;
+      pos base fa-adlam
+          <anchor 201 0> mark @bottom
+          <anchor 278 450> mark @top;
+      pos base i-adlam
+          <anchor 197 0> mark @bottom
+          <anchor 289 450> mark @top;
+      pos base o-adlam
+          <anchor 205 0> mark @bottom
+          <anchor 306 459> mark @top;
+      pos base dha-adlam
+          <anchor 221 0> mark @bottom
+          <anchor 282 450> mark @top;
+      pos base yhe-adlam
+          <anchor 175 0> mark @bottom
+          <anchor 288 450> mark @top;
+      pos base waw-adlam
+          <anchor 179 0> mark @bottom
+          <anchor 275 450> mark @top;
+      pos base nun-adlam
+          <anchor 152 0> mark @bottom
+          <anchor 251 450> mark @top;
+      pos base kaf-adlam
+          <anchor 185 0> mark @bottom
+          <anchor 275 450> mark @top;
+      pos base ya-adlam
+          <anchor 125 0> mark @bottom
+          <anchor 217 450> mark @top;
+      pos base u-adlam
+          <anchor 217 0> mark @bottom
+          <anchor 309 459> mark @top;
+      pos base jiim-adlam
+          <anchor 294 0> mark @bottom
+          <anchor 383 450> mark @top;
+      pos base chi-adlam
+          <anchor 233 0> mark @bottom
+          <anchor 322 450> mark @top;
+      pos base ha-adlam
+          <anchor 147 0> mark @bottom
+          <anchor 206 450> mark @top;
+      pos base qaaf-adlam
+          <anchor 194 0> mark @bottom
+          <anchor 281 450> mark @top;
+      pos base ga-adlam
+          <anchor 155 0> mark @bottom
+          <anchor 258 450> mark @top;
+      pos base nya-adlam
+          <anchor 183 0> mark @bottom
+          <anchor 281 450> mark @top;
+      pos base tu-adlam
+          <anchor 235 0> mark @bottom
+          <anchor 338 450> mark @top;
+      pos base nha-adlam
+          <anchor 185 0> mark @bottom
+          <anchor 287 450> mark @top;
+      pos base va-adlam
+          <anchor 175 0> mark @bottom
+          <anchor 277 450> mark @top;
+      pos base kha-adlam
+          <anchor 205 0> mark @bottom
+          <anchor 298 450> mark @top;
+      pos base gbe-adlam
+          <anchor 174 0> mark @bottom
+          <anchor 256 450> mark @top;
+      pos base zal-adlam
+          <anchor 250 0> mark @bottom
+          <anchor 341 450> mark @top;
+      pos base kpo-adlam
+          <anchor 188 0> mark @bottom
+          <anchor 281 450> mark @top;
+      pos base sha-adlam
+          <anchor 296 0> mark @bottom
+          <anchor 392 450> mark @top;
+  } markLTR;
 
-  lookup mark {
-  # GPOS lookup 2, type 4 (MarkToBase attachment)
-    markClass nasalizationcomb-nko <anchor 24 0> @b.dantayalan-nko;
-    markClass dantayalan-nko <anchor 280 0> @b.dantayalan-nko;
-    markClass lestobbhere-adlam <anchor 0 0> @b.dantayalan-nko;
-    markClass shorthightonecomb-nko <anchor 29 662> @m.hamza-adlam_1;
-    markClass shortlowtonecomb-nko <anchor 9 662> @m.hamza-adlam_1;
-    markClass shortrisingtonecomb-nko <anchor -26 662> @m.hamza-adlam_1;
-    markClass longdescendingtonecomb-nko <anchor 3 662> @m.hamza-adlam_1;
-    markClass longhightonecomb-nko <anchor 29 662> @m.hamza-adlam_1;
-    markClass longlowtonecomb-nko <anchor 9 662> @m.hamza-adlam_1;
-    markClass longrisingtonecomb-nko <anchor 29 662> @m.hamza-adlam_1;
-    markClass doubledotabovecomb-nko <anchor -26 662> @m.hamza-adlam_1;
-    markClass aliflengthencomb-adlam <anchor 14 450> @m.hamza-adlam_1;
-    markClass aliflengthencomb-adlam.case <anchor 14 662> @m.hamza-adlam_1;
-    markClass vowellengthencomb-adlam <anchor -32 450> @m.hamza-adlam_1;
-    markClass vowellengthencomb-adlam.case <anchor -32 662> @m.hamza-adlam_1;
-    markClass gemination-adlam <anchor 0 450> @m.hamza-adlam_1;
-    markClass gemination-adlam.case <anchor 0 662> @m.hamza-adlam_1;
-    markClass gemination-adlam.wide <anchor 16 450> @m.hamza-adlam_1;
-    markClass gemination-adlam.wide.case <anchor 58 662> @m.hamza-adlam_1;
-    markClass hamza-adlam <anchor -20 449> @m.hamza-adlam_1;
-    markClass consonantmodcomb-adlam <anchor 0 449> @m.hamza-adlam_1;
-    markClass gemconsonantmodcomb-adlam <anchor -91 449> @m.hamza-adlam_1;
-    markClass hoortobbhere-adlam <anchor -26 662> @m.hamza-adlam_1;
-    pos base a-nko
-        <anchor 193 0> mark @b.dantayalan-nko
-        <anchor 62 661> mark @m.hamza-adlam_1;
-    pos base ee-nko
-        <anchor 411 0> mark @b.dantayalan-nko
-        <anchor 278 661> mark @m.hamza-adlam_1;
-    pos base i-nko
-        <anchor 316 0> mark @b.dantayalan-nko
-        <anchor 184 661> mark @m.hamza-adlam_1;
-    pos base e-nko
-        <anchor 404 0> mark @b.dantayalan-nko
-        <anchor 274 661> mark @m.hamza-adlam_1;
-    pos base u-nko
-        <anchor 369 0> mark @b.dantayalan-nko
-        <anchor 238 661> mark @m.hamza-adlam_1;
-    pos base oo-nko
-        <anchor 323 0> mark @b.dantayalan-nko
-        <anchor 194 660> mark @m.hamza-adlam_1;
-    pos base o-nko
-        <anchor 340 0> mark @b.dantayalan-nko
-        <anchor 213 661> mark @m.hamza-adlam_1;
-    pos base n-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 141 661> mark @m.hamza-adlam_1;
-    pos base ba-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 164 661> mark @m.hamza-adlam_1;
-    pos base pa-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 127 661> mark @m.hamza-adlam_1;
-    pos base ta-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 50 661> mark @m.hamza-adlam_1;
-    pos base ja-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 149 661> mark @m.hamza-adlam_1;
-    pos base cha-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 189 661> mark @m.hamza-adlam_1;
-    pos base da-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 299 661> mark @m.hamza-adlam_1;
-    pos base ra-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 106 661> mark @m.hamza-adlam_1;
-    pos base rra-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 201 661> mark @m.hamza-adlam_1;
-    pos base sa-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 289 661> mark @m.hamza-adlam_1;
-    pos base gba-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 229 661> mark @m.hamza-adlam_1;
-    pos base fa-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 364 661> mark @m.hamza-adlam_1;
-    pos base ka-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 131 661> mark @m.hamza-adlam_1;
-    pos base la-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 149 661> mark @m.hamza-adlam_1;
-    pos base nawoloso-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 173 671> mark @m.hamza-adlam_1;
-    pos base ma-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 239 661> mark @m.hamza-adlam_1;
-    pos base nya-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 199 661> mark @m.hamza-adlam_1;
-    pos base na-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 149 661> mark @m.hamza-adlam_1;
-    pos base ha-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 169 661> mark @m.hamza-adlam_1;
-    pos base wa-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 199 661> mark @m.hamza-adlam_1;
-    pos base ya-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 188 661> mark @m.hamza-adlam_1;
-    pos base nyawoloso-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 189 661> mark @m.hamza-adlam_1;
-    pos base e-nko.dant
-        <anchor 404 0> mark @b.dantayalan-nko
-        <anchor 274 661> mark @m.hamza-adlam_1;
-    pos base u-nko.dant
-        <anchor 369 0> mark @b.dantayalan-nko
-        <anchor 238 661> mark @m.hamza-adlam_1;
-    pos base oo-nko.dant
-        <anchor 333 0> mark @b.dantayalan-nko
-        <anchor 204 660> mark @m.hamza-adlam_1;
-    pos base o-nko.dant
-        <anchor 335 0> mark @b.dantayalan-nko
-        <anchor 208 661> mark @m.hamza-adlam_1;
-    pos base da-nko.dant
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 299 661> mark @m.hamza-adlam_1;
-    pos base rra-nko.dant
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 201 661> mark @m.hamza-adlam_1;
-    pos base sa-nko.dant
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 289 661> mark @m.hamza-adlam_1;
-    pos base fa-nko.dant
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 364 661> mark @m.hamza-adlam_1;
-    pos base ma-nko.dant
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 235 661> mark @m.hamza-adlam_1;
-    pos base wa-nko.dant
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 209 661> mark @m.hamza-adlam_1;
-    pos base zero-nko
-        <anchor 385 0> mark @b.dantayalan-nko
-        <anchor 0 0> mark @m.hamza-adlam_1;
-    pos base one-nko
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 112 662> mark @m.hamza-adlam_1;
-    pos base two-nko
-        <anchor 226 0> mark @b.dantayalan-nko
-        <anchor 0 0> mark @m.hamza-adlam_1;
-    pos base three-nko
-        <anchor 252 0> mark @b.dantayalan-nko
-        <anchor 0 0> mark @m.hamza-adlam_1;
-    pos base four-nko
-        <anchor 302 0> mark @b.dantayalan-nko
-        <anchor 0 0> mark @m.hamza-adlam_1;
-    pos base five-nko
-        <anchor 252 0> mark @b.dantayalan-nko
-        <anchor 0 0> mark @m.hamza-adlam_1;
-    pos base six-nko
-        <anchor 282 0> mark @b.dantayalan-nko
-        <anchor 0 0> mark @m.hamza-adlam_1;
-    pos base seven-nko
-        <anchor 222 0> mark @b.dantayalan-nko
-        <anchor 0 0> mark @m.hamza-adlam_1;
-    pos base eight-nko
-        <anchor 192 0> mark @b.dantayalan-nko
-        <anchor 0 0> mark @m.hamza-adlam_1;
-    pos base nine-nko
-        <anchor 352 0> mark @b.dantayalan-nko
-        <anchor 0 0> mark @m.hamza-adlam_1;
-    pos base Alif-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 321 662> mark @m.hamza-adlam_1;
-    pos base Daali-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 275 662> mark @m.hamza-adlam_1;
-    pos base Laam-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 386 662> mark @m.hamza-adlam_1;
-    pos base Miim-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 296 662> mark @m.hamza-adlam_1;
-    pos base Ba-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 340 662> mark @m.hamza-adlam_1;
-    pos base Sinnyiiyhe-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 436 662> mark @m.hamza-adlam_1;
-    pos base Pe-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 326 662> mark @m.hamza-adlam_1;
-    pos base Bhe-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 302 662> mark @m.hamza-adlam_1;
-    pos base Ra-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 318 662> mark @m.hamza-adlam_1;
-    pos base E-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 319 662> mark @m.hamza-adlam_1;
-    pos base Fa-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 326 662> mark @m.hamza-adlam_1;
-    pos base I-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 341 662> mark @m.hamza-adlam_1;
-    pos base O-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 367 662> mark @m.hamza-adlam_1;
-    pos base Dha-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 336 662> mark @m.hamza-adlam_1;
-    pos base Yhe-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 326 662> mark @m.hamza-adlam_1;
-    pos base Waw-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 336 662> mark @m.hamza-adlam_1;
-    pos base Nun-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 312 662> mark @m.hamza-adlam_1;
-    pos base Kaf-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 316 662> mark @m.hamza-adlam_1;
-    pos base Ya-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 245 662> mark @m.hamza-adlam_1;
-    pos base U-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 363 662> mark @m.hamza-adlam_1;
-    pos base Jiim-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 436 662> mark @m.hamza-adlam_1;
-    pos base Chi-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 336 662> mark @m.hamza-adlam_1;
-    pos base Ha-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 265 662> mark @m.hamza-adlam_1;
-    pos base Qaaf-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 346 662> mark @m.hamza-adlam_1;
-    pos base Ga-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 296 662> mark @m.hamza-adlam_1;
-    pos base Nya-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 337 662> mark @m.hamza-adlam_1;
-    pos base Tu-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 426 662> mark @m.hamza-adlam_1;
-    pos base Va-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 296 662> mark @m.hamza-adlam_1;
-    pos base Kha-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 376 662> mark @m.hamza-adlam_1;
-    pos base Gbe-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 326 662> mark @m.hamza-adlam_1;
-    pos base Zal-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 432 662> mark @m.hamza-adlam_1;
-    pos base Kpo-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 325 662> mark @m.hamza-adlam_1;
-    pos base Sha-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 424 662> mark @m.hamza-adlam_1;
-    pos base alif-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 271 450> mark @m.hamza-adlam_1;
-    pos base daali-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 210 450> mark @m.hamza-adlam_1;
-    pos base laam-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 221 450> mark @m.hamza-adlam_1;
-    pos base miim-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 233 450> mark @m.hamza-adlam_1;
-    pos base sinnyiiyhe-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 356 450> mark @m.hamza-adlam_1;
-    pos base pe-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 261 450> mark @m.hamza-adlam_1;
-    pos base bhe-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 251 450> mark @m.hamza-adlam_1;
-    pos base ra-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 241 450> mark @m.hamza-adlam_1;
-    pos base e-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 233 450> mark @m.hamza-adlam_1;
-    pos base fa-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 245 450> mark @m.hamza-adlam_1;
-    pos base i-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 257 450> mark @m.hamza-adlam_1;
-    pos base o-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 269 459> mark @m.hamza-adlam_1;
-    pos base dha-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 253 450> mark @m.hamza-adlam_1;
-    pos base yhe-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 253 450> mark @m.hamza-adlam_1;
-    pos base waw-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 234 450> mark @m.hamza-adlam_1;
-    pos base nun-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 223 450> mark @m.hamza-adlam_1;
-    pos base kaf-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 245 450> mark @m.hamza-adlam_1;
-    pos base ya-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 200 450> mark @m.hamza-adlam_1;
-    pos base u-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 285 459> mark @m.hamza-adlam_1;
-    pos base jiim-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 346 450> mark @m.hamza-adlam_1;
-    pos base chi-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 304 450> mark @m.hamza-adlam_1;
-    pos base ha-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 203 450> mark @m.hamza-adlam_1;
-    pos base qaaf-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 262 450> mark @m.hamza-adlam_1;
-    pos base nya-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 253 450> mark @m.hamza-adlam_1;
-    pos base tu-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 293 450> mark @m.hamza-adlam_1;
-    pos base nha-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 277 450> mark @m.hamza-adlam_1;
-    pos base va-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 244 450> mark @m.hamza-adlam_1;
-    pos base kha-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 274 450> mark @m.hamza-adlam_1;
-    pos base zal-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 306 450> mark @m.hamza-adlam_1;
-    pos base kpo-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 253 450> mark @m.hamza-adlam_1;
-    pos base sha-adlam
-        <anchor 0 0> mark @b.dantayalan-nko
-        <anchor 357 450> mark @m.hamza-adlam_1;
-  } mark;
-
-
+  lookup markLTR;
+#< feature
 } mark;

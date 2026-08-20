@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dha-adlam" format="2">
-  <advance width="558"/>
+  <advance width="622"/>
   <unicode hex="1E92F"/>
-  <anchor x="288" y="450" name="top"/>
-  <anchor x="275" y="0" name="bottom"/>
+  <anchor x="307" y="450" name="top"/>
+  <anchor x="304" y="0" name="bottom"/>
   <outline>
     <contour>
-      <point x="497.44" y="406.76" type="line" smooth="yes"/>
-      <point x="497.44" y="460.84"/>
-      <point x="476.64" y="468.12"/>
-      <point x="427.76" y="468.12" type="curve" smooth="yes"/>
-      <point x="91.15" y="468.12" type="line"/>
-      <point x="71.34" y="438.24" type="line"/>
-      <point x="74.51" y="427.84" type="line"/>
-      <point x="317.83" y="427.84" type="line" smooth="yes"/>
-      <point x="338.64" y="427.84"/>
-      <point x="348" y="422.64"/>
-      <point x="348" y="397.68" type="curve" smooth="yes"/>
-      <point x="348" y="289.8" type="line"/>
-      <point x="344.88" y="288.76" type="line"/>
-      <point x="339.16" y="296.68"/>
-      <point x="307.2" y="321.04"/>
-      <point x="223.92" y="321.04" type="curve" smooth="yes"/>
-      <point x="101.08" y="321.04"/>
-      <point x="40.56" y="268.02"/>
-      <point x="40.56" y="152.4" type="curve" smooth="yes"/>
-      <point x="40.56" y="105.05"/>
-      <point x="60.52" y="66.75"/>
-      <point x="96.51" y="40.4" type="curve"/>
-      <point x="69.61" y="40.4" type="line"/>
-      <point x="50.41" y="9.52002" type="line"/>
-      <point x="53.57" y="0.120018" type="line"/>
-      <point x="290.35" y="0.120018" type="line"/>
-      <point x="310.14" y="30" type="line"/>
-      <point x="306" y="40.39" type="line"/>
-      <point x="263.42" y="40.4" type="line" smooth="yes"/>
-      <point x="209.249" y="40.4"/>
-      <point x="190" y="71.28"/>
-      <point x="190" y="155.52" type="curve" smooth="yes"/>
-      <point x="190" y="244.84"/>
-      <point x="217.04" y="273.72"/>
-      <point x="267.47" y="273.72" type="curve" smooth="yes"/>
-      <point x="317.92" y="273.72"/>
-      <point x="348" y="244.84"/>
-      <point x="348" y="194.52" type="curve" smooth="yes"/>
-      <point x="348" y="-38" type="line"/>
-      <point x="358.39" y="-38" type="line"/>
-      <point x="497.43" y="-13.52" type="line"/>
+      <point x="561" y="535" type="line"/>
+      <point x="550" y="535" type="line"/>
+      <point x="413" y="520" type="line"/>
+      <point x="413" y="446" type="line"/>
+      <point x="410" y="445" type="line"/>
+      <point x="402" y="455"/>
+      <point x="365.29" y="478"/>
+      <point x="296.722" y="478" type="curve" smooth="yes"/>
+      <point x="249.987" y="478"/>
+      <point x="220.621" y="469.015"/>
+      <point x="209" y="461.79" type="curve"/>
+      <point x="209" y="489.37" type="line"/>
+      <point x="199" y="489.37" type="line"/>
+      <point x="61" y="477.37" type="line"/>
+      <point x="61" y="135" type="line" smooth="yes"/>
+      <point x="61" y="38.3696"/>
+      <point x="101.425" y="0"/>
+      <point x="248" y="0" type="curve" smooth="yes"/>
+      <point x="296.19" y="0" type="line" smooth="yes"/>
+      <point x="377.98" y="0"/>
+      <point x="398.51" y="27.06"/>
+      <point x="411" y="42" type="curve"/>
+      <point x="413" y="41.5542" type="line"/>
+      <point x="413" y="0.379971" type="line"/>
+      <point x="561" y="0.439971" type="line"/>
+    </contour>
+    <contour>
+      <point x="209" y="142" type="curve" smooth="yes"/>
+      <point x="209.21" y="411.9" type="line"/>
+      <point x="219.97" y="424.853"/>
+      <point x="250.965" y="438"/>
+      <point x="296.455" y="438" type="curve" smooth="yes"/>
+      <point x="361.572" y="438"/>
+      <point x="413" y="397.44"/>
+      <point x="413" y="335" type="curve" smooth="yes"/>
+      <point x="413" y="160" type="line" smooth="yes"/>
+      <point x="413" y="91.2"/>
+      <point x="373.13" y="40"/>
+      <point x="296" y="40" type="curve" smooth="yes"/>
+      <point x="226.99" y="40"/>
+      <point x="208.935" y="58"/>
     </contour>
   </outline>
   <lib>

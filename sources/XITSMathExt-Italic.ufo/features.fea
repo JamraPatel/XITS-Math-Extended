@@ -2387,7 +2387,6 @@ feature kern {
     pos @_curveTL-adlam @_dblhumpR-adlam <-5 0 -5 0>;
     pos @_dblhumpL-adlam @_curveTR-adlam <-15 0 -15 0>;
     pos @_dblhumpL-adlam @_dblhumpR-adlam <-5 0 -5 0>;
-    pos @_ee-nko @_i-nko <-60 0 -60 0>;
     pos @_ee-nko @_e-nko <-30 0 -30 0>;
     pos @_ee-nko @_o-nko <-30 0 -30 0>;
     pos @_ee-nko @_ja-nko <-40 0 -40 0>;
@@ -2402,8 +2401,6 @@ feature kern {
     pos @_ee-nko @_fa-nko <-60 0 -60 0>;
     pos @_ee-nko @_ta-nko <10 0 10 0>;
     pos @_ee-nko @_ba-nko <-40 0 -40 0>;
-    pos @_i-nko @_ee-nko <-60 0 -60 0>;
-    pos @_i-nko @_e-nko <-110 0 -110 0>;
     pos @_i-nko @_o-nko <-30 0 -30 0>;
     pos @_i-nko @_n-nko <-60 0 -60 0>;
     pos @_i-nko @_ra-nko <-20 0 -20 0>;
@@ -2421,7 +2418,6 @@ feature kern {
     pos @_i-nko @_ma-nko <-70 0 -70 0>;
     pos @_i-nko @_ta-nko <-80 0 -80 0>;
     pos @_e-nko @_ee-nko <-30 0 -30 0>;
-    pos @_e-nko @_i-nko <-110 0 -110 0>;
     pos @_e-nko @_o-nko <-30 0 -30 0>;
     pos @_e-nko @_ja-nko <-40 0 -40 0>;
     pos @_e-nko @_ra-nko <-50 0 -50 0>;
@@ -3374,14 +3370,14 @@ feature mark {
           <anchor 212 0> mark @bottom
           <anchor 354 662> mark @top;
       pos base Ba-adlam
-          <anchor 285 0> mark @bottom
-          <anchor 404 662> mark @top;
+          <anchor 307 0> mark @bottom
+          <anchor 396 662> mark @top;
       pos base Sinnyiiyhe-adlam
           <anchor 357 0> mark @bottom
           <anchor 490 662> mark @top;
       pos base Pe-adlam
-          <anchor 259 0> mark @bottom
-          <anchor 384 662> mark @top;
+          <anchor 269 0> mark @bottom
+          <anchor 394 662> mark @top;
       pos base Bhe-adlam
           <anchor 232 0> mark @bottom
           <anchor 355 662> mark @top;
@@ -3401,7 +3397,7 @@ feature mark {
           <anchor 285 0> mark @bottom
           <anchor 425 662> mark @top;
       pos base Dha-adlam
-          <anchor 263 -3> mark @bottom
+          <anchor 273 -3> mark @bottom
           <anchor 390 662> mark @top;
       pos base Yhe-adlam
           <anchor 245 0> mark @bottom
@@ -3458,8 +3454,8 @@ feature mark {
           <anchor 353 0> mark @bottom
           <anchor 485 662> mark @top;
       pos base Kpo-adlam
-          <anchor 251 0> mark @bottom
-          <anchor 379 662> mark @top;
+          <anchor 261 0> mark @bottom
+          <anchor 389 662> mark @top;
       pos base Sha-adlam
           <anchor 346 0> mark @bottom
           <anchor 478 662> mark @top;
@@ -3484,7 +3480,7 @@ feature mark {
           <anchor 391 450> mark @top;
       pos base pe-adlam
           <anchor 207 0> mark @bottom
-          <anchor 297 450> mark @top;
+          <anchor 287 450> mark @top;
       pos base bhe-adlam
           <anchor 155 0> mark @bottom
           <anchor 264 450> mark @top;
@@ -3495,7 +3491,7 @@ feature mark {
           <anchor 186 0> mark @bottom
           <anchor 269 450> mark @top;
       pos base fa-adlam
-          <anchor 191 0> mark @bottom
+          <anchor 201 0> mark @bottom
           <anchor 278 450> mark @top;
       pos base i-adlam
           <anchor 197 0> mark @bottom
@@ -3504,8 +3500,8 @@ feature mark {
           <anchor 205 0> mark @bottom
           <anchor 306 459> mark @top;
       pos base dha-adlam
-          <anchor 172 0> mark @bottom
-          <anchor 274 450> mark @top;
+          <anchor 221 0> mark @bottom
+          <anchor 282 450> mark @top;
       pos base yhe-adlam
           <anchor 175 0> mark @bottom
           <anchor 288 450> mark @top;
