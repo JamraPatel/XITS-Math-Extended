@@ -58,6 +58,9 @@ If you want to build fonts manually on your own computer:
 The proof files and QA tests are also available automatically via GitHub Actions - look at https://JamraPatel.github.io/XITS-Math-Extended.git.
 
 ## Changelog
+**20 August 2026. Version 1.50**
+
+- MINOR Updated design of a few Adlam letters.
 
 **20 April 2026. Version 1.40**
 
